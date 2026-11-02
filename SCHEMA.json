@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Sinica2021 fixed initial transcription schema, 1.0.0",
+  "title": "Sinica2021 fixed AI-adjudicated transcription schema, 1.0.0",
   "type": "object",
   "required": [
     "dataset_id",

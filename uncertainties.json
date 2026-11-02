@@ -1,6 +1,6 @@
 {
   "dataset_id": "bodleian-sinica2021",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
   "items": [
     {
@@ -11,7 +11,7 @@
       "end": 4,
       "surface": "穀埠",
       "reason": "刊印處前兩字刻形古拙且分欄，已另看原像素局部；穀字內部細筆仍需覆核。",
-      "cause": "initial-reading-uncertainty",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
         "穀埠",
@@ -20,70 +20,43 @@
     },
     {
       "page_id": "f03",
-      "id": "unc-0002",
-      "unit_id": "p03-c01",
-      "start": 5,
-      "end": 8,
-      "surface": "設偏於",
-      "reason": "設後字左部可見斜直筆，先按實見暫錄偏，保留亻與彳之辨。",
-      "cause": "initial-reading-uncertainty",
+      "id": "unc-0007",
+      "unit_id": "p03-c07",
+      "start": 11,
+      "end": 14,
+      "surface": "砂淋蟲",
+      "reason": "原字左部石／氵形仍未定；不按病名或上下文補字。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
-        "設偏於",
-        "設徧於"
-      ]
-    },
-    {
-      "page_id": "f03",
-      "id": "unc-0003",
-      "unit_id": "p03-running-title",
-      "start": 0,
-      "end": 4,
-      "surface": "奇症畧述",
-      "reason": "版心題位於物理頁外緣，部分字形截損；未以相鄰面補全。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "奇症畧述"
+        "砂淋蟲",
+        "砂碄蟲"
       ]
     },
     {
       "page_id": "f04",
-      "id": "unc-0004",
-      "unit_id": "p04-running-title",
-      "start": 0,
-      "end": 4,
-      "surface": "奇症畧述",
-      "reason": "右外緣版心僅字形左半，仍可暫識；待原像覆核。",
-      "cause": "initial-reading-uncertainty",
+      "id": "unc-0008",
+      "unit_id": "p05-c08",
+      "start": 12,
+      "end": 13,
+      "surface": "痲",
+      "reason": "原字內細筆與兩字元的對應未定，保留痲暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
-        "奇症畧述"
-      ]
-    },
-    {
-      "page_id": "f04",
-      "id": "unc-0005",
-      "unit_id": "p05-running-title",
-      "start": 0,
-      "end": 4,
-      "surface": "奇症畧述",
-      "reason": "左外緣版心字形部分截損，暫識字串待覆核。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "奇症畧述"
+        "痲",
+        "痳"
       ]
     },
     {
       "page_id": "f05",
-      "id": "unc-0006",
+      "id": "unc-0002",
       "unit_id": "p06-c04",
       "start": 15,
       "end": 18,
       "surface": "者歷有",
       "reason": "歷字刻形左上為廠形且內部簡筆，先暫錄歷，未作異體正規化。",
-      "cause": "initial-reading-uncertainty",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
         "者歷有",
@@ -92,13 +65,13 @@
     },
     {
       "page_id": "f05",
-      "id": "unc-0014",
+      "id": "unc-0006",
       "unit_id": "p06-c01",
       "start": 15,
       "end": 18,
       "surface": "勇鬪狠",
       "reason": "已看原像素局部，鬥字異體外框及內部近豆寸，暫錄鬪，保留闘／鬭之辨；不自動正規化為鬥。",
-      "cause": "initial-reading-uncertainty",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
         "勇鬪狠",
@@ -107,44 +80,45 @@
       ]
     },
     {
-      "page_id": "f06",
-      "id": "unc-0007",
-      "unit_id": "p08-c05",
-      "start": 11,
-      "end": 14,
-      "surface": "意揣臆",
-      "reason": "揣字左部筆畫細，原像全欄暫讀揣，待覆核偏旁。",
-      "cause": "initial-reading-uncertainty",
+      "page_id": "f05",
+      "id": "unc-0009",
+      "unit_id": "p07-c08",
+      "start": 6,
+      "end": 8,
+      "surface": "顛頓",
+      "reason": "細密字形的部件仍難穩定辨別，保留初錄為暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
-        "意揣臆",
-        "意端臆"
+        "顛頓",
+        "嚬顒",
+        "顒顒"
       ]
     },
     {
       "page_id": "f06",
-      "id": "unc-0008",
+      "id": "unc-0010",
       "unit_id": "p09-c09",
-      "start": 14,
-      "end": 16,
-      "surface": "頗得",
-      "reason": "頁左首末欄字形略磨，暫錄頗。",
-      "cause": "initial-reading-uncertainty",
+      "start": 16,
+      "end": 17,
+      "surface": "辨",
+      "reason": "中央細筆的字元對應仍未定，維持原讀辨。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
-        "頗得",
-        "頻得"
+        "辨",
+        "辦"
       ]
     },
     {
       "page_id": "f07",
-      "id": "unc-0009",
+      "id": "unc-0003",
       "unit_id": "p10-c07",
       "start": 16,
       "end": 18,
       "surface": "穀埠",
       "reason": "地址穀字內部細筆古刻，已依實見暫錄，與題署各處分別保留覆核。",
-      "cause": "initial-reading-uncertainty",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
         "穀埠",
@@ -153,13 +127,13 @@
     },
     {
       "page_id": "f08",
-      "id": "unc-0010",
+      "id": "unc-0004",
       "unit_id": "p13-c03",
       "start": 5,
       "end": 7,
       "surface": "膀胱",
       "reason": "第二字右部光形古刻近兌，已看原像素局部，暫錄胱；未以醫學常識自動替字。",
-      "cause": "initial-reading-uncertainty",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
         "膀胱",
@@ -168,28 +142,43 @@
     },
     {
       "page_id": "f08",
-      "id": "unc-0015",
-      "unit_id": "p13-printed-page-number",
-      "start": 0,
-      "end": 1,
-      "surface": "二",
-      "reason": "版心頁碼位於左外緣只有部分筆畫，先看全幅及較大窗局部，暫錄二；不可由相鄰面頁碼反補。",
-      "cause": "initial-reading-uncertainty",
+      "id": "unc-0011",
+      "unit_id": "p13-c05",
+      "start": 15,
+      "end": 16,
+      "surface": "即",
+      "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
-        "二",
-        "三"
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f08",
+      "id": "unc-0012",
+      "unit_id": "p13-c07",
+      "start": 24,
+      "end": 25,
+      "surface": "即",
+      "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
       ]
     },
     {
       "page_id": "f09",
-      "id": "unc-0011",
+      "id": "unc-0005",
       "unit_id": "p15-c03",
       "start": 8,
       "end": 11,
       "surface": "如獸子",
       "reason": "如後字細密，已看原像素局部，暫按可見獸形，仍需覆核。",
-      "cause": "initial-reading-uncertainty",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
         "如獸子",
@@ -198,100 +187,207 @@
     },
     {
       "page_id": "f09",
-      "id": "unc-0016",
-      "unit_id": "p14-printed-page-number",
-      "start": 0,
-      "end": 1,
-      "surface": "二",
-      "reason": "版心頁碼位於右外緣半字，兩長橫之間另有短墨筆，暫錄二並保留三候選。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "二",
-        "三"
-      ]
-    },
-    {
-      "page_id": "f10",
-      "id": "unc-0012",
-      "unit_id": "p16-c01",
-      "start": 15,
-      "end": 20,
-      "surface": "六月十一日",
-      "reason": "十與一附近旁有小黑點，未知是否原刻點號；不擅加句讀，見layout_note。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "六月十一日"
-      ]
-    },
-    {
-      "page_id": "f10",
       "id": "unc-0013",
-      "unit_id": "p17-c12",
-      "start": 0,
-      "end": 4,
-      "surface": "第一百零",
-      "reason": "原像素細字局部顯示零後空白至下框，保留原印不完整圖號，不補八。",
-      "cause": "initial-reading-uncertainty",
+      "unit_id": "p15-c10",
+      "start": 26,
+      "end": 27,
+      "surface": "即",
+      "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
-        "第一百零"
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f09",
+      "id": "unc-0014",
+      "unit_id": "p15-c14",
+      "start": 21,
+      "end": 22,
+      "surface": "即",
+      "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0015",
+      "unit_id": "p16-c12",
+      "start": 18,
+      "end": 19,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0016",
+      "unit_id": "p16-c15",
+      "start": 5,
+      "end": 6,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
       ]
     },
     {
       "page_id": "f10",
       "id": "unc-0017",
-      "unit_id": "p16-printed-page-number",
-      "start": 0,
-      "end": 1,
-      "surface": "三",
-      "reason": "右外緣半字頁碼可見多橫及上豎，暫錄三；也可能為四的截形，不由相鄰面補字。",
-      "cause": "initial-reading-uncertainty",
+      "unit_id": "p17-c04",
+      "start": 3,
+      "end": 4,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
-        "三",
-        "四"
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0018",
+      "unit_id": "p17-c07",
+      "start": 4,
+      "end": 5,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0019",
+      "unit_id": "p17-c10",
+      "start": 29,
+      "end": 30,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0020",
+      "unit_id": "p17-c11",
+      "start": 16,
+      "end": 17,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0021",
+      "unit_id": "p17-c17",
+      "start": 10,
+      "end": 11,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
       ]
     },
     {
       "page_id": "f11",
-      "id": "unc-0025",
+      "id": "unc-0028",
       "unit_id": "p18-running-title",
       "start": 0,
       "end": 4,
       "surface": "奇症畧述",
-      "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
       "candidates": [
         "奇症畧述"
       ]
     },
     {
       "page_id": "f12",
-      "id": "unc-0026",
+      "id": "unc-0022",
+      "unit_id": "p20-c16",
+      "start": 23,
+      "end": 25,
+      "surface": "迨於",
+      "reason": "本面末欄迨／迫字頂部與內橫連筆有歧義；原像素及3倍最近鄰回看仍未定。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "迨於",
+        "迫於"
+      ]
+    },
+    {
+      "page_id": "f12",
+      "id": "unc-0023",
+      "unit_id": "p21-c01",
+      "start": 26,
+      "end": 28,
+      "surface": "剰些",
+      "reason": "來源左部禾、乘／乗的短橫與點畫接近；暫保留初錄剰，不用現代慣字替換。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "剰些",
+        "剩些"
+      ]
+    },
+    {
+      "page_id": "f12",
+      "id": "unc-0029",
       "unit_id": "p20-running-title",
       "start": 0,
       "end": 4,
       "surface": "奇症畧述",
-      "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
       "candidates": [
         "奇症畧述"
       ]
     },
     {
       "page_id": "f12",
-      "id": "unc-0032",
+      "id": "unc-0035",
       "unit_id": "p20-printed-page-number",
       "start": 0,
       "end": 1,
       "surface": "五",
-      "reason": "右側折邊使五的部分筆畫隱沒，原像素edge仍不全，保留暫讀與另一候選。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "p20-number-new折邊剩橫畫與右部連接，不足排除五或三；保留原暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
       "candidates": [
         "五",
         "三"
@@ -299,71 +395,56 @@
     },
     {
       "page_id": "f13",
-      "id": "unc-0027",
+      "id": "unc-0030",
       "unit_id": "p22-running-title",
       "start": 0,
       "end": 4,
       "surface": "奇症畧述",
-      "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
       "candidates": [
         "奇症畧述"
       ]
     },
     {
       "page_id": "f14",
-      "id": "unc-0028",
+      "id": "unc-0024",
+      "unit_id": "p24-c03",
+      "start": 0,
+      "end": 3,
+      "surface": "曾仕長",
+      "reason": "姓名首字頂部撇點、田與日的接合有曾／會之辨；本輪整數原像素3倍回看仍保留疑義。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "曾仕長",
+        "會仕長"
+      ]
+    },
+    {
+      "page_id": "f14",
+      "id": "unc-0031",
       "unit_id": "p24-running-title",
       "start": 0,
       "end": 4,
       "surface": "奇症畧述",
-      "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
       "candidates": [
         "奇症畧述"
       ]
     },
     {
-      "page_id": "f15",
-      "id": "unc-0018",
-      "unit_id": "p27-c10",
-      "start": 24,
-      "end": 30,
-      "surface": "因瘤痴住之故",
-      "reason": "已看原像素細節p27-adhesion-wide，字形偏向痴，仍保留痴／黐覆核，不按語義換字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "因瘤痴住之故",
-        "因瘤黐住之故"
-      ]
-    },
-    {
       "page_id": "f16",
-      "id": "unc-0019",
-      "unit_id": "p28-c04",
-      "start": 21,
-      "end": 31,
-      "surface": "後洗干淨四便見了骨衣",
-      "reason": "原像素細節p28-wound顯示干／于筆畫不易定；四便照實見保留，不以文句改正。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "後洗干淨四便見了骨衣",
-        "後洗于淨四便見了骨衣"
-      ]
-    },
-    {
-      "page_id": "f16",
-      "id": "unc-0020",
+      "id": "unc-0025",
       "unit_id": "p28-c07",
       "start": 6,
       "end": 10,
       "surface": "即日搏固",
-      "reason": "已看p28-fixation，暫讀搏，保留搏／摶字形疑義，不作醫療詮釋。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "扌右部頂點與甫／專內筆接合在目前像素中仍不確定。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
       "extent": "known",
       "candidates": [
         "即日搏固",
@@ -372,99 +453,71 @@
     },
     {
       "page_id": "f16",
-      "id": "unc-0029",
+      "id": "unc-0026",
+      "unit_id": "p28-c09",
+      "start": 28,
+      "end": 30,
+      "surface": "迨於",
+      "reason": "左部已確認辶，排除初錄治；台／白右部上端的連筆仍待核。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "迨於",
+        "迫於"
+      ]
+    },
+    {
+      "page_id": "f16",
+      "id": "unc-0032",
       "unit_id": "p28-running-title",
       "start": 0,
       "end": 4,
       "surface": "奇症畧述",
-      "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
       "candidates": [
         "奇症畧述"
       ]
     },
     {
       "page_id": "f17",
-      "id": "unc-0021",
-      "unit_id": "p31-c01",
-      "start": 9,
-      "end": 14,
-      "surface": "於羣扶濟困",
-      "reason": "原像素p31-first可見字形偏向羣，原文分段仍待覆核，不以語義重排。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "id": "unc-0027",
+      "unit_id": "p30-printed-page-number",
+      "start": 0,
+      "end": 1,
+      "surface": "九",
+      "reason": "右折邊隱沒部分收筆，僅依本面可見曲斜筆暫讀九，無法視為完整字形確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
       "candidates": [
-        "於羣扶濟困"
+        "九"
       ]
     },
     {
       "page_id": "f17",
-      "id": "unc-0022",
-      "unit_id": "p31-c03",
-      "start": 5,
-      "end": 8,
-      "surface": "暨裝口",
-      "reason": "已看原像素p31-port-correct，暫讀裝；字形與詞義關係留覆核，不按地名或通行文辭換字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "暨裝口"
-      ]
-    },
-    {
-      "page_id": "f17",
-      "id": "unc-0030",
+      "id": "unc-0033",
       "unit_id": "p30-running-title",
       "start": 0,
       "end": 4,
       "surface": "奇症畧述",
-      "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
       "candidates": [
         "奇症畧述"
       ]
     },
     {
       "page_id": "f18",
-      "id": "unc-0023",
-      "unit_id": "p32-c05",
-      "start": 15,
-      "end": 19,
-      "surface": "標青之庫",
-      "reason": "已看p32-endphrases，暫讀標青，保留字形疑義，不借通行文辭改字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "標青之庫"
-      ]
-    },
-    {
-      "page_id": "f18",
-      "id": "unc-0024",
-      "unit_id": "p32-c06",
-      "start": 7,
-      "end": 11,
-      "surface": "術挹濟世",
-      "reason": "已看p32-endphrases，暫讀挹，保留挹／拯字形疑義。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "術挹濟世",
-        "術拯濟世"
-      ]
-    },
-    {
-      "page_id": "f18",
-      "id": "unc-0031",
+      "id": "unc-0034",
       "unit_id": "p32-running-title",
       "start": 0,
       "end": 4,
       "surface": "奇症畧述",
-      "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
       "candidates": [
         "奇症畧述"
       ]
