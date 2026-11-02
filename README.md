@@ -1,5 +1,11 @@
 # 奇症略述 · Bodleian Sinica2021
 
+## 摘要 / Abstract
+
+本資料以牛津大學 Bodleian Libraries 藏 Sinica 2021《奇症略述》（1868）為底本，供醫學史檢索、來源定位、引用及後續訂正。v0.2.0 由兩組讀者先作來源單獨觀察，再由相同讀者續作非盲回圖裁定，涵蓋 19 幅影像、31 個目標物理面，共 398 個原印文字單位、6,536 個 Unicode 碼點。保留 35 筆文字疑讀及 35 處已查看但來源或範圍未解區，公開 TXT、JSON、TEI XML 與修訂資料。本版未經人類全文雙校，部分追溯稽核仍待完成，未解數量與修訂數量不是準確率。
+
+This dataset supports medical-history discovery, source location, citation and further correction of Qi zheng lue shu (1868), Bodleian Libraries Sinica 2021. In version 0.2.0, two reader groups first made source-only observations and then continued as the same readers with non-blind source adjudication. The transcription covers 19 frames and 31 target physical faces, comprising 398 original-print text units and 6,536 Unicode code points. Thirty-five textual uncertainties and 35 inspected regions with unresolved source status or extent remain. Public TXT, JSON, TEI XML and revision data support reuse. No human double collation has been performed, some provenance audits remain pending, and revision or uncertainty counts are not accuracy estimates.
+
 **v0.2.0｜獨立來源觀察與非盲回圖修訂，保留未解。**
 
 整理者：曲宸宇（Chu, Chen-Yu；ORCID https://orcid.org/0009-0003-9738-6914）；poplolioi11為同一人帳號，無機構背書。
