@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: Please cite the fixed version and verify quotations against the Bodleian
+  images.
+type: dataset
+title: 奇症略述（1868，Bodleian Sinica2021）：AI初錄資料集
+authors:
+- family-names: Chu
+  given-names: Chen-Yu
+  orcid: https://orcid.org/0009-0003-9738-6914
+  website: https://github.com/poplolioi11
+version: 0.1.0
+date-released: '2026-11-02'
+url: https://github.com/poplolioi11/bodleian-sinica2021-qizheng-lueshu-1868
+abstract: Initial AI transcription of the 1868 witness 奇症略述 (printed 奇症畧述), Bodleian
+  Sinica2021. It contains 399 original-print units and 6538 Unicode code points from
+  31 target physical faces in 19 official frames, with 32 located reading uncertainties.
+  A separately disclosed inspected p12 edge fragment has unknown attribution and extent;
+  no text or missing-character count is inferred. The preface date is distinct from
+  the edition year. Seven uncertainty-ID aliases are metadata adaptations only. Independent
+  reading is not applied; no human double collation, expert review, peer review or
+  measured accuracy is claimed. Historical-document digitization only, without biological
+  research or modern procedural interpretation.
+keywords:
+- 奇症略述
+- 奇症畧述
+- Sinica 2021
+- 醫學史
+- 博濟醫局
+- 嘉約翰
+- 廣州
+- 同治七年
+- '1868'
+- 醫學圖像
+- 病例敘事
+- 慈善醫療
+- 傳教醫療史
+- history of medicine
+- medical illustrations
+- hospital reports
+- Chinese print culture
+- digital humanities
+- TEI XML
+doi: 10.5281/zenodo.23879266

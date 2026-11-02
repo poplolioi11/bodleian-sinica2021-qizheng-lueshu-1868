@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "scope": "format, fixed-data equivalence and source linkage only; not reading accuracy",
+  "checks": {
+    "book-json-schema": "passed",
+    "fixed-book-full-readback": "passed",
+    "source-full-readback": "passed",
+    "txt-exact-text-order": "passed",
+    "tei-exact-text-order": "passed",
+    "uncertainty-codepoint-positions": "passed",
+    "unique-ids": "passed",
+    "source-hash-dimensions-urls": "passed",
+    "xml-dtd-entity-prohibition": "passed",
+    "tei-p5-relaxng": "passed",
+    "cff-full-schema": "passed",
+    "public-whitelist-and-file-checksums": "passed"
+  },
+  "counts": {
+    "images": 19,
+    "units": 399,
+    "unicode_code_points": 6538,
+    "uncertainties": 32
+  },
+  "schemas": {
+    "book": {
+      "file": "SCHEMA.json",
+      "sha256": "c479cb7a0456b553cf38953bc02a457460e9a4b5ac1ef23c344a70d2c5e0c175",
+      "dialect": "https://json-schema.org/draft/2020-12/schema"
+    },
+    "tei": {
+      "url": "https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/custom/schema/relaxng/tei_all.rng",
+      "version": "4.12.0",
+      "sha256": "b0f115095ead2ccc6933aa3365c6f4a82cba3b2ec7eee7f76bb616d7a63b7e48"
+    },
+    "cff": {
+      "url": "https://citation-file-format.github.io/1.2.0/schema.json",
+      "version": "1.2.0",
+      "sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b"
+    }
+  },
+  "input_sha256": {
+    "book": "6201857eafb3b22e2aac72aabc4b0e3285255cd46e5b84a129c0ce6156a75e77",
+    "sources": "98f44805ffa297a2e376ab29115e5b414e232b54c8e158a30eaec1c7e98a1c73"
+  },
+  "quality": {
+    "status": "AI-initial-transcription-unreviewed",
+    "independent_reading_applied": false,
+    "native_actual_model": null,
+    "human_double_collation": "not-performed",
+    "expert_review": "not-performed",
+    "peer_review": "not-performed",
+    "accuracy_measured": false,
+    "unresolved_source_regions": "One inspected p12 fragment with unknown attribution/extent; no inferred text or missing-character count, not an unprocessed region",
+    "physical_condition": {
+      "assessment": "AI operational overview, not conservator assessment",
+      "denominator": 31,
+      "severe_faces": 0,
+      "unassessed_faces": 0
+    }
+  },
+  "human_double_proofreading": "not-performed",
+  "expert_certification": "not-performed",
+  "peer_review": "not-performed",
+  "doi_status_at_build": "reserved-unconfirmed-publication",
+  "runtime": {
+    "lxml": "6.1.3",
+    "PyYAML": "6.0.3",
+    "jsonschema": "4.26.0"
+  }
+}

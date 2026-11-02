@@ -1,0 +1,40 @@
+{
+  "dataset_id": "bodleian-sinica2021",
+  "version": "0.1.0",
+  "coordinate_system": "Full official image pixels; bbox [x0,y0,x1,y1]; unknown extent is not a character count",
+  "regions": [
+    {
+      "id": "p12-edge-unknown",
+      "page_id": "p12",
+      "frame": "f08",
+      "source_sha256": "11d1b2df241f4e9449761b2efd1a6b5cdc6bc216c6baaabbcb146b8706fd02d4",
+      "bbox": [
+        2450,
+        390,
+        2530,
+        900
+      ],
+      "extent": "unknown",
+      "state": "viewed-unresolved",
+      "reason": "Right upper physical edge has a very narrow black vertical fragment. Initial reader and controller viewed the original-pixel detail; attribution as this face original print, showthrough or an adjacent edge remains unknown. No characters or missing-character count inferred.",
+      "text": null,
+      "missing_character_count": null,
+      "source": {
+        "frame_id": "f08",
+        "physical_page_id": "p12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52/full/3000,/0/default.jpg",
+        "image_sha256": "11d1b2df241f4e9449761b2efd1a6b5cdc6bc216c6baaabbcb146b8706fd02d4",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2450,
+          390,
+          2530,
+          900
+        ]
+      }
+    }
+  ]
+}
