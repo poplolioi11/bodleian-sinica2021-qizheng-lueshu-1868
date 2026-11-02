@@ -1,10 +1,17 @@
-# 奇症略述 · Bodleian Sinica2021
+# 奇症略述（1868；Bodleian Sinica 2021） / qi zheng lue shu: Transcription dataset
 
 ## 摘要 / Abstract
 
-本資料以牛津大學 Bodleian Libraries 藏 Sinica 2021《奇症略述》（1868）為底本，供醫學史檢索、來源定位、引用及後續訂正。v0.2.0 由兩組讀者先作來源單獨觀察，再由相同讀者續作非盲回圖裁定，涵蓋 19 幅影像、31 個目標物理面，共 398 個原印文字單位、6,536 個 Unicode 碼點。保留 35 筆文字疑讀及 35 處已查看但來源或範圍未解區，公開 TXT、JSON、TEI XML 與修訂資料。本版未經人類全文雙校，部分追溯稽核仍待完成，未解數量與修訂數量不是準確率。
+《奇症略述》（qi zheng lue shu）是館目歸於 John Glasgow Kerr（J. G. Kerr，嘉約翰）的中文醫館報告，由博濟醫局在廣州（Canton）刊行；Sinica 2021 為同治七年（1868）本。原書以病例敘事與病者圖像文字呈現 Medical Missionary Society 廣州醫院的活動，可供研究晚清醫館的自我呈現、慈善醫療、病例敘述與醫學圖像。v0.2.0 依 Bodleian Sinica 2021 的 19 幅影像轉錄 31 個目標物理面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
 
-This dataset supports medical-history discovery, source location, citation and further correction of Qi zheng lue shu (1868), Bodleian Libraries Sinica 2021. In version 0.2.0, two reader groups first made source-only observations and then continued as the same readers with non-blind source adjudication. The transcription covers 19 frames and 31 target physical faces, comprising 398 original-print text units and 6,536 Unicode code points. Thirty-five textual uncertainties and 35 inspected regions with unresolved source status or extent remain. Public TXT, JSON, TEI XML and revision data support reuse. No human double collation has been performed, some provenance audits remain pending, and revision or uncertainty counts are not accuracy estimates.
+Qi zheng lue shu (奇症略述) is a Chinese hospital-report publication attributed in the Bodleian catalogue to John Glasgow Kerr (J. G. Kerr) and published by 博濟醫局 (Boji Medical Institution) at Canton (Guangzhou); Sinica 2021 is the 1868 witness. Through case narratives and illustrated accounts of patients, it presents the work of the Medical Missionary Society’s Hospital at Canton, offering material for studying institutional self-presentation, medical charity, case narrative and medical illustration in late Qing China. Version 0.2.0 transcribes 31 target physical faces across 19 images of Bodleian Sinica 2021, providing TXT, JSON and TEI XML with references to the official source images. The text is a provisional AI transcription without human double collation or expert review.
+
+原件與書目入口 / Source witness and catalogue:
+
+- [館藏原件 / Source witness](https://digital.bodleian.ox.ac.uk/objects/2b78eb2a-11d1-4923-8fbd-c157e4c72f0e/)
+- [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_1800)
+- [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/2b78eb2a-11d1-4923-8fbd-c157e4c72f0e.json)
+- [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202021.xml)
 
 **v0.2.0｜獨立來源觀察與非盲回圖修訂，保留未解。**
 
