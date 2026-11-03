@@ -1,8 +1,8 @@
-# 奇症略述（1868；Bodleian Sinica 2021） / qi zheng lue shu: Transcription dataset
+# 奇症略述(1868;Bodleian Sinica 2021) / Qi zheng lue shu [Brief account of remarkable cases]: Transcription dataset
 
 ## 摘要 / Abstract
 
-《奇症略述》（qi zheng lue shu）是館目歸於 John Glasgow Kerr（J. G. Kerr，嘉約翰）的中文醫館報告，由博濟醫局在廣州（Canton）刊行；Sinica 2021 為同治七年（1868）本。原書以病例敘事與病者圖像文字呈現 Medical Missionary Society 廣州醫院的活動，可供研究晚清醫館的自我呈現、慈善醫療、病例敘述與醫學圖像。v0.2.0 依 Bodleian Sinica 2021 的 19 幅影像轉錄 31 個目標物理面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
+《奇症略述》（Qi zheng lue shu）是館目歸於 John Glasgow Kerr（J. G. Kerr，嘉約翰）的中文醫館報告，由博濟醫局在廣州（Canton）刊行；Sinica 2021 為同治七年（1868）本。原書以病例敘事與病者圖像文字呈現 Medical Missionary Society 廣州醫院的活動，可供研究晚清醫館的自我呈現、慈善醫療、病例敘述與醫學圖像。v0.2.0 依 Bodleian Sinica 2021 的 19 幅影像轉錄 31 個目標物理面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
 
 Qi zheng lue shu (奇症略述) is a Chinese hospital-report publication attributed in the Bodleian catalogue to John Glasgow Kerr (J. G. Kerr) and published by 博濟醫局 (Boji Medical Institution) at Canton (Guangzhou); Sinica 2021 is the 1868 witness. Through case narratives and illustrated accounts of patients, it presents the work of the Medical Missionary Society’s Hospital at Canton, offering material for studying institutional self-presentation, medical charity, case narrative and medical illustration in late Qing China. Version 0.2.0 transcribes 31 target physical faces across 19 images of Bodleian Sinica 2021, providing TXT, JSON and TEI XML with references to the official source images. The text is a provisional AI transcription without human double collation or expert review.
 
@@ -12,6 +12,18 @@ Qi zheng lue shu (奇症略述) is a Chinese hospital-report publication attribu
 - [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_1800)
 - [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/2b78eb2a-11d1-4923-8fbd-c157e4c72f0e.json)
 - [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202021.xml)
+
+### 題名與語言說明 / Title and language notes
+
+方括號英譯為編者意譯，非館目正式題名。Bracketed English titles are editorial discovery glosses, not official catalogue English titles.
+
+館目原羅馬字題名：「qi zheng lue shu」。展示：「Qi zheng lue shu」；僅首字母大小寫依展示規則調整，保留館目拼法及長音符號。
+
+題名來源 / Title source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202021.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202021.xml)
+
+語言層次 / Language layers: 原文依有限公開非操作性文字證據標 lzh，屬編者語體分類，未經全書專家審定。 eng 標記現行英文摘要，不表示固定封存附件全部為英文。 館目原語言代碼 chi 保留作來源資訊，不與本文語體分類混同。
+
+語言來源 / Language source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202021.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202021.xml)
 
 **v0.2.0｜獨立來源觀察與非盲回圖修訂，保留未解。**
 
