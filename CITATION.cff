@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: Please cite the fixed version and verify quotations against the source images.
 type: dataset
-title: 奇症略述（1868，Bodleian Sinica2021）：AI獨立觀察與非盲回圖修訂資料集
+title: "奇症略述(1868;Bodleian Sinica 2021) / Qi zheng lue shu [Brief account of remarkable cases]: Transcription dataset"
 authors:
 - family-names: Chu
   given-names: Chen-Yu
