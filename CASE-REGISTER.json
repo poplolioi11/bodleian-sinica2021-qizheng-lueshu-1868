@@ -1,0 +1,1442 @@
+{
+  "schema": "sinica2021-case-register/1",
+  "supplement_label": "基於v0.2.0；2026-11-05閱讀補充",
+  "based_on": {
+    "dataset_id": "bodleian-sinica2021",
+    "version": "0.2.0",
+    "doi": "https://doi.org/10.5281/zenodo.23880332",
+    "book_json_sha256": "d7a8fc0a3bd49c61d22bb49037f696f98c26a702be3d5225e373f751e13459fe",
+    "book_txt_sha256": "4fb4f4a0e8f4d21f9694111ab5613a92603c52f2281829f05c20d706782e4160"
+  },
+  "scope": "Only the45 existing sand/stone case narratives bounded by p13-c01 and p23-c08; no treatment-step republication or new outcome-rate calculation.",
+  "count_method": "One initial named case plus44 explicit patient-opening paragraphs; ordinal positions90–134 are separate from complete printed-number literals.",
+  "computed_counts": {
+    "case_paragraphs": 45,
+    "first_number_explicit": 90,
+    "last_number_explicit": 134,
+    "first_period_case_paragraphs": 21,
+    "after_Tongzhi7_heading_case_paragraphs": 24,
+    "explicit_deaths": 4,
+    "explicit_healed_departure_as_stated": 39,
+    "explicit_incomplete_departures": 2
+  },
+  "numbering_warning": "The incomplete literal第一百零 at p17-c12 remains unchanged. Its inferred sequence position108 is not a supplied original character or a corrected printed number.",
+  "cases": [
+    {
+      "sequence_position": 1,
+      "inferred_sequence_number": 90,
+      "printed_number": {
+        "unit_id": "p13-c05",
+        "literal": "第九十",
+        "position": "in-body explicit figure reference",
+        "numeric_from_complete_literal": 90
+      },
+      "unit_range": {
+        "start": "p13-c01",
+        "end": "p13-c05"
+      },
+      "body_unit_ids": [
+        "p13-c01",
+        "p13-c02",
+        "p13-c03",
+        "p13-c04",
+        "p13-c05"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p13-c05",
+          "source_codepoint_span": [
+            11,
+            27
+          ],
+          "verbatim_outcome_excerpt": "全愈而去即圖內所刻第九十之砂便是"
+        }
+      ]
+    },
+    {
+      "sequence_position": 2,
+      "inferred_sequence_number": 91,
+      "printed_number": {
+        "unit_id": "p13-c09",
+        "literal": "第九十一",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 91,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p13-c06",
+        "end": "p13-c08"
+      },
+      "body_unit_ids": [
+        "p13-c06",
+        "p13-c07",
+        "p13-c08"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p13-c08",
+          "source_codepoint_span": [
+            0,
+            4
+          ],
+          "verbatim_outcome_excerpt": "全愈回家"
+        }
+      ]
+    },
+    {
+      "sequence_position": 3,
+      "inferred_sequence_number": 92,
+      "printed_number": {
+        "unit_id": "p13-c13",
+        "literal": "第九十二",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 92,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p13-c10",
+        "end": "p13-c12"
+      },
+      "body_unit_ids": [
+        "p13-c10",
+        "p13-c11",
+        "p13-c12"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p13-c12",
+          "source_codepoint_span": [
+            23,
+            27
+          ],
+          "verbatim_outcome_excerpt": "全愈回家"
+        }
+      ]
+    },
+    {
+      "sequence_position": 4,
+      "inferred_sequence_number": 93,
+      "printed_number": {
+        "unit_id": "p14-c03",
+        "literal": "第九十三",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 93,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p13-c14",
+        "end": "p14-c02"
+      },
+      "body_unit_ids": [
+        "p13-c14",
+        "p14-c01",
+        "p14-c02"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p14-c02",
+          "source_codepoint_span": [
+            0,
+            5
+          ],
+          "verbatim_outcome_excerpt": "愈回家而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 5,
+      "inferred_sequence_number": 94,
+      "printed_number": {
+        "unit_id": "p14-c07",
+        "literal": "第九十四",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 94,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p14-c04",
+        "end": "p14-c06"
+      },
+      "body_unit_ids": [
+        "p14-c04",
+        "p14-c05",
+        "p14-c06"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p14-c06",
+          "source_codepoint_span": [
+            1,
+            5
+          ],
+          "verbatim_outcome_excerpt": "全愈回家"
+        }
+      ]
+    },
+    {
+      "sequence_position": 6,
+      "inferred_sequence_number": 95,
+      "printed_number": {
+        "unit_id": "p14-c11",
+        "literal": "第九十五",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 95,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p14-c08",
+        "end": "p14-c10"
+      },
+      "body_unit_ids": [
+        "p14-c08",
+        "p14-c09",
+        "p14-c10"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p14-c10",
+          "source_codepoint_span": [
+            0,
+            4
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 7,
+      "inferred_sequence_number": 96,
+      "printed_number": {
+        "unit_id": "p14-c14",
+        "literal": "第九十六",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 96,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p14-c12",
+        "end": "p14-c13"
+      },
+      "body_unit_ids": [
+        "p14-c12",
+        "p14-c13"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p14-c13",
+          "source_codepoint_span": [
+            23,
+            27
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 8,
+      "inferred_sequence_number": 97,
+      "printed_number": {
+        "unit_id": "p14-c17",
+        "literal": "第九十七",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 97,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p14-c15",
+        "end": "p14-c16"
+      },
+      "body_unit_ids": [
+        "p14-c15",
+        "p14-c16"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p14-c16",
+          "source_codepoint_span": [
+            23,
+            27
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 9,
+      "inferred_sequence_number": 98,
+      "printed_number": {
+        "unit_id": "p15-c05",
+        "literal": "第九十八",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 98,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p15-c01",
+        "end": "p15-c04"
+      },
+      "body_unit_ids": [
+        "p15-c01",
+        "p15-c02",
+        "p15-c03",
+        "p15-c04"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p15-c04",
+          "source_codepoint_span": [
+            23,
+            27
+          ],
+          "verbatim_outcome_excerpt": "全愈回家"
+        }
+      ]
+    },
+    {
+      "sequence_position": 10,
+      "inferred_sequence_number": 99,
+      "printed_number": {
+        "unit_id": "p15-c08",
+        "literal": "第九十九",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 99,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p15-c06",
+        "end": "p15-c07"
+      },
+      "body_unit_ids": [
+        "p15-c06",
+        "p15-c07"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p15-c07",
+          "source_codepoint_span": [
+            24,
+            28
+          ],
+          "verbatim_outcome_excerpt": "全愈回家"
+        }
+      ]
+    },
+    {
+      "sequence_position": 11,
+      "inferred_sequence_number": 100,
+      "printed_number": {
+        "unit_id": "p15-c12",
+        "literal": "第壹百",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 100,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p15-c09",
+        "end": "p15-c11"
+      },
+      "body_unit_ids": [
+        "p15-c09",
+        "p15-c10",
+        "p15-c11"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p15-c11",
+          "source_codepoint_span": [
+            2,
+            6
+          ],
+          "verbatim_outcome_excerpt": "全愈回家"
+        }
+      ]
+    },
+    {
+      "sequence_position": 12,
+      "inferred_sequence_number": 101,
+      "printed_number": {
+        "unit_id": "p15-c16",
+        "literal": "第一百零一",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 101,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p15-c13",
+        "end": "p15-c15"
+      },
+      "body_unit_ids": [
+        "p15-c13",
+        "p15-c14",
+        "p15-c15"
+      ],
+      "outcome_class_as_stated": "explicit-death",
+      "outcome_evidence": [
+        {
+          "unit_id": "p15-c15",
+          "source_codepoint_span": [
+            4,
+            14
+          ],
+          "verbatim_outcome_excerpt": "不料至初四日酉刻而亡"
+        }
+      ]
+    },
+    {
+      "sequence_position": 13,
+      "inferred_sequence_number": 102,
+      "printed_number": {
+        "unit_id": "p16-c06",
+        "literal": "第一百零二",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 102,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p16-c01",
+        "end": "p16-c05"
+      },
+      "body_unit_ids": [
+        "p16-c01",
+        "p16-c02",
+        "p16-c03",
+        "p16-c04",
+        "p16-c05"
+      ],
+      "outcome_class_as_stated": "explicit-death",
+      "outcome_evidence": [
+        {
+          "unit_id": "p16-c05",
+          "source_codepoint_span": [
+            13,
+            20
+          ],
+          "verbatim_outcome_excerpt": "至晚上三鼓而亡"
+        }
+      ]
+    },
+    {
+      "sequence_position": 14,
+      "inferred_sequence_number": 103,
+      "printed_number": {
+        "unit_id": "p16-c10",
+        "literal": "第一百零三",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 103,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p16-c07",
+        "end": "p16-c09"
+      },
+      "body_unit_ids": [
+        "p16-c07",
+        "p16-c08",
+        "p16-c09"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p16-c09",
+          "source_codepoint_span": [
+            5,
+            9
+          ],
+          "verbatim_outcome_excerpt": "全愈回家"
+        }
+      ]
+    },
+    {
+      "sequence_position": 15,
+      "inferred_sequence_number": 104,
+      "printed_number": {
+        "unit_id": "p16-c13",
+        "literal": "第一百零四",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 104,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p16-c11",
+        "end": "p16-c12"
+      },
+      "body_unit_ids": [
+        "p16-c11",
+        "p16-c12"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p16-c12",
+          "source_codepoint_span": [
+            23,
+            27
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 16,
+      "inferred_sequence_number": 105,
+      "printed_number": {
+        "unit_id": "p17-c02",
+        "literal": "第一百零五",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 105,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p16-c14",
+        "end": "p17-c01"
+      },
+      "body_unit_ids": [
+        "p16-c14",
+        "p16-c15",
+        "p17-c01"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p17-c01",
+          "source_codepoint_span": [
+            5,
+            9
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 17,
+      "inferred_sequence_number": 106,
+      "printed_number": {
+        "unit_id": "p17-c05",
+        "literal": "第一百零六",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 106,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p17-c03",
+        "end": "p17-c04"
+      },
+      "body_unit_ids": [
+        "p17-c03",
+        "p17-c04"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p17-c04",
+          "source_codepoint_span": [
+            25,
+            28
+          ],
+          "verbatim_outcome_excerpt": "愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 18,
+      "inferred_sequence_number": 107,
+      "printed_number": {
+        "unit_id": "p17-c09",
+        "literal": "第一百零七",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 107,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p17-c06",
+        "end": "p17-c08"
+      },
+      "body_unit_ids": [
+        "p17-c06",
+        "p17-c07",
+        "p17-c08"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p17-c08",
+          "source_codepoint_span": [
+            9,
+            13
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 19,
+      "inferred_sequence_number": 108,
+      "printed_number": {
+        "unit_id": "p17-c12",
+        "literal": "第一百零",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": null,
+        "incomplete_number_literal": true
+      },
+      "unit_range": {
+        "start": "p17-c10",
+        "end": "p17-c11"
+      },
+      "body_unit_ids": [
+        "p17-c10",
+        "p17-c11"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p17-c11",
+          "source_codepoint_span": [
+            21,
+            25
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 20,
+      "inferred_sequence_number": 109,
+      "printed_number": {
+        "unit_id": "p17-c15",
+        "literal": "第一百零九",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 109,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p17-c13",
+        "end": "p17-c14"
+      },
+      "body_unit_ids": [
+        "p17-c13",
+        "p17-c14"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p17-c14",
+          "source_codepoint_span": [
+            24,
+            27
+          ],
+          "verbatim_outcome_excerpt": "愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 21,
+      "inferred_sequence_number": 110,
+      "printed_number": {
+        "unit_id": "p18-c02",
+        "literal": "第一百十",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 110,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p17-c16",
+        "end": "p18-c01"
+      },
+      "body_unit_ids": [
+        "p17-c16",
+        "p17-c17",
+        "p18-c01"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p18-c01",
+          "source_codepoint_span": [
+            13,
+            17
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 22,
+      "inferred_sequence_number": 111,
+      "printed_number": {
+        "unit_id": "p18-c07",
+        "literal": "第一百十一",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 111,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p18-c04",
+        "end": "p18-c06"
+      },
+      "body_unit_ids": [
+        "p18-c04",
+        "p18-c05",
+        "p18-c06"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p18-c06",
+          "source_codepoint_span": [
+            3,
+            7
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 23,
+      "inferred_sequence_number": 112,
+      "printed_number": {
+        "unit_id": "p18-c10",
+        "literal": "第一百十二",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 112,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p18-c08",
+        "end": "p18-c09"
+      },
+      "body_unit_ids": [
+        "p18-c08",
+        "p18-c09"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p18-c09",
+          "source_codepoint_span": [
+            18,
+            22
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 24,
+      "inferred_sequence_number": 113,
+      "printed_number": {
+        "unit_id": "p18-c13",
+        "literal": "第一百十三",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 113,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p18-c11",
+        "end": "p18-c12"
+      },
+      "body_unit_ids": [
+        "p18-c11",
+        "p18-c12"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p18-c12",
+          "source_codepoint_span": [
+            18,
+            22
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 25,
+      "inferred_sequence_number": 114,
+      "printed_number": {
+        "unit_id": "p18-c17",
+        "literal": "第一百十四",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 114,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p18-c14",
+        "end": "p18-c16"
+      },
+      "body_unit_ids": [
+        "p18-c14",
+        "p18-c15",
+        "p18-c16"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p18-c16",
+          "source_codepoint_span": [
+            20,
+            24
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 26,
+      "inferred_sequence_number": 115,
+      "printed_number": {
+        "unit_id": "p19-c03",
+        "literal": "第一百十五",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 115,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p19-c01",
+        "end": "p19-c02"
+      },
+      "body_unit_ids": [
+        "p19-c01",
+        "p19-c02"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p19-c02",
+          "source_codepoint_span": [
+            19,
+            23
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 27,
+      "inferred_sequence_number": 116,
+      "printed_number": {
+        "unit_id": "p19-c06",
+        "literal": "第一百十六",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 116,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p19-c04",
+        "end": "p19-c05"
+      },
+      "body_unit_ids": [
+        "p19-c04",
+        "p19-c05"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p19-c05",
+          "source_codepoint_span": [
+            24,
+            27
+          ],
+          "verbatim_outcome_excerpt": "愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 28,
+      "inferred_sequence_number": 117,
+      "printed_number": {
+        "unit_id": "p19-c10",
+        "literal": "第一百十七",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 117,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p19-c07",
+        "end": "p19-c09"
+      },
+      "body_unit_ids": [
+        "p19-c07",
+        "p19-c08",
+        "p19-c09"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p19-c09",
+          "source_codepoint_span": [
+            0,
+            4
+          ],
+          "verbatim_outcome_excerpt": "全愈回家"
+        }
+      ]
+    },
+    {
+      "sequence_position": 29,
+      "inferred_sequence_number": 118,
+      "printed_number": {
+        "unit_id": "p19-c13",
+        "literal": "第一百十八",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 118,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p19-c11",
+        "end": "p19-c12"
+      },
+      "body_unit_ids": [
+        "p19-c11",
+        "p19-c12"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p19-c12",
+          "source_codepoint_span": [
+            24,
+            27
+          ],
+          "verbatim_outcome_excerpt": "愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 30,
+      "inferred_sequence_number": 119,
+      "printed_number": {
+        "unit_id": "p19-c17",
+        "literal": "第一百十九",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 119,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p19-c14",
+        "end": "p19-c16"
+      },
+      "body_unit_ids": [
+        "p19-c14",
+        "p19-c15",
+        "p19-c16"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p19-c16",
+          "source_codepoint_span": [
+            10,
+            14
+          ],
+          "verbatim_outcome_excerpt": "全愈回家"
+        }
+      ]
+    },
+    {
+      "sequence_position": 31,
+      "inferred_sequence_number": 120,
+      "printed_number": {
+        "unit_id": "p20-c04",
+        "literal": "第一百二十",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 120,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p20-c01",
+        "end": "p20-c03"
+      },
+      "body_unit_ids": [
+        "p20-c01",
+        "p20-c02",
+        "p20-c03"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p20-c03",
+          "source_codepoint_span": [
+            3,
+            7
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 32,
+      "inferred_sequence_number": 121,
+      "printed_number": {
+        "unit_id": "p20-c08",
+        "literal": "第一百廿一",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 121,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p20-c05",
+        "end": "p20-c07"
+      },
+      "body_unit_ids": [
+        "p20-c05",
+        "p20-c06",
+        "p20-c07"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p20-c07",
+          "source_codepoint_span": [
+            7,
+            11
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 33,
+      "inferred_sequence_number": 122,
+      "printed_number": {
+        "unit_id": "p20-c11",
+        "literal": "第一百廿二",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 122,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p20-c09",
+        "end": "p20-c10"
+      },
+      "body_unit_ids": [
+        "p20-c09",
+        "p20-c10"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p20-c10",
+          "source_codepoint_span": [
+            20,
+            24
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 34,
+      "inferred_sequence_number": 123,
+      "printed_number": {
+        "unit_id": "p20-c14",
+        "literal": "第一百廿三",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 123,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p20-c12",
+        "end": "p20-c13"
+      },
+      "body_unit_ids": [
+        "p20-c12",
+        "p20-c13"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p20-c13",
+          "source_codepoint_span": [
+            24,
+            27
+          ],
+          "verbatim_outcome_excerpt": "愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 35,
+      "inferred_sequence_number": 124,
+      "printed_number": {
+        "unit_id": "p21-c03",
+        "literal": "第一百廿四",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 124,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p20-c15",
+        "end": "p21-c02"
+      },
+      "body_unit_ids": [
+        "p20-c15",
+        "p20-c16",
+        "p21-c01",
+        "p21-c02"
+      ],
+      "outcome_class_as_stated": "explicit-unhealed-or-residual-stone-at-departure",
+      "outcome_evidence": [
+        {
+          "unit_id": "p21-c01",
+          "source_codepoint_span": [
+            22,
+            29
+          ],
+          "verbatim_outcome_excerpt": "惟割口亦剰些未"
+        },
+        {
+          "unit_id": "p21-c02",
+          "source_codepoint_span": [
+            0,
+            12
+          ],
+          "verbatim_outcome_excerpt": "埋他定要回家云有緊急要事"
+        }
+      ]
+    },
+    {
+      "sequence_position": 36,
+      "inferred_sequence_number": 125,
+      "printed_number": {
+        "unit_id": "p21-c07",
+        "literal": "第一百廿五",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 125,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p21-c04",
+        "end": "p21-c06"
+      },
+      "body_unit_ids": [
+        "p21-c04",
+        "p21-c05",
+        "p21-c06"
+      ],
+      "outcome_class_as_stated": "explicit-death",
+      "outcome_evidence": [
+        {
+          "unit_id": "p21-c06",
+          "source_codepoint_span": [
+            0,
+            8
+          ],
+          "verbatim_outcome_excerpt": "廿四晚九點鐘而亡"
+        }
+      ]
+    },
+    {
+      "sequence_position": 37,
+      "inferred_sequence_number": 126,
+      "printed_number": {
+        "unit_id": "p21-c11",
+        "literal": "第一百廿六",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 126,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p21-c08",
+        "end": "p21-c10"
+      },
+      "body_unit_ids": [
+        "p21-c08",
+        "p21-c09",
+        "p21-c10"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p21-c10",
+          "source_codepoint_span": [
+            3,
+            7
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 38,
+      "inferred_sequence_number": 127,
+      "printed_number": {
+        "unit_id": "p21-c14",
+        "literal": "第一百廿七",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 127,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p21-c12",
+        "end": "p21-c13"
+      },
+      "body_unit_ids": [
+        "p21-c12",
+        "p21-c13"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p21-c13",
+          "source_codepoint_span": [
+            19,
+            23
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 39,
+      "inferred_sequence_number": 128,
+      "printed_number": {
+        "unit_id": "p22-c03",
+        "literal": "第一百廿八",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 128,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p21-c15",
+        "end": "p22-c02"
+      },
+      "body_unit_ids": [
+        "p21-c15",
+        "p21-c16",
+        "p22-c01",
+        "p22-c02"
+      ],
+      "outcome_class_as_stated": "explicit-death",
+      "outcome_evidence": [
+        {
+          "unit_id": "p22-c02",
+          "source_codepoint_span": [
+            0,
+            4
+          ],
+          "verbatim_outcome_excerpt": "七日身故"
+        }
+      ]
+    },
+    {
+      "sequence_position": 40,
+      "inferred_sequence_number": 129,
+      "printed_number": {
+        "unit_id": "p22-c06",
+        "literal": "第一百廿九",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 129,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p22-c04",
+        "end": "p22-c05"
+      },
+      "body_unit_ids": [
+        "p22-c04",
+        "p22-c05"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p22-c05",
+          "source_codepoint_span": [
+            23,
+            27
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 41,
+      "inferred_sequence_number": 130,
+      "printed_number": {
+        "unit_id": "p22-c09",
+        "literal": "第一百三十",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 130,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p22-c07",
+        "end": "p22-c08"
+      },
+      "body_unit_ids": [
+        "p22-c07",
+        "p22-c08"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p22-c08",
+          "source_codepoint_span": [
+            17,
+            21
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 42,
+      "inferred_sequence_number": 131,
+      "printed_number": {
+        "unit_id": "p22-c14",
+        "literal": "第一百三十一",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 131,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p22-c10",
+        "end": "p22-c13"
+      },
+      "body_unit_ids": [
+        "p22-c10",
+        "p22-c11",
+        "p22-c12",
+        "p22-c13"
+      ],
+      "outcome_class_as_stated": "explicit-unhealed-or-residual-stone-at-departure",
+      "outcome_evidence": [
+        {
+          "unit_id": "p22-c12",
+          "source_codepoint_span": [
+            10,
+            29
+          ],
+          "verbatim_outcome_excerpt": "還見有砂在內他於即月廿九日而去惟囑他早"
+        },
+        {
+          "unit_id": "p22-c13",
+          "source_codepoint_span": [
+            0,
+            8
+          ],
+          "verbatim_outcome_excerpt": "日回醫局調治而已"
+        }
+      ]
+    },
+    {
+      "sequence_position": 43,
+      "inferred_sequence_number": 132,
+      "printed_number": {
+        "unit_id": "p22-c17",
+        "literal": "第一百三十二",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 132,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p22-c15",
+        "end": "p22-c16"
+      },
+      "body_unit_ids": [
+        "p22-c15",
+        "p22-c16"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p22-c16",
+          "source_codepoint_span": [
+            20,
+            24
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    },
+    {
+      "sequence_position": 44,
+      "inferred_sequence_number": 133,
+      "printed_number": {
+        "unit_id": "p23-c05",
+        "literal": "第一百三十三",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 133,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p23-c01",
+        "end": "p23-c04"
+      },
+      "body_unit_ids": [
+        "p23-c01",
+        "p23-c02",
+        "p23-c03",
+        "p23-c04"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p23-c04",
+          "source_codepoint_span": [
+            3,
+            7
+          ],
+          "verbatim_outcome_excerpt": "全愈回家"
+        }
+      ]
+    },
+    {
+      "sequence_position": 45,
+      "inferred_sequence_number": 134,
+      "printed_number": {
+        "unit_id": "p23-c08",
+        "literal": "第一百三十四",
+        "position": "separate small-note unit following this case in fixed TXT order",
+        "numeric_from_complete_literal": 134,
+        "incomplete_number_literal": false
+      },
+      "unit_range": {
+        "start": "p23-c06",
+        "end": "p23-c07"
+      },
+      "body_unit_ids": [
+        "p23-c06",
+        "p23-c07"
+      ],
+      "outcome_class_as_stated": "explicit-healed-departure-as-stated-in-text",
+      "outcome_evidence": [
+        {
+          "unit_id": "p23-c07",
+          "source_codepoint_span": [
+            20,
+            24
+          ],
+          "verbatim_outcome_excerpt": "全愈而去"
+        }
+      ]
+    }
+  ],
+  "cumulative_summary_verbatim": [
+    {
+      "unit_id": "p23-c09",
+      "literal": "咸豐六年至同治七年共割砂淋症壹百弍十八"
+    },
+    {
+      "unit_id": "p23-c10",
+      "literal": "內死四十四人"
+    },
+    {
+      "unit_id": "p23-add01",
+      "literal": "用鉗拑愈十四人"
+    }
+  ],
+  "summary_scope_note": "45段是本冊現存病例敘事；128欄明說咸豐六年至同治七年共割，另列用鉗拑愈14人，所指期間／處置分類與病例序號不同。死亡欄原字面仍保存內死四十四人；不能用本冊45段中4例死亡直接改寫累計欄。這裡不計算療效比率。",
+  "quality_note": "編目依既有轉錄文字擷取，非重作醫學診斷、療效驗證、人類全文雙校或專家審定。"
+}

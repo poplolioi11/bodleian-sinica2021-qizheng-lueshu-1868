@@ -1,5 +1,13 @@
 # 奇症略述(1868;Bodleian Sinica 2021) / Qi zheng lue shu [Brief account of remarkable cases]: Transcription dataset
 
+## 閱讀提示（2026-11-05）
+
+本書文字由AI輔助轉錄，仍可能有漏錯，未經人類全文二校或專家審定；疑讀清單不是全部問題清單。
+
+- 初次閱讀請用[連讀輔助 reading.txt](reading.txt)，並看[讀者指南](READING-GUIDE.md)：四個小字「余」需放回句中，p11、p12數字是圖版號。
+- [六筆讀者回報與原圖處置](EDITORIAL-NOTES.md)另列；「內科新訣」「四十四」及案號省缺等按原刻保留，不憑文意、通行書名或不同範圍數字改正文。
+- 固定v0.2.0已正式公開：[DOI](https://doi.org/10.5281/zenodo.23880332)。本次是main的閱讀與勘誤說明維護；固定JSON/TXT/TEI、舊tag和Zenodo附件保留。閱讀補充檔另有READER-SUPPLEMENT-SHA256SUMS，不以舊包SHA256SUMS檢查改過的main說明。
+
 ## 摘要 / Abstract
 
 《奇症略述》（Qi zheng lue shu）是館目歸於 John Glasgow Kerr（J. G. Kerr，嘉約翰）的中文醫館報告，由博濟醫局在廣州（Canton）刊行；Sinica 2021 為同治七年（1868）本。原書以病例敘事與病者圖像文字呈現 Medical Missionary Society 廣州醫院的活動，可供研究晚清醫館的自我呈現、慈善醫療、病例敘述與醫學圖像。v0.2.0 依 Bodleian Sinica 2021 的 19 幅影像轉錄 31 個目標物理面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
@@ -45,7 +53,7 @@ Qi zheng lue shu (奇症略述) is a Chinese hospital-report publication attribu
 
 [JSON](book.json)／[TXT](book.txt)／[TEI](book.tei.xml)／[來源](source-pages.json)／[疑讀](uncertainties.json)／[訂正](CORRECTIONS.json)／[來源未解區](source-regions.json)／[校讀範圍](COLLATION.md)／[資料字典](DATA-DICTIONARY.md)／[權利](RIGHTS.md)／[引用](CITATION.cff)。
 
-本版 DOI 已預留；本包建立時尚未確認正式發布或公開登記。候選包不等於公開發布，以公開回讀為準。
+v0.2.0 已正式公開，版本 DOI：https://doi.org/10.5281/zenodo.23880332。固定包內的預留／建置聲明保留當時時態；本入口依實際公開讀回更新。
 
 ## English summary
 
@@ -55,4 +63,4 @@ Keywords: 奇症略述; 奇症畧述; Sinica 2021; 醫學史; 博濟醫局; 嘉�
 
 pending=0僅指所需來源讀圖未處理範圍；追溯及形式交換檢查仍有下列限制，見[COLLATION](COLLATION.md#追溯與形式檢查的範圍限制)。
 
-預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23880332
+正式版本 DOI：https://doi.org/10.5281/zenodo.23880332

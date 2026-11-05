@@ -1,0 +1,140 @@
+{
+  "schema": "reader-editorial-notes/1",
+  "dataset_id": "bodleian-sinica2021",
+  "base_version": "0.2.0",
+  "supplement_date": "2026-11-05",
+  "base_book_sha256": "d7a8fc0a3bd49c61d22bb49037f696f98c26a702be3d5225e373f751e13459fe",
+  "note_type": "reader reports and editorial questions; not replacements for original text",
+  "original_uncertainty_list_count": 35,
+  "reader_reports": [
+    {
+      "id": "reader-20261105-01",
+      "reported_against": "0.2.0",
+      "unit_id": "p08-c04",
+      "physical_face": "p08",
+      "reported_literal": "內科新訣",
+      "reader_candidate": "內科新說",
+      "base_unit_text": "畧論博物新編內科新訣婦嬰新說等書頗為華人",
+      "start": 6,
+      "end": 10,
+      "coordinate_convention": "Unicode codepoints, zero-based half-open [start,end)",
+      "status": "source-reading-retained",
+      "decision": "retain-fixed-source-text; explanatory note only",
+      "reason": "原像素可見「訣」的言旁與夬形，與同欄「婦嬰新說」的「說」不同。忠實層保留「內科新訣」；讀者提出的通行書名作書目質詢，不據此把原刻換字。其是否誤題或用名差異仍待考。",
+      "source": {
+        "official_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5f03fb69-8f07-4acc-8070-90600727dbe3.json",
+        "official_image": "https://iiif.bodleian.ox.ac.uk/iiif/image/5f03fb69-8f07-4acc-8070-90600727dbe3/full/3000,/0/default.jpg",
+        "source_sha256": "681a927a6a02384d971e952c52e169a124ff246f7754b957fe5f5e333590468d"
+      },
+      "review_scope": "targeted AI image re-reading and nonblind source review; not human double collation or expert approval"
+    },
+    {
+      "id": "reader-20261105-02",
+      "reported_against": "0.2.0",
+      "unit_id": "p23-c10",
+      "physical_face": "p23",
+      "reported_literal": "內死四十四人",
+      "reader_candidate": "內死四人",
+      "base_unit_text": "內死四十四人",
+      "start": 0,
+      "end": 6,
+      "coordinate_convention": "Unicode codepoints, zero-based half-open [start,end)",
+      "status": "source-reading-retained",
+      "decision": "retain-fixed-source-text; explanatory note only",
+      "reason": "原圖小字清楚作「內死四十四人」。本頁前一欄明列「咸豐六年至同治七年共割」128人，旁另列用鉗14人；45段病例敘事中明載死亡4例，期間及處置範圍不同，不能直接據4例把原刻累計欄改4。這些原刻數字的歷史準確性未另獲證實。",
+      "source": {
+        "official_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "official_image": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "source_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731"
+      },
+      "review_scope": "targeted AI image re-reading and nonblind source review; not human double collation or expert approval"
+    },
+    {
+      "id": "reader-20261105-03",
+      "reported_against": "0.2.0",
+      "unit_id": "p17-c12",
+      "physical_face": "p17",
+      "reported_literal": "第一百零",
+      "reader_candidate": "第一百零八",
+      "base_unit_text": "第一百零",
+      "start": 0,
+      "end": 4,
+      "coordinate_convention": "Unicode codepoints, zero-based half-open [start,end)",
+      "status": "source-reading-retained",
+      "decision": "retain-fixed-source-text; explanatory note only",
+      "reason": "原圖側注止於「第一百零」，未見末位「八」。前後案號與敘事序位可提示此段在108的位置；此為編者索引推定，不能冒充原刻文字。忠實層不補八。",
+      "source": {
+        "official_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "official_image": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "source_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f"
+      },
+      "review_scope": "targeted AI image re-reading and nonblind source review; not human double collation or expert approval"
+    },
+    {
+      "id": "reader-20261105-04",
+      "reported_against": "0.2.0",
+      "unit_id": "p03-c01",
+      "physical_face": "p03",
+      "reported_literal": "偏於中土",
+      "reader_candidate": "遍於中土",
+      "base_unit_text": "西國醫局之設偏於中土已非一日凡所",
+      "start": 6,
+      "end": 10,
+      "coordinate_convention": "Unicode codepoints, zero-based half-open [start,end)",
+      "status": "source-reading-retained",
+      "decision": "retain-fixed-source-text; explanatory note only",
+      "reason": "本處首字可見亻旁，原刻讀作「偏」；跋文相近語句另作「遍」不能單獨授權統一。保留同書不同寫法，意義與刻誤問題另待考。",
+      "source": {
+        "official_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2571268e-04f5-492c-ae8b-2449577fefb0.json",
+        "official_image": "https://iiif.bodleian.ox.ac.uk/iiif/image/2571268e-04f5-492c-ae8b-2449577fefb0/full/3000,/0/default.jpg",
+        "source_sha256": "5994f82096d084298cca5d9d429eb7ebeae979b58e6b415f865c5c5a3511b6cc"
+      },
+      "review_scope": "targeted AI image re-reading and nonblind source review; not human double collation or expert approval"
+    },
+    {
+      "id": "reader-20261105-05",
+      "reported_against": "0.2.0",
+      "unit_id": "p28-c04",
+      "physical_face": "p28",
+      "reported_literal": "洗于淨",
+      "reader_candidate": "洗干淨",
+      "base_unit_text": "跌傷左額至面珠下傷口闊有五六寸沙坭填滿傷口後洗于淨四便見了骨衣",
+      "start": 22,
+      "end": 25,
+      "coordinate_convention": "Unicode codepoints, zero-based half-open [start,end)",
+      "status": "unresolved-source-reading-retained",
+      "decision": "retain-fixed-source-text; explanatory note only",
+      "reason": "已看固定底本與原像素局部；「于／干」細筆仍有分歧，本次不足以改定。保留現錄「洗于淨」，另列字形疑義；文意較順不能代替原圖裁定。",
+      "source": {
+        "official_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/edb5b8b8-d0f9-4a82-a517-642d652b9b3d.json",
+        "official_image": "https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg",
+        "source_sha256": "dc2ee5acc564fba17543fe4649621583c17b01ebc327ae958c7fd0a3370b0786"
+      },
+      "review_scope": "targeted AI image re-reading and nonblind source review; not human double collation or expert approval"
+    },
+    {
+      "id": "reader-20261105-06",
+      "reported_against": "0.2.0",
+      "unit_id": "p32-c05",
+      "physical_face": "p32",
+      "reported_literal": "標靑之庫",
+      "reader_candidate": null,
+      "base_unit_text": "呼伏望　樂善客商　好施士女各啟標靑之庫共",
+      "start": 15,
+      "end": 19,
+      "coordinate_convention": "Unicode codepoints, zero-based half-open [start,end)",
+      "status": "unresolved-source-reading-retained",
+      "decision": "retain-fixed-source-text; explanatory note only",
+      "reason": "原刻所見近現錄「標靑」，但字形精確對應及文義仍待進一步覆核。不按文意另造詞或把通行字替入，保留現錄並明列未解。",
+      "source": {
+        "official_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bd8a673a-5a95-4593-b294-f31915fa91df.json",
+        "official_image": "https://iiif.bodleian.ox.ac.uk/iiif/image/bd8a673a-5a95-4593-b294-f31915fa91df/full/3000,/0/default.jpg",
+        "source_sha256": "4c778a66ce4e4bfecd435ab5589d69bcdfddcb64ddd766c788126307d0e8819c"
+      },
+      "review_scope": "targeted AI image re-reading and nonblind source review; not human double collation or expert approval"
+    }
+  ],
+  "source_reading_retained_count": 4,
+  "unresolved_retained_count": 2,
+  "limits": "The35 frozen v0.2.0 uncertainty items are not an exhaustive error list. These6 reports include source wording/statistical scope questions as well as unresolved glyph questions; they are not6 proven OCR errors. No original word or fixed asset changed."
+}

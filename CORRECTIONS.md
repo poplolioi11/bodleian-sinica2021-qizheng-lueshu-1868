@@ -13,3 +13,8 @@ CORRECTIONS.json逐單位列before／after、operation、短來源理由、官�
 回報請附版本、unit／region ID、官方來源、讀法與理由；回報、採納及發版分開。
 
 未做人類全文雙校、專家審定、同儕審查或準確率量測。工程／一致／DOI不證明讀字正確。僅歷史文獻轉錄與上架，不驗證歷史醫療主張、不進行生物研究或現代操作指引整理。
+
+
+## 2026-11-05 讀者回報與閱讀補充
+
+[六筆回報及處置](EDITORIAL-NOTES.md)／[機器可讀紀錄](EDITORIAL-NOTES.json)／[連讀輔助](reading.txt)／[閱讀對應表](READING-MAP.json)。本輪保留固定v0.2.0原字，另列原刻疑義及未解；四余只在閱讀層移接。
