@@ -21,3 +21,7 @@ Finite exact-title/selected-domain searches and three Wikisource exact-title API
 不公開影像、裁片、私人活動紀錄、本機路徑、專用程式或提示；未提供從影像完整重跑的方法。
 
 預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23880332
+
+## v0.2.1限定修訂（2026-11-12）
+
+本輪只套保存的指定非盲原圖裁定，沒有新增判字或全文二校。源索引及其他原文字串不變；更新對應疑字與閱讀投影。詳細採納／保留及已解疑字歷史見CORRECTIONS.json與UNCERTAINTY-HISTORY.json。上文舊版本製備／DOI欄為歷史記錄；本次新DOI尚未指定。

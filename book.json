@@ -1,7 +1,7 @@
 {
   "dataset_id": "bodleian-sinica2021",
-  "version": "0.2.0",
-  "title": "奇症略述（1868，Bodleian Sinica2021）：AI獨立觀察與非盲回圖修訂資料集",
+  "version": "0.2.1",
+  "title": "奇症略述(1868;Bodleian Sinica 2021) / Qi zheng lue shu [Brief account of remarkable cases]: Transcription dataset",
   "quality": {
     "status": "AI-independent-source-observations-and-nonblind-source-adjudication",
     "independent_reading_applied": true,
@@ -14,7 +14,18 @@
     "peer_review": "not-performed",
     "accuracy_measured": false,
     "unresolved_source_regions": 35,
-    "pending_required_reading": 0
+    "pending_required_reading": 0,
+    "targeted_review": {
+      "date": "2026-11-12",
+      "base_version": "0.2.0",
+      "proposal_groups": 9,
+      "occurrences": 11,
+      "changed_codepoints": 2,
+      "native_model": null,
+      "scope": "root-approved nonblind targeted source decisions; no new image reading by packager, no full-book recollation",
+      "human_review": "not-run",
+      "expert_review": "not-run"
+    }
   },
   "source": {
     "object_url": "https://digital.bodleian.ox.ac.uk/objects/2b78eb2a-11d1-4923-8fbd-c157e4c72f0e/",
@@ -57,7 +68,10 @@
       "刊印處題署": 1,
       "原印序署": 1,
       "版心分節字": 6
-    }
+    },
+    "targeted_changed_codepoints": 2,
+    "targeted_resolved_old_uncertainties": 1,
+    "targeted_new_localized_uncertainties": 1
   },
   "methods": {
     "described_not_transcribed": [
@@ -7992,7 +8006,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "嘔吐肚痛不醒人事如獸子一般後用藥調理至五月廿三日漸醒復後又",
+          "text": "嘔吐肚痛不醒人事如獃子一般後用藥調理至五月廿三日漸醒復後又",
           "bbox": null
         },
         {
@@ -8117,20 +8131,6 @@
         }
       ],
       "uncertainties": [
-        {
-          "id": "unc-0005",
-          "unit_id": "p15-c03",
-          "start": 8,
-          "end": 11,
-          "surface": "如獸子",
-          "reason": "如後字細密，已看原像素局部，暫按可見獸形，仍需覆核。",
-          "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
-          "extent": "known",
-          "candidates": [
-            "如獸子",
-            "如獃子"
-          ]
-        },
         {
           "id": "unc-0013",
           "unit_id": "p15-c10",
@@ -9500,7 +9500,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "咸豐六年至同治七年共割砂淋症壹百弍十八",
+          "text": "咸豐六年至同治七年共割砂淋症壹百弍十人",
           "bbox": null
         },
         {
@@ -10280,6 +10280,20 @@
           "extent": "located-unit",
           "candidates": [
             "奇症畧述"
+          ]
+        },
+        {
+          "id": "unc-0036",
+          "unit_id": "p28-c04",
+          "start": 23,
+          "end": 24,
+          "surface": "于",
+          "reason": "固定圖及官方原像素細節可見上橫、下橫與豎收筆，但于/干的細筆對應仍留疑；本輪不因文意改乾或干。",
+          "cause": "unresolved-after-targeted-nonblind-source-review",
+          "extent": "known",
+          "candidates": [
+            "于",
+            "干"
           ]
         }
       ]

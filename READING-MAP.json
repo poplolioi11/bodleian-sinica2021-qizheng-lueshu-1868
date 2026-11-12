@@ -1,16 +1,16 @@
 {
   "schema": "sinica2021-reading-map/1",
-  "supplement_label": "基於v0.2.0；2026-11-05閱讀補充",
+  "supplement_label": "基於v0.2.1；2026-11-12更新既有閱讀層",
   "based_on": {
     "dataset_id": "bodleian-sinica2021",
-    "version": "0.2.0",
-    "doi": "https://doi.org/10.5281/zenodo.23880332",
-    "book_json_sha256": "d7a8fc0a3bd49c61d22bb49037f696f98c26a702be3d5225e373f751e13459fe",
-    "book_txt_sha256": "4fb4f4a0e8f4d21f9694111ab5613a92603c52f2281829f05c20d706782e4160"
+    "version": "0.2.1",
+    "doi": null,
+    "book_json_sha256": "9544548f93ce529b4d1402c74dead9b6899978ab548623b2bb3267f917423380",
+    "book_txt_sha256": "d1a04a6b36a26eff7fa02effff317089469a4e32bc0e2e5f3dd068ac18817bcd"
   },
   "position_convention": "Unicode code points; zero-based; half-open [start,end), including modern navigation and all line breaks in reading.txt",
   "reading_file": "reading.txt",
-  "reading_sha256": "984cbdad06b364d59a2efaeef8d80136352d59cf4e95db9fabe1a479ba4235a7",
+  "reading_sha256": "76f935dab47d83268ba231d74b3dbef1605ea17507fc5da1066ba03ebed003d2",
   "policies": {
     "faithful_base_unchanged": true,
     "modern_punctuation_added": false,
@@ -400,7 +400,7 @@
       ],
       "kind": "navigation",
       "physical_face": null,
-      "text": "【現代編者導覽】\n奇症略述｜基於v0.2.0；2026-11-05閱讀補充\n"
+      "text": "【現代編者導覽】\n奇症略述｜基於v0.2.1；2026-11-12閱讀補充\n"
     },
     {
       "span": [
@@ -409,7 +409,7 @@
       ],
       "kind": "navigation",
       "physical_face": null,
-      "text": "這是另附的閱讀層；原book.json、book.txt與v0.2.0不變。正文未加現代句讀，舊疑讀未據文意改字。所有【現代導航】、原圖網址與分隔換行均為編者新增，可由READING-MAP.json區分。\n\n"
+      "text": "這是另附的閱讀層；依book.json、book.txt及v0.2.1製作。正文未加現代句讀，舊疑讀未據文意改字。所有【現代導航】、原圖網址與分隔換行均為編者新增，可由READING-MAP.json區分。\n\n"
     },
     {
       "span": [
@@ -5795,9 +5795,9 @@
       "unit_id": "p15-c03",
       "physical_face": "p15",
       "role": "body",
-      "original_text": "嘔吐肚痛不醒人事如獸子一般後用藥調理至五月廿三日漸醒復後又",
+      "original_text": "嘔吐肚痛不醒人事如獃子一般後用藥調理至五月廿三日漸醒復後又",
       "fate": "retained",
-      "reading_text": "嘔吐肚痛不醒人事如獸子一般後用藥調理至五月廿三日漸醒復後又",
+      "reading_text": "嘔吐肚痛不醒人事如獃子一般後用藥調理至五月廿三日漸醒復後又",
       "reading_span": [
         4822,
         4851
@@ -9380,9 +9380,9 @@
       "unit_id": "p23-c09",
       "physical_face": "p23",
       "role": "body",
-      "original_text": "咸豐六年至同治七年共割砂淋症壹百弍十八",
+      "original_text": "咸豐六年至同治七年共割砂淋症壹百弍十人",
       "fate": "retained",
-      "reading_text": "咸豐六年至同治七年共割砂淋症壹百弍十八",
+      "reading_text": "咸豐六年至同治七年共割砂淋症壹百弍十人",
       "reading_span": [
         11261,
         11280
@@ -11778,5 +11778,12 @@
     "p08-c08",
     "p09-c08",
     "p10-c03"
-  ]
+  ],
+  "prior_based_on": {
+    "dataset_id": "bodleian-sinica2021",
+    "version": "0.2.0",
+    "doi": "https://doi.org/10.5281/zenodo.23880332",
+    "book_json_sha256": "d7a8fc0a3bd49c61d22bb49037f696f98c26a702be3d5225e373f751e13459fe",
+    "book_txt_sha256": "4fb4f4a0e8f4d21f9694111ab5613a92603c52f2281829f05c20d706782e4160"
+  }
 }

@@ -27,3 +27,7 @@ No human double collation, expert review, peer review or measured accuracy. Hist
 來源處置與形式檢查分開：來源resolution共有395/395筆已完成處理決定（341筆source-reviewed-processing-resolved、54筆連結至來源未解區），另414/414實際來源block都有明確處置。所需來源讀圖未處理範圍為0，不能據此宣稱inventory形式交換或完整追溯已通過；未知來源區、形式pending及未辨明文字仍各自保留。
 
 註記工具只比較397個共同單位，完整固定版本仍是v1的399單位與v2的398單位。共同單位追溯保留unknown-model 397與unlocated-event 36（初錄p12歷史來源未解區1＋本版目標未解區35）；新增單位另有final provenance的unknown-model 1。新增1、刪除2及拆分1另以聯集事件記錄，不以空字串偽造已錄或缺失，也不為新增單位製造初錄pointer。這些是已儲存註記的範圍與定位限制，實際原生型號／effort／tokens未知，不當0；未完成的追溯不因來源處置完成而升格。
+
+## v0.2.1 targeted source corrections
+
+Only the already approved source decisions are applied. No new full-book independent collation or human/expert review is claimed. See CORRECTIONS.json; native model identity remains unknown.

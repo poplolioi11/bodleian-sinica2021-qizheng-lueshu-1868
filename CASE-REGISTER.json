@@ -1,12 +1,12 @@
 {
   "schema": "sinica2021-case-register/1",
-  "supplement_label": "基於v0.2.0；2026-11-05閱讀補充",
+  "supplement_label": "基於v0.2.1；2026-11-12更新既有閱讀層",
   "based_on": {
     "dataset_id": "bodleian-sinica2021",
-    "version": "0.2.0",
-    "doi": "https://doi.org/10.5281/zenodo.23880332",
-    "book_json_sha256": "d7a8fc0a3bd49c61d22bb49037f696f98c26a702be3d5225e373f751e13459fe",
-    "book_txt_sha256": "4fb4f4a0e8f4d21f9694111ab5613a92603c52f2281829f05c20d706782e4160"
+    "version": "0.2.1",
+    "doi": null,
+    "book_json_sha256": "9544548f93ce529b4d1402c74dead9b6899978ab548623b2bb3267f917423380",
+    "book_txt_sha256": "d1a04a6b36a26eff7fa02effff317089469a4e32bc0e2e5f3dd068ac18817bcd"
   },
   "scope": "Only the45 existing sand/stone case narratives bounded by p13-c01 and p23-c08; no treatment-step republication or new outcome-rate calculation.",
   "count_method": "One initial named case plus44 explicit patient-opening paragraphs; ordinal positions90–134 are separate from complete printed-number literals.",
@@ -1426,7 +1426,7 @@
   "cumulative_summary_verbatim": [
     {
       "unit_id": "p23-c09",
-      "literal": "咸豐六年至同治七年共割砂淋症壹百弍十八"
+      "literal": "咸豐六年至同治七年共割砂淋症壹百弍十人"
     },
     {
       "unit_id": "p23-c10",
@@ -1437,6 +1437,13 @@
       "literal": "用鉗拑愈十四人"
     }
   ],
-  "summary_scope_note": "45段是本冊現存病例敘事；128欄明說咸豐六年至同治七年共割，另列用鉗拑愈14人，所指期間／處置分類與病例序號不同。死亡欄原字面仍保存內死四十四人；不能用本冊45段中4例死亡直接改寫累計欄。這裡不計算療效比率。",
-  "quality_note": "編目依既有轉錄文字擷取，非重作醫學診斷、療效驗證、人類全文雙校或專家審定。"
+  "summary_scope_note": "45段是本冊現存病例敘事；前欄原印「咸豐六年至同治七年共割砂淋症壹百弍十人」，另列用鉗拑愈十四人。不同期間、處置類別、病例序號與敘事段數不互相替代；內死四十四人按原刻保留，不以算式調整，也不計算療效比率。先前128人說明已由此次人字原圖裁定取代。",
+  "quality_note": "編目依既有轉錄文字擷取，非重作醫學診斷、療效驗證、人類全文雙校或專家審定。",
+  "prior_based_on": {
+    "dataset_id": "bodleian-sinica2021",
+    "version": "0.2.0",
+    "doi": "https://doi.org/10.5281/zenodo.23880332",
+    "book_json_sha256": "d7a8fc0a3bd49c61d22bb49037f696f98c26a702be3d5225e373f751e13459fe",
+    "book_txt_sha256": "4fb4f4a0e8f4d21f9694111ab5613a92603c52f2281829f05c20d706782e4160"
+  }
 }

@@ -1,23 +1,28 @@
 cff-version: 1.2.0
 message: Please cite the fixed version and verify quotations against the source images.
 type: dataset
-title: "奇症略述(1868;Bodleian Sinica 2021) / Qi zheng lue shu [Brief account of remarkable cases]: Transcription dataset"
+title: '奇症略述(1868;Bodleian Sinica 2021) / Qi zheng lue shu [Brief account of remarkable
+  cases]: Transcription dataset'
 authors:
 - family-names: Chu
   given-names: Chen-Yu
   orcid: https://orcid.org/0009-0003-9738-6914
   website: https://github.com/poplolioi11
-version: 0.2.0
-date-released: '2026-11-02'
-url: https://github.com/poplolioi11/bodleian-sinica2021-qizheng-lueshu-1868
-abstract: 'Version 0.2.0 of the 1868 Bodleian Sinica2021 witness: 398 original-print
-  units, 6536 Unicode code points, 35 text uncertainties and 35 reviewed unresolved
-  source regions. The same two reader groups made source-only observations in fresh
-  native contexts, sealed their independent drafts, and then continued in those original
-  contexts with non-blind source adjudication. These are two stages of activity by
-  the same readers. Changed, added, split and removed units are disclosed with source
-  reasons; they are not accuracy estimates. No human double collation, expert review
-  or peer review is claimed. Native model, effort and counters remain unknown.'
+version: 0.2.1
+date-released: '2026-11-12'
+url: https://github.com/poplolioi11/bodleian-sinica2021-qizheng-lueshu-1868/releases/tag/v0.2.1
+abstract: Qi zheng lue shu (奇症略述) is a Chinese hospital-report publication attributed
+  in the Bodleian catalogue to John Glasgow Kerr (J. G. Kerr) and published by 博濟醫局
+  (Boji Medical Institution) at Canton (Guangzhou); Sinica 2021 is the 1868 witness.
+  Through case narratives and illustrated accounts of patients, it presents the work
+  of the Medical Missionary Society’s Hospital at Canton, offering material for studying
+  institutional self-presentation, medical charity, case narrative and medical illustration
+  in late Qing China. Version 0.2.1 transcribes 31 target physical faces across 19
+  images of Bodleian Sinica 2021, providing TXT, JSON and TEI XML with references
+  to the official source images. The text is a provisional AI transcription without
+  human double collation or expert review. Version 0.2.1 applies only the specified
+  non-blind targeted source corrections; it is not a newly completed independent full-book
+  second collation.
 keywords:
 - 奇症略述
 - 奇症畧述
@@ -38,4 +43,5 @@ keywords:
 - Chinese print culture
 - digital humanities
 - TEI XML
-doi: 10.5281/zenodo.23880332
+license: CC-BY-4.0
+doi: 10.5281/zenodo.24156846

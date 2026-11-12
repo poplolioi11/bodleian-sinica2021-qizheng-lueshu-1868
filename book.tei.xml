@@ -3,24 +3,22 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>奇症略述（1868，Bodleian Sinica2021）：AI獨立觀察與非盲回圖修訂資料集</title>
+        <title>奇症略述(1868;Bodleian Sinica 2021) / Qi zheng lue shu [Brief account of remarkable cases]: Transcription dataset</title>
         <author role="historical-author-attribution">書目責任欄J G Kerr；原序初錄「同治二年仲冬之月醫生嘉約翰自識」。歷史責任與現代整理者分開。</author>
         <respStmt>
           <resp>資料整理與編碼</resp>
-          <name ref="https://orcid.org/0009-0003-9738-6914">Chu, Chen-Yu</name>
+          <name ref="https://orcid.org/0009-0003-9738-6914">Chu, Chen-Yu（曲宸宇；帳號poplolioi11）</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>0.2.0</edition>
-      </editionStmt>
+        <edition>0.2.1; targeted non-blind source corrections to 0.2.0</edition></editionStmt>
       <publicationStmt>
         <publisher>Chen-Yu Chu</publisher>
         <idno type="dataset-id">bodleian-sinica2021</idno>
-        <idno type="DOI">10.5281/zenodo.23880332</idno>
         <availability>
           <p>古籍原文不新增限制；具著作權的自有說明與編排採CC BY 4.0。來源影像未收入本包，另依館方條款。</p>
         </availability>
-      </publicationStmt>
+      <date when="2026-11-12">2026-11-12</date><idno type="repository">https://github.com/poplolioi11/bodleian-sinica2021-qizheng-lueshu-1868</idno></publicationStmt>
       <sourceDesc>
         <bibl>
           <title>奇症略述（1868，Bodleian Sinica2021）：AI獨立觀察與非盲回圖修訂資料集</title>
@@ -43,8 +41,8 @@
           <p n="position-convention">Unicode碼點0起半開區間[start,end)定位疑讀；fXX為官方影像幀、pXX為物理面，非原刻頁碼。unit bbox=null，來源未解區另保留原圖bbox與unknown extent。</p>
         </normalization>
       </editorialDecl>
-    </encodingDesc>
-  </teiHeader>
+    <p n="targeted-review">This revision applies only preserved targeted, non-blind source decisions. It does not establish a new full-book independent second collation, human/expert review or measured accuracy.</p></encodingDesc>
+  <revisionDesc><change when="2026-11-12">0.2.1: 2 approved codepoint corrections; active unresolved records retained except exact resolved IDs moved to history. Prior DOI: 10.5281/zenodo.23880332.</change></revisionDesc></teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="3000" lry="2627" xml:id="surface-f01">
       <desc>Upper cover</desc>
@@ -175,8 +173,7 @@
         <ab type="paratext" n="left" facs="#surface-f02" xml:id="p01-c01">同治七年刊</ab>
         <ab type="title" n="left" facs="#surface-f02" xml:id="p01-c02">奇症畧述</ab>
         <ab type="刊印處題署" n="left" facs="#surface-f02" xml:id="p01-imprint">省城穀埠仁濟大街博濟醫局訂</ab>
-        <note type="transcription-uncertainty" target="#p01-imprint" corresp="uncertainties.json#unc-0001" xml:id="unc-0001">{"candidates": ["穀埠", "殼埠"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "known", "id": "unc-0001", "reason": "刊印處前兩字刻形古拙且分欄，已另看原像素局部；穀字內部細筆仍需覆核。", "start": 2, "surface": "穀埠", "unit_id": "p01-imprint"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p01-imprint" corresp="uncertainties.json#unc-0001" xml:id="unc-0001">{"candidates": ["穀埠", "殼埠"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "known", "id": "unc-0001", "reason": "刊印處前兩字刻形古拙且分欄，已另看原像素局部；穀字內部細筆仍需覆核。", "start": 2, "surface": "穀埠", "unit_id": "p01-imprint"}</note></div>
       <div type="source-image" n="pp. [2]-[3]" facs="#surface-f03" xml:id="f03">
         <note type="layout">固定目標物理面：p03(left)。Mirror showthrough; describe, do not reverse/reconstruct or duplicate.</note>
         <note type="layout-reviewed">true</note>
@@ -190,8 +187,7 @@
         <ab type="preface" n="left" facs="#surface-f03" xml:id="p03-c07">增指不勝計其中常有肉瘤砂淋蟲脹盲</ab>
         <ab type="preface" n="left" facs="#surface-f03" xml:id="p03-c08">眼癰疽瘰癧疳疔砲傷跌打諸大症或用</ab>
         <ab type="running-title" n="left" facs="#surface-f03" xml:id="p03-running-title">奇症畧述</ab>
-        <note type="transcription-uncertainty" target="#p03-c07" corresp="uncertainties.json#unc-0007" xml:id="unc-0007">{"candidates": ["砂淋蟲", "砂碄蟲"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 14, "extent": "known", "id": "unc-0007", "reason": "原字左部石／氵形仍未定；不按病名或上下文補字。", "start": 11, "surface": "砂淋蟲", "unit_id": "p03-c07"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p03-c07" corresp="uncertainties.json#unc-0007" xml:id="unc-0007">{"candidates": ["砂淋蟲", "砂碄蟲"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 14, "extent": "known", "id": "unc-0007", "reason": "原字左部石／氵形仍未定；不按病名或上下文補字。", "start": 11, "surface": "砂淋蟲", "unit_id": "p03-c07"}</note></div>
       <div type="source-image" n="pp. [4]-[5]" facs="#surface-f04" xml:id="f04">
         <note type="layout">固定目標物理面：p04(right)、p05(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -215,8 +211,7 @@
         <ab type="running-title" n="left" facs="#surface-f04" xml:id="p05-running-title">奇症畧述</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f04" xml:id="p05-printed-page-number">一</ab>
         <ab type="版心分節字" n="left" facs="#surface-f04" xml:id="p05-section">序</ab>
-        <note type="transcription-uncertainty" target="#p05-c08" corresp="uncertainties.json#unc-0008" xml:id="unc-0008">{"candidates": ["痲", "痳"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 13, "extent": "known", "id": "unc-0008", "reason": "原字內細筆與兩字元的對應未定，保留痲暫讀。", "start": 12, "surface": "痲", "unit_id": "p05-c08"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p05-c08" corresp="uncertainties.json#unc-0008" xml:id="unc-0008">{"candidates": ["痲", "痳"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 13, "extent": "known", "id": "unc-0008", "reason": "原字內細筆與兩字元的對應未定，保留痲暫讀。", "start": 12, "surface": "痲", "unit_id": "p05-c08"}</note></div>
       <div type="source-image" n="pp. [6]-[7]" facs="#surface-f05" xml:id="f05">
         <note type="layout">固定目標物理面：p06(right)、p07(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -244,10 +239,7 @@
         <ab type="running-title" n="left" facs="#surface-f05" xml:id="p07-running-title">奇症畧述</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f05" xml:id="p07-printed-page-number">二</ab>
         <ab type="版心分節字" n="left" facs="#surface-f05" xml:id="p07-section">序</ab>
-        <note type="transcription-uncertainty" target="#p06-c04" corresp="uncertainties.json#unc-0002" xml:id="unc-0002">{"candidates": ["者歷有", "者厯有"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 18, "extent": "known", "id": "unc-0002", "reason": "歷字刻形左上為廠形且內部簡筆，先暫錄歷，未作異體正規化。", "start": 15, "surface": "者歷有", "unit_id": "p06-c04"}</note>
-        <note type="transcription-uncertainty" target="#p06-c01" corresp="uncertainties.json#unc-0006" xml:id="unc-0006">{"candidates": ["勇鬪狠", "勇闘狠", "勇鬭狠"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 18, "extent": "known", "id": "unc-0006", "reason": "已看原像素局部，鬥字異體外框及內部近豆寸，暫錄鬪，保留闘／鬭之辨；不自動正規化為鬥。", "start": 15, "surface": "勇鬪狠", "unit_id": "p06-c01"}</note>
-        <note type="transcription-uncertainty" target="#p07-c08" corresp="uncertainties.json#unc-0009" xml:id="unc-0009">{"candidates": ["顛頓", "嚬顒", "顒顒"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 8, "extent": "known", "id": "unc-0009", "reason": "細密字形的部件仍難穩定辨別，保留初錄為暫讀。", "start": 6, "surface": "顛頓", "unit_id": "p07-c08"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p06-c04" corresp="uncertainties.json#unc-0002" xml:id="unc-0002">{"candidates": ["者歷有", "者厯有"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 18, "extent": "known", "id": "unc-0002", "reason": "歷字刻形左上為廠形且內部簡筆，先暫錄歷，未作異體正規化。", "start": 15, "surface": "者歷有", "unit_id": "p06-c04"}</note><note type="transcription-uncertainty" target="#p06-c01" corresp="uncertainties.json#unc-0006" xml:id="unc-0006">{"candidates": ["勇鬪狠", "勇闘狠", "勇鬭狠"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 18, "extent": "known", "id": "unc-0006", "reason": "已看原像素局部，鬥字異體外框及內部近豆寸，暫錄鬪，保留闘／鬭之辨；不自動正規化為鬥。", "start": 15, "surface": "勇鬪狠", "unit_id": "p06-c01"}</note><note type="transcription-uncertainty" target="#p07-c08" corresp="uncertainties.json#unc-0009" xml:id="unc-0009">{"candidates": ["顛頓", "嚬顒", "顒顒"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 8, "extent": "known", "id": "unc-0009", "reason": "細密字形的部件仍難穩定辨別，保留初錄為暫讀。", "start": 6, "surface": "顛頓", "unit_id": "p07-c08"}</note></div>
       <div type="source-image" n="pp. [8]-[9]" facs="#surface-f06" xml:id="f06">
         <note type="layout">固定目標物理面：p08(right)、p09(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -276,8 +268,7 @@
         <ab type="running-title" n="left" facs="#surface-f06" xml:id="p09-running-title">奇症畧述</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f06" xml:id="p09-printed-page-number">三</ab>
         <ab type="版心分節字" n="left" facs="#surface-f06" xml:id="p09-section">序</ab>
-        <note type="transcription-uncertainty" target="#p09-c09" corresp="uncertainties.json#unc-0010" xml:id="unc-0010">{"candidates": ["辨", "辦"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 17, "extent": "known", "id": "unc-0010", "reason": "中央細筆的字元對應仍未定，維持原讀辨。", "start": 16, "surface": "辨", "unit_id": "p09-c09"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p09-c09" corresp="uncertainties.json#unc-0010" xml:id="unc-0010">{"candidates": ["辨", "辦"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 17, "extent": "known", "id": "unc-0010", "reason": "中央細筆的字元對應仍未定，維持原讀辨。", "start": 16, "surface": "辨", "unit_id": "p09-c09"}</note></div>
       <div type="source-image" n="pp. [10]-[11]" facs="#surface-f07" xml:id="f07">
         <note type="layout">固定目標物理面：p10(right)、p11(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -302,8 +293,7 @@
         <ab type="diagram-label" n="left" facs="#surface-f07" xml:id="p11-c05">96</ab>
         <ab type="diagram-label" n="left" facs="#surface-f07" xml:id="p11-c06">99</ab>
         <ab type="diagram-label" n="left" facs="#surface-f07" xml:id="p11-c07">98</ab>
-        <note type="transcription-uncertainty" target="#p10-c07" corresp="uncertainties.json#unc-0003" xml:id="unc-0003">{"candidates": ["穀埠", "殼埠"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 18, "extent": "known", "id": "unc-0003", "reason": "地址穀字內部細筆古刻，已依實見暫錄，與題署各處分別保留覆核。", "start": 16, "surface": "穀埠", "unit_id": "p10-c07"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p10-c07" corresp="uncertainties.json#unc-0003" xml:id="unc-0003">{"candidates": ["穀埠", "殼埠"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 18, "extent": "known", "id": "unc-0003", "reason": "地址穀字內部細筆古刻，已依實見暫錄，與題署各處分別保留覆核。", "start": 16, "surface": "穀埠", "unit_id": "p10-c07"}</note></div>
       <div type="source-image" n="pp. [12]-[13]" facs="#surface-f08" xml:id="f08">
         <note type="layout">固定目標物理面：p12(right)、p13(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -332,10 +322,7 @@
         <ab type="body" n="left" facs="#surface-f08" xml:id="p13-c14">一番禺縣人年方廿二歲於同治六年正月廿三日來醫砂淋小便甚痛症起</ab>
         <ab type="running-title" n="left" facs="#surface-f08" xml:id="p13-running-title">奇症畧述</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f08" xml:id="p13-printed-page-number">二</ab>
-        <note type="transcription-uncertainty" target="#p13-c03" corresp="uncertainties.json#unc-0004" xml:id="unc-0004">{"candidates": ["膀胱", "膀脱"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 7, "extent": "known", "id": "unc-0004", "reason": "第二字右部光形古刻近兌，已看原像素局部，暫錄胱；未以醫學常識自動替字。", "start": 5, "surface": "膀胱", "unit_id": "p13-c03"}</note>
-        <note type="transcription-uncertainty" target="#p13-c05" corresp="uncertainties.json#unc-0011" xml:id="unc-0011">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 16, "extent": "known", "id": "unc-0011", "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 15, "surface": "即", "unit_id": "p13-c05"}</note>
-        <note type="transcription-uncertainty" target="#p13-c07" corresp="uncertainties.json#unc-0012" xml:id="unc-0012">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 25, "extent": "known", "id": "unc-0012", "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 24, "surface": "即", "unit_id": "p13-c07"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p13-c03" corresp="uncertainties.json#unc-0004" xml:id="unc-0004">{"candidates": ["膀胱", "膀脱"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 7, "extent": "known", "id": "unc-0004", "reason": "第二字右部光形古刻近兌，已看原像素局部，暫錄胱；未以醫學常識自動替字。", "start": 5, "surface": "膀胱", "unit_id": "p13-c03"}</note><note type="transcription-uncertainty" target="#p13-c05" corresp="uncertainties.json#unc-0011" xml:id="unc-0011">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 16, "extent": "known", "id": "unc-0011", "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 15, "surface": "即", "unit_id": "p13-c05"}</note><note type="transcription-uncertainty" target="#p13-c07" corresp="uncertainties.json#unc-0012" xml:id="unc-0012">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 25, "extent": "known", "id": "unc-0012", "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 24, "surface": "即", "unit_id": "p13-c07"}</note></div>
       <div type="source-image" n="pp. [14]-[15]" facs="#surface-f09" xml:id="f09">
         <note type="layout">固定目標物理面：p14(right)、p15(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -361,7 +348,7 @@
         <ab type="printed-page-number" n="right" facs="#surface-f09" xml:id="p14-printed-page-number">二</ab>
         <ab type="body" n="left" facs="#surface-f09" xml:id="p15-c01">一增城縣人氏年方四十一歲於同治六年四月廿五日來醫砂淋小便甚痛</ab>
         <ab type="body" n="left" facs="#surface-f09" xml:id="p15-c02">症起壹年於本月廿六日割出砂一大粒重壹兩二錢四分割後身子發熱</ab>
-        <ab type="body" n="left" facs="#surface-f09" xml:id="p15-c03">嘔吐肚痛不醒人事如獸子一般後用藥調理至五月廿三日漸醒復後又</ab>
+        <ab type="body" n="left" facs="#surface-f09" xml:id="p15-c03">嘔吐肚痛不醒人事如獃子一般後用藥調理至五月廿三日漸醒復後又</ab>
         <ab type="body" n="left" facs="#surface-f09" xml:id="p15-c04">左便手脚一邊不能伸動如癱了一般至六月初四日始能全愈回家</ab>
         <ab type="small-note" n="left" facs="#surface-f09" xml:id="p15-c05">第九十八</ab>
         <ab type="body" n="left" facs="#surface-f09" xml:id="p15-c06">一東莞縣人氏年方五十四歲於同治六年五月十一日來醫砂淋小便甚痛</ab>
@@ -377,10 +364,7 @@
         <ab type="small-note" n="left" facs="#surface-f09" xml:id="p15-c16">第一百零一</ab>
         <ab type="running-title" n="left" facs="#surface-f09" xml:id="p15-running-title">奇症畧述</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f09" xml:id="p15-printed-page-number">三</ab>
-        <note type="transcription-uncertainty" target="#p15-c03" corresp="uncertainties.json#unc-0005" xml:id="unc-0005">{"candidates": ["如獸子", "如獃子"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 11, "extent": "known", "id": "unc-0005", "reason": "如後字細密，已看原像素局部，暫按可見獸形，仍需覆核。", "start": 8, "surface": "如獸子", "unit_id": "p15-c03"}</note>
-        <note type="transcription-uncertainty" target="#p15-c10" corresp="uncertainties.json#unc-0013" xml:id="unc-0013">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 27, "extent": "known", "id": "unc-0013", "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 26, "surface": "即", "unit_id": "p15-c10"}</note>
-        <note type="transcription-uncertainty" target="#p15-c14" corresp="uncertainties.json#unc-0014" xml:id="unc-0014">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 22, "extent": "known", "id": "unc-0014", "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 21, "surface": "即", "unit_id": "p15-c14"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p15-c10" corresp="uncertainties.json#unc-0013" xml:id="unc-0013">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 27, "extent": "known", "id": "unc-0013", "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 26, "surface": "即", "unit_id": "p15-c10"}</note><note type="transcription-uncertainty" target="#p15-c14" corresp="uncertainties.json#unc-0014" xml:id="unc-0014">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 22, "extent": "known", "id": "unc-0014", "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 21, "surface": "即", "unit_id": "p15-c14"}</note></div>
       <div type="source-image" n="pp. [16]-[17]" facs="#surface-f10" xml:id="f10">
         <note type="layout">固定目標物理面：p16(right)、p17(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -421,14 +405,7 @@
         <ab type="body" n="left" facs="#surface-f10" xml:id="p17-c17">年多因探見此砂甚細於即月初九日用鉗直插入膀胱拑碎之砂共拑三</ab>
         <ab type="running-title" n="left" facs="#surface-f10" xml:id="p17-running-title">奇症畧述</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f10" xml:id="p17-printed-page-number">四</ab>
-        <note type="transcription-uncertainty" target="#p16-c12" corresp="uncertainties.json#unc-0015" xml:id="unc-0015">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 19, "extent": "known", "id": "unc-0015", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 18, "surface": "即", "unit_id": "p16-c12"}</note>
-        <note type="transcription-uncertainty" target="#p16-c15" corresp="uncertainties.json#unc-0016" xml:id="unc-0016">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 6, "extent": "known", "id": "unc-0016", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 5, "surface": "即", "unit_id": "p16-c15"}</note>
-        <note type="transcription-uncertainty" target="#p17-c04" corresp="uncertainties.json#unc-0017" xml:id="unc-0017">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "known", "id": "unc-0017", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 3, "surface": "即", "unit_id": "p17-c04"}</note>
-        <note type="transcription-uncertainty" target="#p17-c07" corresp="uncertainties.json#unc-0018" xml:id="unc-0018">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 5, "extent": "known", "id": "unc-0018", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 4, "surface": "即", "unit_id": "p17-c07"}</note>
-        <note type="transcription-uncertainty" target="#p17-c10" corresp="uncertainties.json#unc-0019" xml:id="unc-0019">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 30, "extent": "known", "id": "unc-0019", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 29, "surface": "即", "unit_id": "p17-c10"}</note>
-        <note type="transcription-uncertainty" target="#p17-c11" corresp="uncertainties.json#unc-0020" xml:id="unc-0020">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 17, "extent": "known", "id": "unc-0020", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 16, "surface": "即", "unit_id": "p17-c11"}</note>
-        <note type="transcription-uncertainty" target="#p17-c17" corresp="uncertainties.json#unc-0021" xml:id="unc-0021">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 11, "extent": "known", "id": "unc-0021", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 10, "surface": "即", "unit_id": "p17-c17"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p16-c12" corresp="uncertainties.json#unc-0015" xml:id="unc-0015">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 19, "extent": "known", "id": "unc-0015", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 18, "surface": "即", "unit_id": "p16-c12"}</note><note type="transcription-uncertainty" target="#p16-c15" corresp="uncertainties.json#unc-0016" xml:id="unc-0016">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 6, "extent": "known", "id": "unc-0016", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 5, "surface": "即", "unit_id": "p16-c15"}</note><note type="transcription-uncertainty" target="#p17-c04" corresp="uncertainties.json#unc-0017" xml:id="unc-0017">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "known", "id": "unc-0017", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 3, "surface": "即", "unit_id": "p17-c04"}</note><note type="transcription-uncertainty" target="#p17-c07" corresp="uncertainties.json#unc-0018" xml:id="unc-0018">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 5, "extent": "known", "id": "unc-0018", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 4, "surface": "即", "unit_id": "p17-c07"}</note><note type="transcription-uncertainty" target="#p17-c10" corresp="uncertainties.json#unc-0019" xml:id="unc-0019">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 30, "extent": "known", "id": "unc-0019", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 29, "surface": "即", "unit_id": "p17-c10"}</note><note type="transcription-uncertainty" target="#p17-c11" corresp="uncertainties.json#unc-0020" xml:id="unc-0020">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 17, "extent": "known", "id": "unc-0020", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 16, "surface": "即", "unit_id": "p17-c11"}</note><note type="transcription-uncertainty" target="#p17-c17" corresp="uncertainties.json#unc-0021" xml:id="unc-0021">{"candidates": ["即", "卽"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 11, "extent": "known", "id": "unc-0021", "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。", "start": 10, "surface": "即", "unit_id": "p17-c17"}</note></div>
       <div type="source-image" n="pp. [18]-[19]" facs="#surface-f11" xml:id="f11">
         <note type="layout">固定目標物理面：p18(right)、p19(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -471,8 +448,7 @@
         <ab type="small-note" n="left" facs="#surface-f11" xml:id="p19-c17">第一百十九</ab>
         <ab type="running-title" n="left" facs="#surface-f11" xml:id="p19-running-title">奇症畧述</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f11" xml:id="p19-printed-page-number">五</ab>
-        <note type="transcription-uncertainty" target="#p18-running-title" corresp="uncertainties.json#unc-0028" xml:id="unc-0028">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0028", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p18-running-title"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p18-running-title" corresp="uncertainties.json#unc-0028" xml:id="unc-0028">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0028", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p18-running-title"}</note></div>
       <div type="source-image" n="pp. [20]-[21]" facs="#surface-f12" xml:id="f12">
         <note type="layout">固定目標物理面：p20(right)、p21(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -513,11 +489,7 @@
         <ab type="body" n="left" facs="#surface-f12" xml:id="p21-c16">本月十八日割出砂一粒重壹兩至廿一日身子發熱及瀉廿四日左膝上</ab>
         <ab type="running-title" n="left" facs="#surface-f12" xml:id="p21-running-title">奇症畧述</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f12" xml:id="p21-printed-page-number">六</ab>
-        <note type="transcription-uncertainty" target="#p20-c16" corresp="uncertainties.json#unc-0022" xml:id="unc-0022">{"candidates": ["迨於", "迫於"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 25, "extent": "known", "id": "unc-0022", "reason": "本面末欄迨／迫字頂部與內橫連筆有歧義；原像素及3倍最近鄰回看仍未定。", "start": 23, "surface": "迨於", "unit_id": "p20-c16"}</note>
-        <note type="transcription-uncertainty" target="#p21-c01" corresp="uncertainties.json#unc-0023" xml:id="unc-0023">{"candidates": ["剰些", "剩些"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 28, "extent": "known", "id": "unc-0023", "reason": "來源左部禾、乘／乗的短橫與點畫接近；暫保留初錄剰，不用現代慣字替換。", "start": 26, "surface": "剰些", "unit_id": "p21-c01"}</note>
-        <note type="transcription-uncertainty" target="#p20-running-title" corresp="uncertainties.json#unc-0029" xml:id="unc-0029">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0029", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p20-running-title"}</note>
-        <note type="transcription-uncertainty" target="#p20-printed-page-number" corresp="uncertainties.json#unc-0035" xml:id="unc-0035">{"candidates": ["五", "三"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 1, "extent": "located-unit", "id": "unc-0035", "reason": "p20-number-new折邊剩橫畫與右部連接，不足排除五或三；保留原暫讀。", "start": 0, "surface": "五", "unit_id": "p20-printed-page-number"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p20-c16" corresp="uncertainties.json#unc-0022" xml:id="unc-0022">{"candidates": ["迨於", "迫於"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 25, "extent": "known", "id": "unc-0022", "reason": "本面末欄迨／迫字頂部與內橫連筆有歧義；原像素及3倍最近鄰回看仍未定。", "start": 23, "surface": "迨於", "unit_id": "p20-c16"}</note><note type="transcription-uncertainty" target="#p21-c01" corresp="uncertainties.json#unc-0023" xml:id="unc-0023">{"candidates": ["剰些", "剩些"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 28, "extent": "known", "id": "unc-0023", "reason": "來源左部禾、乘／乗的短橫與點畫接近；暫保留初錄剰，不用現代慣字替換。", "start": 26, "surface": "剰些", "unit_id": "p21-c01"}</note><note type="transcription-uncertainty" target="#p20-running-title" corresp="uncertainties.json#unc-0029" xml:id="unc-0029">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0029", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p20-running-title"}</note><note type="transcription-uncertainty" target="#p20-printed-page-number" corresp="uncertainties.json#unc-0035" xml:id="unc-0035">{"candidates": ["五", "三"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 1, "extent": "located-unit", "id": "unc-0035", "reason": "p20-number-new折邊剩橫畫與右部連接，不足排除五或三；保留原暫讀。", "start": 0, "surface": "五", "unit_id": "p20-printed-page-number"}</note></div>
       <div type="source-image" n="pp. [22]-[23]" facs="#surface-f13" xml:id="f13">
         <note type="layout">固定目標物理面：p22(right)、p23(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -549,7 +521,7 @@
         <ab type="body" n="left" facs="#surface-f13" xml:id="p23-c06">一南海縣人氏年廿三歲九月廿二日來醫砂淋小便甚痛症起六年於十月</ab>
         <ab type="body" n="left" facs="#surface-f13" xml:id="p23-c07">廿割出砂一粒重壹兩弍錢後無事至十一月廿二全愈而去</ab>
         <ab type="small-note" n="left" facs="#surface-f13" xml:id="p23-c08">第一百三十四</ab>
-        <ab type="body" n="left" facs="#surface-f13" xml:id="p23-c09">咸豐六年至同治七年共割砂淋症壹百弍十八</ab>
+        <ab type="body" n="left" facs="#surface-f13" xml:id="p23-c09">咸豐六年至同治七年共割砂淋症壹百弍十人</ab>
         <ab type="small-note" n="left" facs="#surface-f13" xml:id="p23-c10">內死四十四人</ab>
         <ab type="small-note" n="left" facs="#surface-f13" xml:id="p23-add01">用鉗拑愈十四人</ab>
         <ab type="title" n="left" facs="#surface-f13" xml:id="p23-c11">同治六七年各雜症列左</ab>
@@ -559,8 +531,7 @@
         <ab type="body" n="left" facs="#surface-f13" xml:id="p23-c15">陳桂清東莞縣人氏年方三十二歲於同治六年三月初十日來醫右便飯匙</ab>
         <ab type="running-title" n="left" facs="#surface-f13" xml:id="p23-running-title">奇症畧述</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f13" xml:id="p23-printed-page-number">七</ab>
-        <note type="transcription-uncertainty" target="#p22-running-title" corresp="uncertainties.json#unc-0030" xml:id="unc-0030">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0030", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p22-running-title"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p22-running-title" corresp="uncertainties.json#unc-0030" xml:id="unc-0030">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0030", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p22-running-title"}</note></div>
       <div type="source-image" n="pp. [24]-[25]" facs="#surface-f14" xml:id="f14">
         <note type="layout">固定目標物理面：p24(right)、p25(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -586,9 +557,7 @@
         <ab type="diagram-label" n="left" facs="#surface-f14" xml:id="p25-c04">此人背後生一大脂瘤</ab>
         <ab type="diagram-label" n="left" facs="#surface-f14" xml:id="p25-c05">圖割出重三斤八兩</ab>
         <ab type="caption" n="left" facs="#surface-f14" xml:id="p25-c06">已割愈圖式</ab>
-        <note type="transcription-uncertainty" target="#p24-c03" corresp="uncertainties.json#unc-0024" xml:id="unc-0024">{"candidates": ["曾仕長", "會仕長"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 3, "extent": "known", "id": "unc-0024", "reason": "姓名首字頂部撇點、田與日的接合有曾／會之辨；本輪整數原像素3倍回看仍保留疑義。", "start": 0, "surface": "曾仕長", "unit_id": "p24-c03"}</note>
-        <note type="transcription-uncertainty" target="#p24-running-title" corresp="uncertainties.json#unc-0031" xml:id="unc-0031">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0031", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p24-running-title"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p24-c03" corresp="uncertainties.json#unc-0024" xml:id="unc-0024">{"candidates": ["曾仕長", "會仕長"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 3, "extent": "known", "id": "unc-0024", "reason": "姓名首字頂部撇點、田與日的接合有曾／會之辨；本輪整數原像素3倍回看仍保留疑義。", "start": 0, "surface": "曾仕長", "unit_id": "p24-c03"}</note><note type="transcription-uncertainty" target="#p24-running-title" corresp="uncertainties.json#unc-0031" xml:id="unc-0031">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0031", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p24-running-title"}</note></div>
       <div type="source-image" n="pp. [26]-[27]" facs="#surface-f15" xml:id="f15">
         <note type="layout">固定目標物理面：p26(right)、p27(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -648,10 +617,7 @@
         <ab type="small-note" n="left" facs="#surface-f16" xml:id="p29-c13">其形圖列部內</ab>
         <ab type="running-title" n="left" facs="#surface-f16" xml:id="p29-running-title">奇症畧述</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f16" xml:id="p29-printed-page-number">九</ab>
-        <note type="transcription-uncertainty" target="#p28-c07" corresp="uncertainties.json#unc-0025" xml:id="unc-0025">{"candidates": ["即日搏固", "即日摶固"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 10, "extent": "known", "id": "unc-0025", "reason": "扌右部頂點與甫／專內筆接合在目前像素中仍不確定。", "start": 6, "surface": "即日搏固", "unit_id": "p28-c07"}</note>
-        <note type="transcription-uncertainty" target="#p28-c09" corresp="uncertainties.json#unc-0026" xml:id="unc-0026">{"candidates": ["迨於", "迫於"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 30, "extent": "known", "id": "unc-0026", "reason": "左部已確認辶，排除初錄治；台／白右部上端的連筆仍待核。", "start": 28, "surface": "迨於", "unit_id": "p28-c09"}</note>
-        <note type="transcription-uncertainty" target="#p28-running-title" corresp="uncertainties.json#unc-0032" xml:id="unc-0032">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0032", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p28-running-title"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p28-c07" corresp="uncertainties.json#unc-0025" xml:id="unc-0025">{"candidates": ["即日搏固", "即日摶固"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 10, "extent": "known", "id": "unc-0025", "reason": "扌右部頂點與甫／專內筆接合在目前像素中仍不確定。", "start": 6, "surface": "即日搏固", "unit_id": "p28-c07"}</note><note type="transcription-uncertainty" target="#p28-c09" corresp="uncertainties.json#unc-0026" xml:id="unc-0026">{"candidates": ["迨於", "迫於"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 30, "extent": "known", "id": "unc-0026", "reason": "左部已確認辶，排除初錄治；台／白右部上端的連筆仍待核。", "start": 28, "surface": "迨於", "unit_id": "p28-c09"}</note><note type="transcription-uncertainty" target="#p28-running-title" corresp="uncertainties.json#unc-0032" xml:id="unc-0032">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0032", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p28-running-title"}</note><note type="transcription-uncertainty" target="#p28-c04" corresp="uncertainties.json#unc-0036" xml:id="unc-0036">{"candidates": ["于", "干"], "cause": "unresolved-after-targeted-nonblind-source-review", "end": 24, "extent": "known", "id": "unc-0036", "reason": "固定圖及官方原像素細節可見上橫、下橫與豎收筆，但于/干的細筆對應仍留疑；本輪不因文意改乾或干。", "start": 23, "surface": "于", "unit_id": "p28-c04"}</note></div>
       <div type="source-image" n="pp. [30]-[31]" facs="#surface-f17" xml:id="f17">
         <note type="layout">固定目標物理面：p30(right)、p31(left)。</note>
         <note type="layout-reviewed">true</note>
@@ -668,9 +634,7 @@
         <ab type="paratext" n="left" facs="#surface-f17" xml:id="p31-c08">即富者亦遇有奇難之症亦得以集思博採不致束</ab>
         <ab type="running-title" n="left" facs="#surface-f17" xml:id="p31-running-title">奇症畧述</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f17" xml:id="p31-printed-page-number">八</ab>
-        <note type="transcription-uncertainty" target="#p30-printed-page-number" corresp="uncertainties.json#unc-0027" xml:id="unc-0027">{"candidates": ["九"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 1, "extent": "located-unit", "id": "unc-0027", "reason": "右折邊隱沒部分收筆，僅依本面可見曲斜筆暫讀九，無法視為完整字形確證。", "start": 0, "surface": "九", "unit_id": "p30-printed-page-number"}</note>
-        <note type="transcription-uncertainty" target="#p30-running-title" corresp="uncertainties.json#unc-0033" xml:id="unc-0033">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0033", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p30-running-title"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p30-printed-page-number" corresp="uncertainties.json#unc-0027" xml:id="unc-0027">{"candidates": ["九"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 1, "extent": "located-unit", "id": "unc-0027", "reason": "右折邊隱沒部分收筆，僅依本面可見曲斜筆暫讀九，無法視為完整字形確證。", "start": 0, "surface": "九", "unit_id": "p30-printed-page-number"}</note><note type="transcription-uncertainty" target="#p30-running-title" corresp="uncertainties.json#unc-0033" xml:id="unc-0033">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0033", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p30-running-title"}</note></div>
       <div type="source-image" n="p. [32] and inside lower cover" facs="#surface-f18" xml:id="f18">
         <note type="layout">固定目標物理面：p32(right)。Inside lower cover; root observed no original book print.</note>
         <note type="layout-reviewed">true</note>
@@ -684,13 +648,12 @@
         <ab type="paratext" n="right" facs="#surface-f18" xml:id="p32-c07">人愈眾固所願也有厚望焉</ab>
         <ab type="colophon" n="right" facs="#surface-f18" xml:id="p32-c08">同治五年　月　日美國醫士嘉約翰謹跋</ab>
         <ab type="running-title" n="right" facs="#surface-f18" xml:id="p32-running-title">奇症畧述</ab>
-        <note type="transcription-uncertainty" target="#p32-running-title" corresp="uncertainties.json#unc-0034" xml:id="unc-0034">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0034", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p32-running-title"}</note>
-      </div>
+        <note type="transcription-uncertainty" target="#p32-running-title" corresp="uncertainties.json#unc-0034" xml:id="unc-0034">{"candidates": ["奇症畧述"], "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication", "end": 4, "extent": "located-unit", "id": "unc-0034", "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。", "start": 0, "surface": "奇症畧述", "unit_id": "p32-running-title"}</note></div>
       <div type="source-image" n="Lower cover" facs="#surface-f19" xml:id="f19">
         <note type="layout">固定目標物理面：本幀只有描述／排除範圍。Outer lower cover pencil/collection marks described only.</note>
         <note type="layout-reviewed">false</note>
         <note type="layer-states">{"original-print": "excluded-described-only"}</note>
       </div>
     </body>
-  </text>
+  <back><div type="targeted-corrections"><head>指定提案原圖處置 0.2.1</head><list><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg">p23-c09</ref><note>八 → 人; adopted; 原字上端兩筆相接，左撇由右捺上端出，不是兩筆分開的八；原圖作壹百弍十人，不以120+14的算式決定。</note></item><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg">p23-c10</ref><note>內死四十四人 → 內死四十四人; source-reading-retained; 小字內死後可見四、十、四、人；不根據45則病例敘事或死亡比例改刻字。</note></item><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/5f03fb69-8f07-4acc-8070-90600727dbe3/full/3000,/0/default.jpg">p08-c04</ref><note>內科新訣 → 內科新訣; source-reading-retained; 言旁右為夬，與同欄婦嬰新說的說(兌)不同；通行書名只提出書目質詢，不覆蓋原刻。</note></item><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg">p28-c04</ref><note>洗于淨 → 洗于淨; unresolved-retained; 固定圖及官方原像素細節可見上橫、下橫與豎收筆，但于/干的細筆對應仍留疑；本輪不因文意改乾或干。</note></item><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/2571268e-04f5-492c-ae8b-2449577fefb0/full/3000,/0/default.jpg">p03-c01</ref><note>偏 → 偏; source-reading-retained; 首字明見亻旁，不見辵/辶；保留偏，與其他頁徧/遍之異文不統一。</note></item><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/2571268e-04f5-492c-ae8b-2449577fefb0/full/3000,/0/default.jpg">p03-c07</ref><note>蟲 → 蟲; source-reading-retained; 上虫下兩虫，底部非皿形，支持原刻蟲；不以另一藏本蠱覆蓋。</note></item><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/d08cc152-11eb-42ac-ae8f-dee92f0c478d/full/3000,/0/default.jpg">p07-c03</ref><note>蟲 → 蟲; source-reading-retained; 全頁本欄末字下部可見並列兩虫，無皿底；下欄起脹。保持跨欄原讀，不由異本蠱脹改字。</note></item><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg">p16-c15</ref><note>至十 → 至十; source-reading-retained; 原欄尾在至下實印十；相鄰p17-c01又以十月起，屬原刻跨頁重字，忠實層兩處俱留。</note></item><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg">p17-c12</ref><note>第一百零 → 第一百零; source-reading-retained; 旁注止於零，零下空白且無八；前後號107/109僅供索引推定108，不補成原刻。</note></item><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24/full/3000,/0/default.jpg">p15-c03</ref><note>獸 → 獃; adopted; 官方同母圖原像素細節顯左豈（上山、下豆）及右犬，不是獸的嘼旁；依筆畫改獃，不依文意。</note></item><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/5f03fb69-8f07-4acc-8070-90600727dbe3/full/3000,/0/default.jpg">p08-c01</ref><note>二十一 → 二十一; source-reading-retained; 本欄末二、十、一三字可見；一般醫館史年份不能授權改本頁。</note></item></list></div></back></text>
 </TEI>

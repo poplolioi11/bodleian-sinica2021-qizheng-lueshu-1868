@@ -1,0 +1,5338 @@
+{
+  "schema": "sinica2021-public-corrections/1",
+  "dataset_id": "bodleian-sinica2021",
+  "base_version": "0.1.0",
+  "version": "0.2.0",
+  "base_doi": "10.5281/zenodo.23879266",
+  "base_book_sha256": "6201857eafb3b22e2aac72aabc4b0e3285255cd46e5b84a129c0ce6156a75e77",
+  "changes": [
+    {
+      "unit_id": "p13-c01",
+      "before": "梁亞相南海縣塘溪村人氏年三十七歲田業為生於同治五年十一月初一",
+      "after": "梁亞桓南海縣塘溪村人氏年三十七歲田業為生於同治五年十一月初一",
+      "operation": "changed",
+      "reason": "姓名第三字右部亘的上下橫及中日可辨，將相改為桓。",
+      "source": {
+        "physical_page_id": "p13",
+        "frame_id": "f08",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52/full/3000,/0/default.jpg",
+        "image_sha256": "11d1b2df241f4e9449761b2efd1a6b5cdc6bc216c6baaabbcb146b8706fd02d4",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1347,
+          380,
+          1433,
+          2065
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 2,
+          "base_end": 3,
+          "result_start": 2,
+          "result_end": 3,
+          "before": "相",
+          "after": "桓"
+        }
+      ],
+      "status": "revised"
+    },
+    {
+      "unit_id": "p13-c11",
+      "before": "症起八個月於本月廿五日用鉗直入膀胱拑碎此砂至同治六年二月十",
+      "after": "症起八個月於本月廿五日用鉗直入膀胱拑碎此砂至同治六年三月十",
+      "operation": "changed",
+      "reason": "月前數字實見三條橫筆，將二月改為三月，不據日期順序。",
+      "source": {
+        "physical_page_id": "p13",
+        "frame_id": "f08",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52/full/3000,/0/default.jpg",
+        "image_sha256": "11d1b2df241f4e9449761b2efd1a6b5cdc6bc216c6baaabbcb146b8706fd02d4",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          627,
+          380,
+          713,
+          2065
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 26,
+          "base_end": 27,
+          "result_start": 26,
+          "result_end": 27,
+          "before": "二",
+          "after": "三"
+        }
+      ],
+      "status": "revised"
+    },
+    {
+      "unit_id": "p15-c10",
+      "before": "起了三年於六月初一日割出砂一粒重三錢二分割後並無事於即月十",
+      "after": "起了三年於六月初二日割出砂一粒重三錢二分割後並無事於即月十",
+      "operation": "changed",
+      "reason": "已補取日期局部，初下數字見兩條橫，將六月初一日改為初二日。另實見三錢二分，保持原錄；即字的即／卽字元對應仍留疑。；未定細筆／來源界限仍列疑義，不稱字串完整確證。",
+      "source": {
+        "physical_page_id": "p15",
+        "frame_id": "f09",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24/full/3000,/0/default.jpg",
+        "image_sha256": "c8ae1af9b0782205ea4009bccc4041b3ba1d7749dac027644bf4156d568f6e55",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          807,
+          380,
+          893,
+          2065
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 8,
+          "base_end": 9,
+          "result_start": 8,
+          "result_end": 9,
+          "before": "一",
+          "after": "二"
+        }
+      ],
+      "status": "revised"
+    },
+    {
+      "unit_id": "p17-c04",
+      "before": "七年於即月十二日割出砂一大粒重壹兩壹錢至十月十一日愈而去",
+      "after": "七年於即月十二日割出砂一大粒重壹兩壹錢至十月廿一日愈而去",
+      "operation": "changed",
+      "reason": "十月後數字上有兩豎貫橫，為廿，改十一日為廿一日；即字元對應另留疑。；未定細筆／來源界限仍列疑義，不稱字串完整確證。",
+      "source": {
+        "physical_page_id": "p17",
+        "frame_id": "f10",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "image_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1207,
+          380,
+          1293,
+          2065
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 22,
+          "base_end": 23,
+          "result_start": 22,
+          "result_end": 23,
+          "before": "十",
+          "after": "廿"
+        }
+      ],
+      "status": "revised"
+    },
+    {
+      "unit_id": "p17-c07",
+      "before": "了五年於即月十二日割出砂一大粒重壹兩壹錢割後流血約半磅後亦",
+      "after": "了五年於即月十一日割出砂一大粒重壹兩壹錢割後流血約半磅後亦",
+      "operation": "changed",
+      "reason": "即月十後只見一條完整橫，改十二日為十一日；即字元對應另留疑。；未定細筆／來源界限仍列疑義，不稱字串完整確證。",
+      "source": {
+        "physical_page_id": "p17",
+        "frame_id": "f10",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "image_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1047,
+          380,
+          1133,
+          2065
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 7,
+          "base_end": 8,
+          "result_start": 7,
+          "result_end": 8,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "revised"
+    },
+    {
+      "unit_id": "p18-c02",
+      "before": "第二百十",
+      "after": "第一百十",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p18",
+        "frame_id": "f11",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2367,
+          460,
+          2463,
+          2055
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p18-c04",
+      "before": "一南海縣人氏年三十歲正月十四日來醫砂淋小便甚痛症起十個月於本月",
+      "after": "一南海縣人年三十歲正月十四日來醫砂淋小便甚痛症起十個月於本月",
+      "operation": "changed",
+      "reason": "f11-nantitle原像素可見人後直接年，無氏字或容納氏字的字位。",
+      "source": {
+        "physical_page_id": "p18",
+        "frame_id": "f11",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2207,
+          460,
+          2303,
+          2055
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "delete",
+          "base_start": 5,
+          "base_end": 6,
+          "result_start": 5,
+          "result_end": 5,
+          "before": "氏",
+          "after": ""
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p18-c05",
+      "before": "十九日用鉗直入膀胱拑碎之砂共拑七次砂已清了重三錢二分至二月",
+      "after": "十九日用鉗直入膀胱拑碎之砂共拑七次砂已清了重三錢二分至三月",
+      "operation": "changed",
+      "reason": "f11-lastmonth可見三條橫畫，為三月。",
+      "source": {
+        "physical_page_id": "p18",
+        "frame_id": "f11",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2127,
+          460,
+          2223,
+          2055
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 27,
+          "base_end": 28,
+          "result_start": 27,
+          "result_end": 28,
+          "before": "二",
+          "after": "三"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p18-c07",
+      "before": "第二百十一",
+      "after": "第一百十一",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p18",
+        "frame_id": "f11",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2047,
+          460,
+          2143,
+          2055
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p18-c10",
+      "before": "第二百十二",
+      "after": "第一百十二",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p18",
+        "frame_id": "f11",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1887,
+          460,
+          1983,
+          2055
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p18-c13",
+      "before": "第二百十三",
+      "after": "第一百十三",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p18",
+        "frame_id": "f11",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1727,
+          460,
+          1823,
+          2055
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p18-c17",
+      "before": "第二百十四",
+      "after": "第一百十四",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p18",
+        "frame_id": "f11",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1487,
+          460,
+          1583,
+          2055
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p19-c03",
+      "before": "第二百十五",
+      "after": "第一百十五",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p19",
+        "frame_id": "f11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1257,
+          480,
+          1353,
+          2070
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p19-c04",
+      "before": "一番禺縣人氏年二十九歲二月初十日來醫砂淋小便痛症起壹年於三月",
+      "after": "一番禺縣人氏年三十九歲二月初十日來醫砂淋小便痛症起壹年於三月",
+      "operation": "changed",
+      "reason": "f11-age39年後數字為三橫，讀三十九。",
+      "source": {
+        "physical_page_id": "p19",
+        "frame_id": "f11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1177,
+          480,
+          1273,
+          2070
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 7,
+          "base_end": 8,
+          "result_start": 7,
+          "result_end": 8,
+          "before": "二",
+          "after": "三"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p19-c06",
+      "before": "第二百十六",
+      "after": "第一百十六",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p19",
+        "frame_id": "f11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1097,
+          480,
+          1193,
+          2070
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p19-c10",
+      "before": "第二百十七",
+      "after": "第一百十七",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p19",
+        "frame_id": "f11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          857,
+          480,
+          953,
+          2070
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p19-c13",
+      "before": "第二百十八",
+      "after": "第一百十八",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p19",
+        "frame_id": "f11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          697,
+          480,
+          793,
+          2070
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p19-c15",
+      "before": "不時涓滴而出症起一年於即月三十日割出砂一大粒重叁兩七錢割後",
+      "after": "不時涓滴而出症起二年於即月三十日割出砂一大粒重叁兩七錢割後",
+      "operation": "changed",
+      "reason": "完整p19本欄症起後數字為二橫。",
+      "source": {
+        "physical_page_id": "p19",
+        "frame_id": "f11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          537,
+          480,
+          633,
+          2070
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 8,
+          "base_end": 9,
+          "result_start": 8,
+          "result_end": 9,
+          "before": "一",
+          "after": "二"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p19-c17",
+      "before": "第二百十九",
+      "after": "第一百十九",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p19",
+        "frame_id": "f11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          457,
+          480,
+          553,
+          2070
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p20-c04",
+      "before": "第二百二十",
+      "after": "第一百二十",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p20",
+        "frame_id": "f12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2207,
+          480,
+          2303,
+          2060
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p20-c08",
+      "before": "第二百廿一",
+      "after": "第一百廿一",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p20",
+        "frame_id": "f12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1967,
+          480,
+          2063,
+          2060
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p20-c11",
+      "before": "第二百廿二",
+      "after": "第一百廿二",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p20",
+        "frame_id": "f12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1807,
+          480,
+          1903,
+          2060
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p20-c14",
+      "before": "第二百廿三",
+      "after": "第一百廿三",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p20",
+        "frame_id": "f12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1647,
+          480,
+          1743,
+          2060
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p21-c01",
+      "before": "日起其右便手腳癱了至六月十九日其手腳日漸好些惟割口亦剰些未",
+      "after": "日起其右便手脚癱了至六月十九日其手脚日漸好些惟割口亦剰些未",
+      "operation": "changed",
+      "reason": "p21-feet可見月旁右為去卩；兩字位均保留脚異體。剰字左部點畫仍需保留編碼疑義。",
+      "source": {
+        "physical_page_id": "p21",
+        "frame_id": "f12",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1352,
+          500,
+          1448,
+          2080
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 6,
+          "base_end": 7,
+          "result_start": 6,
+          "result_end": 7,
+          "before": "腳",
+          "after": "脚"
+        },
+        {
+          "operation": "replace",
+          "base_start": 17,
+          "base_end": 18,
+          "result_start": 17,
+          "result_end": 18,
+          "before": "腳",
+          "after": "脚"
+        }
+      ],
+      "status": "corrected_unresolved"
+    },
+    {
+      "unit_id": "p21-c03",
+      "before": "第二百廿四",
+      "after": "第一百廿四",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p21",
+        "frame_id": "f12",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1272,
+          500,
+          1368,
+          2080
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p21-c07",
+      "before": "第二百廿五",
+      "after": "第一百廿五",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p21",
+        "frame_id": "f12",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1032,
+          500,
+          1128,
+          2080
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p21-c11",
+      "before": "第二百廿六",
+      "after": "第一百廿六",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p21",
+        "frame_id": "f12",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          792,
+          500,
+          888,
+          2080
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p21-c14",
+      "before": "第二百廿七",
+      "after": "第一百廿七",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p21",
+        "frame_id": "f12",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          632,
+          500,
+          728,
+          2080
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p22-c03",
+      "before": "第二百廿八",
+      "after": "第一百廿八",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p22",
+        "frame_id": "f13",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2322,
+          500,
+          2418,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p22-c06",
+      "before": "第二百廿九",
+      "after": "第一百廿九",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p22",
+        "frame_id": "f13",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2162,
+          500,
+          2258,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p22-c09",
+      "before": "第二百三十",
+      "after": "第一百三十",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p22",
+        "frame_id": "f13",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2002,
+          500,
+          2098,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p22-c14",
+      "before": "第二百三十一",
+      "after": "第一百三十一",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p22",
+        "frame_id": "f13",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1682,
+          500,
+          1778,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p22-c17",
+      "before": "第二百三十二",
+      "after": "第一百三十二",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p22",
+        "frame_id": "f13",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1522,
+          500,
+          1618,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p23-c05",
+      "before": "第二百三十三",
+      "after": "第一百三十三",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p23",
+        "frame_id": "f13",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1112,
+          490,
+          1208,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p23-c08",
+      "before": "第二百三十四",
+      "after": "第一百三十四",
+      "operation": "changed",
+      "reason": "逐欄回看本面縮排案號；第與百之間只有一橫，改二為一。非由案號序列推補。",
+      "source": {
+        "physical_page_id": "p23",
+        "frame_id": "f13",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          952,
+          490,
+          1048,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "二",
+          "after": "一"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p23-c09",
+      "before": "咸豐六年至同治七年共割砂淋症壹百弍十八用鉗拑愈十四人",
+      "after": "咸豐六年至同治七年共割砂淋症壹百弍十八",
+      "operation": "changed",
+      "reason": "原來源本欄大字止於十八；用鉗拑愈十四人位於下方雙行細註左行，另編p23-add01，字串搬移而非刪除原文。",
+      "source": {
+        "physical_page_id": "p23",
+        "frame_id": "f13",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          872,
+          490,
+          968,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "delete",
+          "base_start": 19,
+          "base_end": 26,
+          "result_start": 19,
+          "result_end": 19,
+          "before": "用鉗拑愈十四人",
+          "after": ""
+        }
+      ],
+      "status": "resegmented_source"
+    },
+    {
+      "unit_id": "p23-c11",
+      "before": "同治七年各雜症列左",
+      "after": "同治六七年各雜症列左",
+      "operation": "changed",
+      "reason": "治與年之間同一字位有右六左七兩個較小數字；初錄漏六，按原位右至左保留六七。",
+      "source": {
+        "physical_page_id": "p23",
+        "frame_id": "f13",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          792,
+          490,
+          888,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 2,
+          "base_end": 2,
+          "result_start": 2,
+          "result_end": 3,
+          "before": "",
+          "after": "六"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p27-c09",
+      "before": "黃亞榕嘉應州人氏年方三十六歲同治七年八月廿四日來醫左腳面生一",
+      "after": "黃亞榕嘉應州人氏年方三十六歲同治七年八月廿四日來醫左脚面生一",
+      "operation": "changed",
+      "reason": "本面字位月旁右為去卩，保留原刻脚。",
+      "source": {
+        "physical_page_id": "p27",
+        "frame_id": "f15",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/cdef9558-5643-4d00-b850-e150d08b3b26.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cdef9558-5643-4d00-b850-e150d08b3b26/full/3000,/0/default.jpg",
+        "image_sha256": "0b8d6344ee27ee88f1cf3bdc09f16bdb4bc30681333e5b4493607047bf6e0a3b",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          802,
+          480,
+          898,
+          2070
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 26,
+          "base_end": 27,
+          "result_start": 26,
+          "result_end": 27,
+          "before": "腳",
+          "after": "脚"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p27-c10",
+      "before": "肉瘤症起五年大如蕃荔於即月廿九日連尾二指一併割去因瘤痴住之故",
+      "after": "肉瘤症起五年大如番荔於即月廿九日連尾二指一併割去因瘤痴住之故",
+      "operation": "changed",
+      "reason": "p27-fruit2番字頂部為釆，無艹；p27-attached2痴字疒內為知，排除黐。",
+      "source": {
+        "physical_page_id": "p27",
+        "frame_id": "f15",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/cdef9558-5643-4d00-b850-e150d08b3b26.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cdef9558-5643-4d00-b850-e150d08b3b26/full/3000,/0/default.jpg",
+        "image_sha256": "0b8d6344ee27ee88f1cf3bdc09f16bdb4bc30681333e5b4493607047bf6e0a3b",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          722,
+          480,
+          818,
+          2070
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 8,
+          "base_end": 9,
+          "result_start": 8,
+          "result_end": 9,
+          "before": "蕃",
+          "after": "番"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p27-c12",
+      "before": "陳湛盛肇慶府高要縣人氏年方三十九歲同治七年八月廿七日來醫背後",
+      "after": "陳淇盛肇慶府高要縣人氏年方三十九歲同治七年八月廿七日來醫背後",
+      "operation": "changed",
+      "reason": "p27-name2水旁右部其，底兩點而非甚，讀淇。",
+      "source": {
+        "physical_page_id": "p27",
+        "frame_id": "f15",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/cdef9558-5643-4d00-b850-e150d08b3b26.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cdef9558-5643-4d00-b850-e150d08b3b26/full/3000,/0/default.jpg",
+        "image_sha256": "0b8d6344ee27ee88f1cf3bdc09f16bdb4bc30681333e5b4493607047bf6e0a3b",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          562,
+          480,
+          658,
+          2070
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "湛",
+          "after": "淇"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p28-c04",
+      "before": "跌傷左額至面珠下傷口闊有五六寸沙泥填滿傷口後洗干淨四便見了骨衣",
+      "after": "跌傷左額至面珠下傷口闊有五六寸沙坭填滿傷口後洗于淨四便見了骨衣",
+      "operation": "changed",
+      "reason": "p28-mud左土右尼，為坭；p28-clean洗後字豎尾左鉤，採于，保留來源四便不改成語意較順之字。",
+      "source": {
+        "physical_page_id": "p28",
+        "frame_id": "f16",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/edb5b8b8-d0f9-4a82-a517-642d652b9b3d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg",
+        "image_sha256": "dc2ee5acc564fba17543fe4649621583c17b01ebc327ae958c7fd0a3370b0786",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2262,
+          480,
+          2358,
+          2075
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 16,
+          "base_end": 17,
+          "result_start": 16,
+          "result_end": 17,
+          "before": "泥",
+          "after": "坭"
+        },
+        {
+          "operation": "replace",
+          "base_start": 23,
+          "base_end": 24,
+          "result_start": 23,
+          "result_end": 24,
+          "before": "干",
+          "after": "于"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p28-c09",
+      "before": "瘤起十年此瘤下爛了一口時常流血每次約流血數兩此人身子弱甚治於",
+      "after": "瘤起十年此瘤下爛了一口時常流血每次約流血數兩此人身子弱甚迨於",
+      "operation": "changed",
+      "reason": "p28-transition2左部具辶連底，排除三點水治；右部台／白仍歧，暫讀迨另列迫候選。",
+      "source": {
+        "physical_page_id": "p28",
+        "frame_id": "f16",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/edb5b8b8-d0f9-4a82-a517-642d652b9b3d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg",
+        "image_sha256": "dc2ee5acc564fba17543fe4649621583c17b01ebc327ae958c7fd0a3370b0786",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1862,
+          480,
+          1958,
+          2075
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 28,
+          "base_end": 29,
+          "result_start": 28,
+          "result_end": 29,
+          "before": "治",
+          "after": "迨"
+        }
+      ],
+      "status": "corrected_unresolved"
+    },
+    {
+      "unit_id": "p28-printed-page-number",
+      "before": "八",
+      "after": null,
+      "operation": "removed",
+      "reason": "p28-edge-number2僅餘上方橫／下方斜筆及折邊，無完整八字形，撤回初錄八；原位另列source-region，字數未知。",
+      "source": {
+        "physical_page_id": "p28",
+        "frame_id": "f16",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/edb5b8b8-d0f9-4a82-a517-642d652b9b3d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg",
+        "image_sha256": "dc2ee5acc564fba17543fe4649621583c17b01ebc327ae958c7fd0a3370b0786",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2470,
+          1620,
+          2570,
+          1850
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "remove-unit",
+          "before": "八",
+          "after": null
+        }
+      ],
+      "status": "unresolved_source"
+    },
+    {
+      "unit_id": "p29-c11",
+      "before": "骨生出肉瘤壹大個症起八年初起之時如白豆一粒漸起漸大於即月十",
+      "after": "骨生出肉瘤壹大個症起八年初起之時如白荳一粒漸起漸大於即月十",
+      "operation": "changed",
+      "reason": "p29-bean豆上具艹兩短豎，保留荳。",
+      "source": {
+        "physical_page_id": "p29",
+        "frame_id": "f16",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/edb5b8b8-d0f9-4a82-a517-642d652b9b3d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg",
+        "image_sha256": "dc2ee5acc564fba17543fe4649621583c17b01ebc327ae958c7fd0a3370b0786",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          562,
+          480,
+          658,
+          2075
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 18,
+          "base_end": 19,
+          "result_start": 18,
+          "result_end": 19,
+          "before": "豆",
+          "after": "荳"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p31-c03",
+      "before": "聖會中幫助暨裝口各客商簽題及中國之善男信",
+      "after": "聖會中帮助暨裝口各客商簽題及中國之善男信",
+      "operation": "changed",
+      "reason": "p31-help-new上邦下巾，為帮字形；暨裝口逐字可辨，助有缺墨另記來源區。",
+      "source": {
+        "physical_page_id": "p31",
+        "frame_id": "f17",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b4f5b197-187b-4744-95c7-0205424ceb43.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4f5b197-187b-4744-95c7-0205424ceb43/full/3000,/0/default.jpg",
+        "image_sha256": "e7ef3b29bc9f18a8fb349d1806fd1102c26c2c45268b7eb66977505c933986ea",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1079,
+          485,
+          1201,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 3,
+          "base_end": 4,
+          "result_start": 3,
+          "result_end": 4,
+          "before": "幫",
+          "after": "帮"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p32-c01",
+      "before": "手無策誠濟時切務也兹西關惠愛醫館合信醫生",
+      "after": "手無策誠濟時切務也茲西關惠愛醫館合信醫生",
+      "operation": "changed",
+      "reason": "p32-this頂部為艹兩豎穿橫，保留茲。",
+      "source": {
+        "physical_page_id": "p32",
+        "frame_id": "f18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bd8a673a-5a95-4593-b294-f31915fa91df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bd8a673a-5a95-4593-b294-f31915fa91df/full/3000,/0/default.jpg",
+        "image_sha256": "4c778a66ce4e4bfecd435ab5589d69bcdfddcb64ddd766c788126307d0e8819c",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2334,
+          490,
+          2456,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 9,
+          "base_end": 10,
+          "result_start": 9,
+          "result_end": 10,
+          "before": "兹",
+          "after": "茲"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p32-c05",
+      "before": "呼伏望　樂善客商　好施士女各啟標青之庫共",
+      "after": "呼伏望　樂善客商　好施士女各啟標靑之庫共",
+      "operation": "changed",
+      "reason": "p32-cyan-new下部為円式筆形，採靑異體，標仍木旁票，無據改作他字。",
+      "source": {
+        "physical_page_id": "p32",
+        "frame_id": "f18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bd8a673a-5a95-4593-b294-f31915fa91df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bd8a673a-5a95-4593-b294-f31915fa91df/full/3000,/0/default.jpg",
+        "image_sha256": "4c778a66ce4e4bfecd435ab5589d69bcdfddcb64ddd766c788126307d0e8819c",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1854,
+          490,
+          1976,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 16,
+          "base_end": 17,
+          "result_start": 16,
+          "result_end": 17,
+          "before": "青",
+          "after": "靑"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p32-c06",
+      "before": "成狐白之裘將見術挹濟世善事益長藥可除痾活",
+      "after": "成狐白之裘將見術堪濟世善事益長藥可除疴活",
+      "operation": "changed",
+      "reason": "p32-can左土右甚，為堪，排除挹／拯；p32-illness疒內僅可而無阝，為疴，排除初錄痾及獨立稿病。",
+      "source": {
+        "physical_page_id": "p32",
+        "frame_id": "f18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bd8a673a-5a95-4593-b294-f31915fa91df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bd8a673a-5a95-4593-b294-f31915fa91df/full/3000,/0/default.jpg",
+        "image_sha256": "4c778a66ce4e4bfecd435ab5589d69bcdfddcb64ddd766c788126307d0e8819c",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1734,
+          490,
+          1856,
+          2085
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 8,
+          "base_end": 9,
+          "result_start": 8,
+          "result_end": 9,
+          "before": "挹",
+          "after": "堪"
+        },
+        {
+          "operation": "replace",
+          "base_start": 18,
+          "base_end": 19,
+          "result_start": 18,
+          "result_end": 19,
+          "before": "痾",
+          "after": "疴"
+        }
+      ],
+      "status": "corrected_source"
+    },
+    {
+      "unit_id": "p32-printed-page-number",
+      "before": "八",
+      "after": null,
+      "operation": "removed",
+      "reason": "p32-number-new保有折邊殘斜筆與上橫，無完整八字形，撤回初錄八另列來源未知區，不推頁序。",
+      "source": {
+        "physical_page_id": "p32",
+        "frame_id": "f18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bd8a673a-5a95-4593-b294-f31915fa91df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bd8a673a-5a95-4593-b294-f31915fa91df/full/3000,/0/default.jpg",
+        "image_sha256": "4c778a66ce4e4bfecd435ab5589d69bcdfddcb64ddd766c788126307d0e8819c",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2430,
+          1620,
+          2530,
+          1850
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "remove-unit",
+          "before": "八",
+          "after": null
+        }
+      ],
+      "status": "unresolved_source"
+    },
+    {
+      "unit_id": "p23-add01",
+      "before": null,
+      "after": "用鉗拑愈十四人",
+      "operation": "added",
+      "reason": "自初錄p23-c09既有末段分離的左行細註，置右行p23-c10之後；並非初錄完全漏掉此字串。",
+      "source": {
+        "physical_page_id": "p23",
+        "frame_id": "f13",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          855,
+          1570,
+          920,
+          1970
+        ]
+      },
+      "codepoint_edits": [
+        {
+          "operation": "add-unit",
+          "before": null,
+          "after": "用鉗拑愈十四人"
+        }
+      ],
+      "split_from": [
+        "p23-c09"
+      ],
+      "status": "added-separate-small-note"
+    }
+  ],
+  "initial_uncertainty_resolutions": [
+    {
+      "initial_uncertainty_index": 0,
+      "original": {
+        "unit_id": "p01-imprint",
+        "target": "穀埠",
+        "candidates": [
+          "穀埠",
+          "殼埠"
+        ],
+        "reason": "刊印處前兩字刻形古拙且分欄，已另看原像素局部；穀字內部細筆仍需覆核。"
+      },
+      "status": "unresolved",
+      "reason": "原刊印處已回完整圖及局部；穀的內部細筆仍不足確分穀／殼／榖。",
+      "source": {
+        "physical_page_id": "p01",
+        "frame_id": "f02",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/8792087b-280b-469f-864c-03a233e11a84.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8792087b-280b-469f-864c-03a233e11a84/full/3000,/0/default.jpg",
+        "image_sha256": "22bd68bb5e61c3054d34be4315f091a3aa42e3715994580a75b2e6107460c694",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          505,
+          1100,
+          700,
+          2050
+        ]
+      },
+      "unit_after": "省城穀埠仁濟大街博濟醫局訂"
+    },
+    {
+      "initial_uncertainty_index": 1,
+      "original": {
+        "unit_id": "p03-c01",
+        "target": "設偏於",
+        "candidates": [
+          "設偏於",
+          "設徧於"
+        ],
+        "reason": "設後字左部可見斜直筆，先按實見暫錄偏，保留亻與彳之辨。"
+      },
+      "status": "resolved",
+      "reason": "原像素局部可見左亻兩筆，保留偏。",
+      "source": {
+        "physical_page_id": "p03",
+        "frame_id": "f03",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2571268e-04f5-492c-ae8b-2449577fefb0.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2571268e-04f5-492c-ae8b-2449577fefb0/full/3000,/0/default.jpg",
+        "image_sha256": "5994f82096d084298cca5d9d429eb7ebeae979b58e6b415f865c5c5a3511b6cc",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1364,
+          380,
+          1476,
+          2065
+        ]
+      },
+      "unit_after": "西國醫局之設偏於中土已非一日凡所"
+    },
+    {
+      "initial_uncertainty_index": 2,
+      "original": {
+        "unit_id": "p03-running-title",
+        "target": "奇症畧述",
+        "candidates": [
+          "奇症畧述"
+        ],
+        "reason": "版心題位於物理頁外緣，部分字形截損；未以相鄰面補全。"
+      },
+      "status": "unresolved",
+      "reason": "已回完整框與物理面，版心字形受外緣截限；暫識不作缺筆字數確證，另列來源區。",
+      "source": {
+        "physical_page_id": "p03",
+        "frame_id": "f03",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2571268e-04f5-492c-ae8b-2449577fefb0.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2571268e-04f5-492c-ae8b-2449577fefb0/full/3000,/0/default.jpg",
+        "image_sha256": "5994f82096d084298cca5d9d429eb7ebeae979b58e6b415f865c5c5a3511b6cc",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          380,
+          510,
+          930
+        ]
+      },
+      "unit_after": "奇症畧述"
+    },
+    {
+      "initial_uncertainty_index": 3,
+      "original": {
+        "unit_id": "p04-running-title",
+        "target": "奇症畧述",
+        "candidates": [
+          "奇症畧述"
+        ],
+        "reason": "右外緣版心僅字形左半，仍可暫識；待原像覆核。"
+      },
+      "status": "unresolved",
+      "reason": "右外緣版心受截限，保留暫識與範圍未知來源區。",
+      "source": {
+        "physical_page_id": "p04",
+        "frame_id": "f04",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/05a234d5-ace0-4722-836f-156bf11190df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/05a234d5-ace0-4722-836f-156bf11190df/full/3000,/0/default.jpg",
+        "image_sha256": "429b507d5e515b117f3254a451a5334635ce65c287fd1ca5ffb1abb76890db89",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2445,
+          365,
+          2575,
+          960
+        ]
+      },
+      "unit_after": "奇症畧述"
+    },
+    {
+      "initial_uncertainty_index": 4,
+      "original": {
+        "unit_id": "p05-running-title",
+        "target": "奇症畧述",
+        "candidates": [
+          "奇症畧述"
+        ],
+        "reason": "左外緣版心字形部分截損，暫識字串待覆核。"
+      },
+      "status": "unresolved",
+      "reason": "左外緣版心受截限，保留暫識與範圍未知來源區。",
+      "source": {
+        "physical_page_id": "p05",
+        "frame_id": "f04",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/05a234d5-ace0-4722-836f-156bf11190df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/05a234d5-ace0-4722-836f-156bf11190df/full/3000,/0/default.jpg",
+        "image_sha256": "429b507d5e515b117f3254a451a5334635ce65c287fd1ca5ffb1abb76890db89",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          380,
+          510,
+          930
+        ]
+      },
+      "unit_after": "奇症畧述"
+    },
+    {
+      "initial_uncertainty_index": 5,
+      "original": {
+        "unit_id": "p06-c04",
+        "target": "者歷有",
+        "candidates": [
+          "者歷有",
+          "者厯有"
+        ],
+        "reason": "歷字刻形左上為廠形且內部簡筆，先暫錄歷，未作異體正規化。"
+      },
+      "status": "unresolved",
+      "reason": "已看廠下內筆及下端，歷／厯的字元對應仍未定。",
+      "source": {
+        "physical_page_id": "p06",
+        "frame_id": "f05",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d08cc152-11eb-42ac-ae8f-dee92f0c478d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d08cc152-11eb-42ac-ae8f-dee92f0c478d/full/3000,/0/default.jpg",
+        "image_sha256": "70a1ce6ccc67d8e8c2bee0f8f3b4361db91589a808200bc0f6b114657e1e21cf",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1979,
+          380,
+          2091,
+          2065
+        ]
+      },
+      "unit_after": "由是行於異國醫局之設在廣東省城者歷有年所"
+    },
+    {
+      "initial_uncertainty_index": 6,
+      "original": {
+        "unit_id": "p08-c05",
+        "target": "意揣臆",
+        "candidates": [
+          "意揣臆",
+          "意端臆"
+        ],
+        "reason": "揣字左部筆畫細，原像全欄暫讀揣，待覆核偏旁。"
+      },
+      "status": "resolved",
+      "reason": "原像素局部見左扌交筆、右耑，保留揣。",
+      "source": {
+        "physical_page_id": "p08",
+        "frame_id": "f06",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5f03fb69-8f07-4acc-8070-90600727dbe3.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5f03fb69-8f07-4acc-8070-90600727dbe3/full/3000,/0/default.jpg",
+        "image_sha256": "681a927a6a02384d971e952c52e169a124ff246f7754b957fe5f5e333590468d",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1844,
+          380,
+          1956,
+          2065
+        ]
+      },
+      "unit_after": "所稱許亦足見學有本原非意揣臆度者可同日語"
+    },
+    {
+      "initial_uncertainty_index": 7,
+      "original": {
+        "unit_id": "p09-c09",
+        "target": "頗得",
+        "candidates": [
+          "頗得",
+          "頻得"
+        ],
+        "reason": "頁左首末欄字形略磨，暫錄頗。"
+      },
+      "status": "resolved",
+      "reason": "左部皮形可辨，保留頗。",
+      "source": {
+        "physical_page_id": "p09",
+        "frame_id": "f06",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5f03fb69-8f07-4acc-8070-90600727dbe3.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5f03fb69-8f07-4acc-8070-90600727dbe3/full/3000,/0/default.jpg",
+        "image_sha256": "681a927a6a02384d971e952c52e169a124ff246f7754b957fe5f5e333590468d",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          504,
+          380,
+          616,
+          2065
+        ]
+      },
+      "unit_after": "東傳授門徒於唐番醫法學習多年頗得辨症發藥"
+    },
+    {
+      "initial_uncertainty_index": 8,
+      "original": {
+        "unit_id": "p10-c07",
+        "target": "穀埠",
+        "candidates": [
+          "穀埠",
+          "殼埠"
+        ],
+        "reason": "地址穀字內部細筆古刻，已依實見暫錄，與題署各處分別保留覆核。"
+      },
+      "status": "unresolved",
+      "reason": "地址首字局部內筆仍難確分穀／殼／榖，各處分別核讀，不互補。",
+      "source": {
+        "physical_page_id": "p10",
+        "frame_id": "f07",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c25005a4-2d94-4486-a967-a885a8abfc76.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c25005a4-2d94-4486-a967-a885a8abfc76/full/3000,/0/default.jpg",
+        "image_sha256": "d3946a9d9271622aaec2f4b686663fa5ad1e5bb489a113f0892672c0383bb954",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1734,
+          380,
+          1846,
+          2065
+        ]
+      },
+      "unit_after": "至同治五年八月增沙之博濟醫局遷往穀埠潮興"
+    },
+    {
+      "initial_uncertainty_index": 9,
+      "original": {
+        "unit_id": "p13-c03",
+        "target": "膀胱",
+        "candidates": [
+          "膀胱",
+          "膀脱"
+        ],
+        "reason": "第二字右部光形古刻近兌，已看原像素局部，暫錄胱；未以醫學常識自動替字。"
+      },
+      "status": "unresolved",
+      "reason": "原像素右部上筆近光／兌，保留胱暫讀，不依醫學詞彙裁定。",
+      "source": {
+        "physical_page_id": "p13",
+        "frame_id": "f08",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52/full/3000,/0/default.jpg",
+        "image_sha256": "11d1b2df241f4e9449761b2efd1a6b5cdc6bc216c6baaabbcb146b8706fd02d4",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1187,
+          380,
+          1273,
+          2065
+        ]
+      },
+      "unit_after": "他用鉗直入膀胱拑碎之砂一連拑了五次共出砂重弍錢一分後用鉗探度"
+    },
+    {
+      "initial_uncertainty_index": 10,
+      "original": {
+        "unit_id": "p15-c03",
+        "target": "如獸子",
+        "candidates": [
+          "如獸子",
+          "如獃子"
+        ],
+        "reason": "如後字細密，已看原像素局部，暫按可見獸形，仍需覆核。"
+      },
+      "status": "unresolved",
+      "reason": "如後字左部細筆仍未確分獸／獃，維持獸暫讀。",
+      "source": {
+        "physical_page_id": "p15",
+        "frame_id": "f09",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24/full/3000,/0/default.jpg",
+        "image_sha256": "c8ae1af9b0782205ea4009bccc4041b3ba1d7749dac027644bf4156d568f6e55",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1207,
+          380,
+          1293,
+          2065
+        ]
+      },
+      "unit_after": "嘔吐肚痛不醒人事如獸子一般後用藥調理至五月廿三日漸醒復後又"
+    },
+    {
+      "initial_uncertainty_index": 11,
+      "original": {
+        "unit_id": "p16-c01",
+        "target": "六月十一日",
+        "candidates": [
+          "六月十一日"
+        ],
+        "reason": "十與一附近旁有小黑點，未知是否原刻點號；不擅加句讀，見layout_note。"
+      },
+      "status": "unresolved",
+      "reason": "日期旁三角墨點實見，不能確定為原刻點，保留來源區而不加句讀。",
+      "source": {
+        "physical_page_id": "p16",
+        "frame_id": "f10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "image_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2367,
+          380,
+          2453,
+          2065
+        ]
+      },
+      "unit_after": "一東莞縣人氏年方廿三歲同治六年六月十一日來醫砂淋小便甚痛症起"
+    },
+    {
+      "initial_uncertainty_index": 12,
+      "original": {
+        "unit_id": "p17-c12",
+        "target": "第一百零",
+        "candidates": [
+          "第一百零"
+        ],
+        "reason": "原像素細字局部顯示零後空白至下框，保留原印不完整圖號，不補八。"
+      },
+      "status": "resolved",
+      "reason": "原像素小註全高顯示第一百零後留白至框，忠實保存止處，不補八。",
+      "source": {
+        "physical_page_id": "p17",
+        "frame_id": "f10",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "image_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          800,
+          380,
+          910,
+          2065
+        ]
+      },
+      "unit_after": "第一百零"
+    },
+    {
+      "initial_uncertainty_index": 13,
+      "original": {
+        "unit_id": "p06-c01",
+        "target": "勇鬪狠",
+        "candidates": [
+          "勇鬪狠",
+          "勇闘狠",
+          "勇鬭狠"
+        ],
+        "reason": "已看原像素局部，鬥字異體外框及內部近豆寸，暫錄鬪，保留闘／鬭之辨；不自動正規化為鬥。"
+      },
+      "status": "unresolved",
+      "reason": "原像素見近豆寸內形，外框與細筆仍不足排除異體對應疑義。",
+      "source": {
+        "physical_page_id": "p06",
+        "frame_id": "f05",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d08cc152-11eb-42ac-ae8f-dee92f0c478d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d08cc152-11eb-42ac-ae8f-dee92f0c478d/full/3000,/0/default.jpg",
+        "image_sha256": "70a1ce6ccc67d8e8c2bee0f8f3b4361db91589a808200bc0f6b114657e1e21cf",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2339,
+          380,
+          2451,
+          2065
+        ]
+      },
+      "unit_after": "者有酒風脚及脾肺腹腦各損身患好勇鬪狠者有"
+    },
+    {
+      "initial_uncertainty_index": 14,
+      "original": {
+        "unit_id": "p13-printed-page-number",
+        "target": "二",
+        "candidates": [
+          "二",
+          "三"
+        ],
+        "reason": "版心頁碼位於左外緣只有部分筆畫，先看全幅及較大窗局部，暫錄二；不可由相鄰面頁碼反補。"
+      },
+      "status": "unresolved",
+      "reason": "左外緣只有殘存橫筆；維持二暫識並列來源區，不能反推完整數字或缺筆範圍。",
+      "source": {
+        "physical_page_id": "p13",
+        "frame_id": "f08",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52/full/3000,/0/default.jpg",
+        "image_sha256": "11d1b2df241f4e9449761b2efd1a6b5cdc6bc216c6baaabbcb146b8706fd02d4",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          1520,
+          505,
+          1880
+        ]
+      },
+      "unit_after": "二"
+    },
+    {
+      "initial_uncertainty_index": 15,
+      "original": {
+        "unit_id": "p14-printed-page-number",
+        "target": "二",
+        "candidates": [
+          "二",
+          "三"
+        ],
+        "reason": "版心頁碼位於右外緣半字，兩長橫之間另有短墨筆，暫錄二並保留三候選。"
+      },
+      "status": "unresolved",
+      "reason": "右外緣可見多條殘橫及上端零碎豎，不足還原完整數字；保留二暫識，另列來源區。",
+      "source": {
+        "physical_page_id": "p14",
+        "frame_id": "f09",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24/full/3000,/0/default.jpg",
+        "image_sha256": "c8ae1af9b0782205ea4009bccc4041b3ba1d7749dac027644bf4156d568f6e55",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2440,
+          1500,
+          2580,
+          1880
+        ]
+      },
+      "unit_after": "二"
+    },
+    {
+      "initial_uncertainty_index": 16,
+      "original": {
+        "unit_id": "p16-printed-page-number",
+        "target": "三",
+        "candidates": [
+          "三",
+          "四"
+        ],
+        "reason": "右外緣半字頁碼可見多橫及上豎，暫錄三；也可能為四的截形，不由相鄰面補字。"
+      },
+      "status": "unresolved",
+      "reason": "頁緣見數條橫與上端交筆，但完整數字／截限範圍未定；保留三暫識並列來源區。",
+      "source": {
+        "physical_page_id": "p16",
+        "frame_id": "f10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "image_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2440,
+          1500,
+          2580,
+          1880
+        ]
+      },
+      "unit_after": "三"
+    },
+    {
+      "initial_uncertainty_index": 17,
+      "original": {
+        "unit_id": "p27-c10",
+        "target": "因瘤痴住之故",
+        "candidates": [
+          "因瘤痴住之故",
+          "因瘤黐住之故"
+        ],
+        "reason": "已看原像素細節p27-adhesion-wide，字形偏向痴，仍保留痴／黐覆核，不按語義換字。"
+      },
+      "status": "resolved",
+      "reason": "p27-attached2疒內知明確，排除黐。",
+      "source": {
+        "physical_page_id": "p27",
+        "frame_id": "f15",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/cdef9558-5643-4d00-b850-e150d08b3b26.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cdef9558-5643-4d00-b850-e150d08b3b26/full/3000,/0/default.jpg",
+        "image_sha256": "0b8d6344ee27ee88f1cf3bdc09f16bdb4bc30681333e5b4493607047bf6e0a3b",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          722,
+          480,
+          818,
+          2070
+        ]
+      },
+      "reading": "因瘤痴住之故"
+    },
+    {
+      "initial_uncertainty_index": 18,
+      "original": {
+        "unit_id": "p28-c04",
+        "target": "後洗干淨四便見了骨衣",
+        "candidates": [
+          "後洗干淨四便見了骨衣",
+          "後洗于淨四便見了骨衣"
+        ],
+        "reason": "原像素細節p28-wound顯示干／于筆畫不易定；四便照實見保留，不以文句改正。"
+      },
+      "status": "resolved",
+      "reason": "p28-clean下豎有左鉤，採于；四便原形不改。",
+      "source": {
+        "physical_page_id": "p28",
+        "frame_id": "f16",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/edb5b8b8-d0f9-4a82-a517-642d652b9b3d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg",
+        "image_sha256": "dc2ee5acc564fba17543fe4649621583c17b01ebc327ae958c7fd0a3370b0786",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2262,
+          480,
+          2358,
+          2075
+        ]
+      },
+      "reading": "後洗于淨四便見了骨衣"
+    },
+    {
+      "initial_uncertainty_index": 19,
+      "original": {
+        "unit_id": "p28-c07",
+        "target": "即日搏固",
+        "candidates": [
+          "即日搏固",
+          "即日摶固"
+        ],
+        "reason": "已看p28-fixation，暫讀搏，保留搏／摶字形疑義，不作醫療詮釋。"
+      },
+      "status": "unresolved",
+      "reason": "扌右甫／專細筆仍接合，保留搏／摶兩候選。",
+      "source": {
+        "physical_page_id": "p28",
+        "frame_id": "f16",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/edb5b8b8-d0f9-4a82-a517-642d652b9b3d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg",
+        "image_sha256": "dc2ee5acc564fba17543fe4649621583c17b01ebc327ae958c7fd0a3370b0786",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2022,
+          480,
+          2118,
+          2075
+        ]
+      },
+      "reading": "即日搏固"
+    },
+    {
+      "initial_uncertainty_index": 20,
+      "original": {
+        "unit_id": "p31-c01",
+        "target": "於羣扶濟困",
+        "candidates": [
+          "於羣扶濟困"
+        ],
+        "reason": "原像素p31-first可見字形偏向羣，原文分段仍待覆核，不以語義重排。"
+      },
+      "status": "resolved",
+      "reason": "p31-group-new見上君下羊，羣；未重排語序。",
+      "source": {
+        "physical_page_id": "p31",
+        "frame_id": "f17",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b4f5b197-187b-4744-95c7-0205424ceb43.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4f5b197-187b-4744-95c7-0205424ceb43/full/3000,/0/default.jpg",
+        "image_sha256": "e7ef3b29bc9f18a8fb349d1806fd1102c26c2c45268b7eb66977505c933986ea",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1319,
+          485,
+          1441,
+          2085
+        ]
+      },
+      "reading": "於羣扶濟困"
+    },
+    {
+      "initial_uncertainty_index": 21,
+      "original": {
+        "unit_id": "p31-c03",
+        "target": "暨裝口",
+        "candidates": [
+          "暨裝口"
+        ],
+        "reason": "已看原像素p31-port-correct，暫讀裝；字形與詞義關係留覆核，不按地名或通行文辭換字。"
+      },
+      "status": "resolved",
+      "reason": "p31-help-new各字暨、裝、口均有對應可辨字形，不借詞義或地名改字。",
+      "source": {
+        "physical_page_id": "p31",
+        "frame_id": "f17",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b4f5b197-187b-4744-95c7-0205424ceb43.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4f5b197-187b-4744-95c7-0205424ceb43/full/3000,/0/default.jpg",
+        "image_sha256": "e7ef3b29bc9f18a8fb349d1806fd1102c26c2c45268b7eb66977505c933986ea",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1079,
+          485,
+          1201,
+          2085
+        ]
+      },
+      "reading": "暨裝口"
+    },
+    {
+      "initial_uncertainty_index": 22,
+      "original": {
+        "unit_id": "p32-c05",
+        "target": "標青之庫",
+        "candidates": [
+          "標青之庫"
+        ],
+        "reason": "已看p32-endphrases，暫讀標青，保留字形疑義，不借通行文辭改字。"
+      },
+      "status": "resolved",
+      "reason": "p32-cyan-new下円式形採靑，標為木票；原候選標青的青作異體字碼修正。",
+      "source": {
+        "physical_page_id": "p32",
+        "frame_id": "f18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bd8a673a-5a95-4593-b294-f31915fa91df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bd8a673a-5a95-4593-b294-f31915fa91df/full/3000,/0/default.jpg",
+        "image_sha256": "4c778a66ce4e4bfecd435ab5589d69bcdfddcb64ddd766c788126307d0e8819c",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1854,
+          490,
+          1976,
+          2085
+        ]
+      },
+      "reading": "標靑之庫"
+    },
+    {
+      "initial_uncertainty_index": 23,
+      "original": {
+        "unit_id": "p32-c06",
+        "target": "術挹濟世",
+        "candidates": [
+          "術挹濟世",
+          "術拯濟世"
+        ],
+        "reason": "已看p32-endphrases，暫讀挹，保留挹／拯字形疑義。"
+      },
+      "status": "rejected",
+      "reason": "p32-can左土右甚，原兩個候選挹／拯皆不合來源；改堪。",
+      "source": {
+        "physical_page_id": "p32",
+        "frame_id": "f18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bd8a673a-5a95-4593-b294-f31915fa91df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bd8a673a-5a95-4593-b294-f31915fa91df/full/3000,/0/default.jpg",
+        "image_sha256": "4c778a66ce4e4bfecd435ab5589d69bcdfddcb64ddd766c788126307d0e8819c",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1734,
+          490,
+          1856,
+          2085
+        ]
+      },
+      "reading": "術堪濟世"
+    },
+    {
+      "initial_uncertainty_index": 24,
+      "original": {
+        "unit_id": "p18-running-title",
+        "target": "奇症畧述",
+        "candidates": [
+          "奇症畧述"
+        ],
+        "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。"
+      },
+      "status": "unresolved",
+      "reason": "右側版心的缺筆仍未知；暫讀字串保留，不因與他面相同而解除。",
+      "source": {
+        "physical_page_id": "p18",
+        "frame_id": "f11",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2455,
+          430,
+          2535,
+          810
+        ]
+      },
+      "reading": "奇症畧述"
+    },
+    {
+      "initial_uncertainty_index": 25,
+      "original": {
+        "unit_id": "p20-running-title",
+        "target": "奇症畧述",
+        "candidates": [
+          "奇症畧述"
+        ],
+        "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。"
+      },
+      "status": "unresolved",
+      "reason": "右側版心的缺筆仍未知；暫讀字串保留，不因與他面相同而解除。",
+      "source": {
+        "physical_page_id": "p20",
+        "frame_id": "f12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2470,
+          450,
+          2545,
+          830
+        ]
+      },
+      "reading": "奇症畧述"
+    },
+    {
+      "initial_uncertainty_index": 26,
+      "original": {
+        "unit_id": "p22-running-title",
+        "target": "奇症畧述",
+        "candidates": [
+          "奇症畧述"
+        ],
+        "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。"
+      },
+      "status": "unresolved",
+      "reason": "右側版心的缺筆仍未知；暫讀字串保留，不因與他面相同而解除。",
+      "source": {
+        "physical_page_id": "p22",
+        "frame_id": "f13",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2490,
+          470,
+          2555,
+          850
+        ]
+      },
+      "reading": "奇症畧述"
+    },
+    {
+      "initial_uncertainty_index": 27,
+      "original": {
+        "unit_id": "p24-running-title",
+        "target": "奇症畧述",
+        "candidates": [
+          "奇症畧述"
+        ],
+        "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。"
+      },
+      "status": "unresolved",
+      "reason": "右側版心的缺筆仍未知；暫讀字串保留，不因與他面相同而解除。",
+      "source": {
+        "physical_page_id": "p24",
+        "frame_id": "f14",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/aa4aeaf5-d0a8-4156-8dab-34a6f560cb09.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/aa4aeaf5-d0a8-4156-8dab-34a6f560cb09/full/3000,/0/default.jpg",
+        "image_sha256": "9cef16becd738b166a7de0e43bbcac2904dd19a23244876b3c19204ed80d2265",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2485,
+          460,
+          2560,
+          850
+        ]
+      },
+      "reading": "奇症畧述"
+    },
+    {
+      "initial_uncertainty_index": 28,
+      "original": {
+        "unit_id": "p28-running-title",
+        "target": "奇症畧述",
+        "candidates": [
+          "奇症畧述"
+        ],
+        "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。"
+      },
+      "status": "unresolved",
+      "reason": "右側版心的缺筆仍未知；暫讀字串保留，不因與他面相同而解除。",
+      "source": {
+        "physical_page_id": "p28",
+        "frame_id": "f16",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/edb5b8b8-d0f9-4a82-a517-642d652b9b3d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg",
+        "image_sha256": "dc2ee5acc564fba17543fe4649621583c17b01ebc327ae958c7fd0a3370b0786",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2500,
+          470,
+          2570,
+          850
+        ]
+      },
+      "reading": "奇症畧述"
+    },
+    {
+      "initial_uncertainty_index": 29,
+      "original": {
+        "unit_id": "p30-running-title",
+        "target": "奇症畧述",
+        "candidates": [
+          "奇症畧述"
+        ],
+        "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。"
+      },
+      "status": "unresolved",
+      "reason": "右側版心的缺筆仍未知；暫讀字串保留，不因與他面相同而解除。",
+      "source": {
+        "physical_page_id": "p30",
+        "frame_id": "f17",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b4f5b197-187b-4744-95c7-0205424ceb43.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4f5b197-187b-4744-95c7-0205424ceb43/full/3000,/0/default.jpg",
+        "image_sha256": "e7ef3b29bc9f18a8fb349d1806fd1102c26c2c45268b7eb66977505c933986ea",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2500,
+          470,
+          2570,
+          850
+        ]
+      },
+      "reading": "奇症畧述"
+    },
+    {
+      "initial_uncertainty_index": 30,
+      "original": {
+        "unit_id": "p32-running-title",
+        "target": "奇症畧述",
+        "candidates": [
+          "奇症畧述"
+        ],
+        "reason": "本面右側版心受紙邊折曲及裁切遮去部分筆畫；已查該面edge原像素，保留可辨暫讀，不以他面固定字串當本面完全可見證據。"
+      },
+      "status": "unresolved",
+      "reason": "右側版心的缺筆仍未知；暫讀字串保留，不因與他面相同而解除。",
+      "source": {
+        "physical_page_id": "p32",
+        "frame_id": "f18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bd8a673a-5a95-4593-b294-f31915fa91df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bd8a673a-5a95-4593-b294-f31915fa91df/full/3000,/0/default.jpg",
+        "image_sha256": "4c778a66ce4e4bfecd435ab5589d69bcdfddcb64ddd766c788126307d0e8819c",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2455,
+          480,
+          2535,
+          850
+        ]
+      },
+      "reading": "奇症畧述"
+    },
+    {
+      "initial_uncertainty_index": 31,
+      "original": {
+        "unit_id": "p20-printed-page-number",
+        "target": "五",
+        "candidates": [
+          "五",
+          "三"
+        ],
+        "reason": "右側折邊使五的部分筆畫隱沒，原像素edge仍不全，保留暫讀與另一候選。"
+      },
+      "status": "unresolved",
+      "reason": "p20-number-new右折邊殘畫無法排除五／三。",
+      "source": {
+        "physical_page_id": "p20",
+        "frame_id": "f12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2470,
+          1640,
+          2545,
+          1810
+        ]
+      },
+      "reading": "五"
+    }
+  ],
+  "base_unit_order": [
+    "p01-c01",
+    "p01-c02",
+    "p01-imprint",
+    "p03-c01",
+    "p03-c02",
+    "p03-c03",
+    "p03-c04",
+    "p03-c05",
+    "p03-c06",
+    "p03-c07",
+    "p03-c08",
+    "p03-running-title",
+    "p04-c01",
+    "p04-c02",
+    "p04-c03",
+    "p04-c04",
+    "p04-c05",
+    "p04-c06",
+    "p04-c07",
+    "p04-running-title",
+    "p05-c01",
+    "p05-c02",
+    "p05-c03",
+    "p05-c04",
+    "p05-c05",
+    "p05-c06",
+    "p05-c07",
+    "p05-c08",
+    "p05-running-title",
+    "p05-printed-page-number",
+    "p05-section",
+    "p06-c01",
+    "p06-c02",
+    "p06-c03",
+    "p06-c04",
+    "p06-c05",
+    "p06-c06",
+    "p06-c07",
+    "p06-c08",
+    "p06-running-title",
+    "p06-printed-page-number",
+    "p06-section",
+    "p07-c01",
+    "p07-c02",
+    "p07-c03",
+    "p07-c04",
+    "p07-c05",
+    "p07-c06",
+    "p07-c07",
+    "p07-c08",
+    "p07-c09",
+    "p07-running-title",
+    "p07-printed-page-number",
+    "p07-section",
+    "p08-c01",
+    "p08-c02",
+    "p08-c03",
+    "p08-c04",
+    "p08-c05",
+    "p08-c06",
+    "p08-c07",
+    "p08-c08",
+    "p08-c09",
+    "p08-running-title",
+    "p08-printed-page-number",
+    "p08-section",
+    "p09-c01",
+    "p09-c02",
+    "p09-c03",
+    "p09-c04",
+    "p09-c05",
+    "p09-c06",
+    "p09-c07",
+    "p09-c08",
+    "p09-c09",
+    "p09-running-title",
+    "p09-printed-page-number",
+    "p09-section",
+    "p10-c01",
+    "p10-c02",
+    "p10-c03",
+    "p10-c04",
+    "p10-c05",
+    "p10-c06",
+    "p10-c07",
+    "p10-c08",
+    "p10-c09",
+    "p10-running-title",
+    "p10-printed-page-number",
+    "p10-section",
+    "p10-signature",
+    "p11-c01",
+    "p11-c02",
+    "p11-c03",
+    "p11-c04",
+    "p11-c05",
+    "p11-c06",
+    "p11-c07",
+    "p12-c01",
+    "p12-c02",
+    "p12-c03",
+    "p12-c04",
+    "p12-c05",
+    "p12-c06",
+    "p12-c07",
+    "p12-c08",
+    "p13-c01",
+    "p13-c02",
+    "p13-c03",
+    "p13-c04",
+    "p13-c05",
+    "p13-c06",
+    "p13-c07",
+    "p13-c08",
+    "p13-c09",
+    "p13-c10",
+    "p13-c11",
+    "p13-c12",
+    "p13-c13",
+    "p13-c14",
+    "p13-running-title",
+    "p13-printed-page-number",
+    "p14-c01",
+    "p14-c02",
+    "p14-c03",
+    "p14-c04",
+    "p14-c05",
+    "p14-c06",
+    "p14-c07",
+    "p14-c08",
+    "p14-c09",
+    "p14-c10",
+    "p14-c11",
+    "p14-c12",
+    "p14-c13",
+    "p14-c14",
+    "p14-c15",
+    "p14-c16",
+    "p14-c17",
+    "p14-running-title",
+    "p14-printed-page-number",
+    "p15-c01",
+    "p15-c02",
+    "p15-c03",
+    "p15-c04",
+    "p15-c05",
+    "p15-c06",
+    "p15-c07",
+    "p15-c08",
+    "p15-c09",
+    "p15-c10",
+    "p15-c11",
+    "p15-c12",
+    "p15-c13",
+    "p15-c14",
+    "p15-c15",
+    "p15-c16",
+    "p15-running-title",
+    "p15-printed-page-number",
+    "p16-c01",
+    "p16-c02",
+    "p16-c03",
+    "p16-c04",
+    "p16-c05",
+    "p16-c06",
+    "p16-c07",
+    "p16-c08",
+    "p16-c09",
+    "p16-c10",
+    "p16-c11",
+    "p16-c12",
+    "p16-c13",
+    "p16-c14",
+    "p16-c15",
+    "p16-running-title",
+    "p16-printed-page-number",
+    "p17-c01",
+    "p17-c02",
+    "p17-c03",
+    "p17-c04",
+    "p17-c05",
+    "p17-c06",
+    "p17-c07",
+    "p17-c08",
+    "p17-c09",
+    "p17-c10",
+    "p17-c11",
+    "p17-c12",
+    "p17-c13",
+    "p17-c14",
+    "p17-c15",
+    "p17-c16",
+    "p17-c17",
+    "p17-running-title",
+    "p17-printed-page-number",
+    "p18-c01",
+    "p18-c02",
+    "p18-c03",
+    "p18-c04",
+    "p18-c05",
+    "p18-c06",
+    "p18-c07",
+    "p18-c08",
+    "p18-c09",
+    "p18-c10",
+    "p18-c11",
+    "p18-c12",
+    "p18-c13",
+    "p18-c14",
+    "p18-c15",
+    "p18-c16",
+    "p18-c17",
+    "p18-running-title",
+    "p18-printed-page-number",
+    "p19-c01",
+    "p19-c02",
+    "p19-c03",
+    "p19-c04",
+    "p19-c05",
+    "p19-c06",
+    "p19-c07",
+    "p19-c08",
+    "p19-c09",
+    "p19-c10",
+    "p19-c11",
+    "p19-c12",
+    "p19-c13",
+    "p19-c14",
+    "p19-c15",
+    "p19-c16",
+    "p19-c17",
+    "p19-running-title",
+    "p19-printed-page-number",
+    "p20-c01",
+    "p20-c02",
+    "p20-c03",
+    "p20-c04",
+    "p20-c05",
+    "p20-c06",
+    "p20-c07",
+    "p20-c08",
+    "p20-c09",
+    "p20-c10",
+    "p20-c11",
+    "p20-c12",
+    "p20-c13",
+    "p20-c14",
+    "p20-c15",
+    "p20-c16",
+    "p20-running-title",
+    "p20-printed-page-number",
+    "p21-c01",
+    "p21-c02",
+    "p21-c03",
+    "p21-c04",
+    "p21-c05",
+    "p21-c06",
+    "p21-c07",
+    "p21-c08",
+    "p21-c09",
+    "p21-c10",
+    "p21-c11",
+    "p21-c12",
+    "p21-c13",
+    "p21-c14",
+    "p21-c15",
+    "p21-c16",
+    "p21-running-title",
+    "p21-printed-page-number",
+    "p22-c01",
+    "p22-c02",
+    "p22-c03",
+    "p22-c04",
+    "p22-c05",
+    "p22-c06",
+    "p22-c07",
+    "p22-c08",
+    "p22-c09",
+    "p22-c10",
+    "p22-c11",
+    "p22-c12",
+    "p22-c13",
+    "p22-c14",
+    "p22-c15",
+    "p22-c16",
+    "p22-c17",
+    "p22-running-title",
+    "p22-printed-page-number",
+    "p23-c01",
+    "p23-c02",
+    "p23-c03",
+    "p23-c04",
+    "p23-c05",
+    "p23-c06",
+    "p23-c07",
+    "p23-c08",
+    "p23-c09",
+    "p23-c10",
+    "p23-c11",
+    "p23-c12",
+    "p23-c13",
+    "p23-c14",
+    "p23-c15",
+    "p23-running-title",
+    "p23-printed-page-number",
+    "p24-c01",
+    "p24-c02",
+    "p24-c03",
+    "p24-c04",
+    "p24-c05",
+    "p24-c06",
+    "p24-c07",
+    "p24-c08",
+    "p24-c09",
+    "p24-c10",
+    "p24-c11",
+    "p24-c12",
+    "p24-c13",
+    "p24-running-title",
+    "p24-printed-page-number",
+    "p25-c01",
+    "p25-c02",
+    "p25-c03",
+    "p25-c04",
+    "p25-c05",
+    "p25-c06",
+    "p26-c01",
+    "p26-c02",
+    "p26-c03",
+    "p26-c04",
+    "p26-c05",
+    "p26-c06",
+    "p27-c01",
+    "p27-c02",
+    "p27-c03",
+    "p27-c04",
+    "p27-c05",
+    "p27-c06",
+    "p27-c07",
+    "p27-c08",
+    "p27-c09",
+    "p27-c10",
+    "p27-c11",
+    "p27-c12",
+    "p27-c13",
+    "p27-running-title",
+    "p27-printed-page-number",
+    "p28-c01",
+    "p28-c02",
+    "p28-c03",
+    "p28-c04",
+    "p28-c05",
+    "p28-c06",
+    "p28-c07",
+    "p28-c08",
+    "p28-c09",
+    "p28-c10",
+    "p28-c11",
+    "p28-c12",
+    "p28-c13",
+    "p28-running-title",
+    "p28-printed-page-number",
+    "p29-c01",
+    "p29-c02",
+    "p29-c03",
+    "p29-c04",
+    "p29-c05",
+    "p29-c06",
+    "p29-c07",
+    "p29-c08",
+    "p29-c09",
+    "p29-c10",
+    "p29-c11",
+    "p29-c12",
+    "p29-c13",
+    "p29-running-title",
+    "p29-printed-page-number",
+    "p30-running-title",
+    "p30-printed-page-number",
+    "p31-c01",
+    "p31-c02",
+    "p31-c03",
+    "p31-c04",
+    "p31-c05",
+    "p31-c06",
+    "p31-c07",
+    "p31-c08",
+    "p31-running-title",
+    "p31-printed-page-number",
+    "p32-c01",
+    "p32-c02",
+    "p32-c03",
+    "p32-c04",
+    "p32-c05",
+    "p32-c06",
+    "p32-c07",
+    "p32-c08",
+    "p32-running-title",
+    "p32-printed-page-number"
+  ],
+  "final_unit_order": [
+    "p01-c01",
+    "p01-c02",
+    "p01-imprint",
+    "p03-c01",
+    "p03-c02",
+    "p03-c03",
+    "p03-c04",
+    "p03-c05",
+    "p03-c06",
+    "p03-c07",
+    "p03-c08",
+    "p03-running-title",
+    "p04-c01",
+    "p04-c02",
+    "p04-c03",
+    "p04-c04",
+    "p04-c05",
+    "p04-c06",
+    "p04-c07",
+    "p04-running-title",
+    "p05-c01",
+    "p05-c02",
+    "p05-c03",
+    "p05-c04",
+    "p05-c05",
+    "p05-c06",
+    "p05-c07",
+    "p05-c08",
+    "p05-running-title",
+    "p05-printed-page-number",
+    "p05-section",
+    "p06-c01",
+    "p06-c02",
+    "p06-c03",
+    "p06-c04",
+    "p06-c05",
+    "p06-c06",
+    "p06-c07",
+    "p06-c08",
+    "p06-running-title",
+    "p06-printed-page-number",
+    "p06-section",
+    "p07-c01",
+    "p07-c02",
+    "p07-c03",
+    "p07-c04",
+    "p07-c05",
+    "p07-c06",
+    "p07-c07",
+    "p07-c08",
+    "p07-c09",
+    "p07-running-title",
+    "p07-printed-page-number",
+    "p07-section",
+    "p08-c01",
+    "p08-c02",
+    "p08-c03",
+    "p08-c04",
+    "p08-c05",
+    "p08-c06",
+    "p08-c07",
+    "p08-c08",
+    "p08-c09",
+    "p08-running-title",
+    "p08-printed-page-number",
+    "p08-section",
+    "p09-c01",
+    "p09-c02",
+    "p09-c03",
+    "p09-c04",
+    "p09-c05",
+    "p09-c06",
+    "p09-c07",
+    "p09-c08",
+    "p09-c09",
+    "p09-running-title",
+    "p09-printed-page-number",
+    "p09-section",
+    "p10-c01",
+    "p10-c02",
+    "p10-c03",
+    "p10-c04",
+    "p10-c05",
+    "p10-c06",
+    "p10-c07",
+    "p10-c08",
+    "p10-c09",
+    "p10-running-title",
+    "p10-printed-page-number",
+    "p10-section",
+    "p10-signature",
+    "p11-c01",
+    "p11-c02",
+    "p11-c03",
+    "p11-c04",
+    "p11-c05",
+    "p11-c06",
+    "p11-c07",
+    "p12-c01",
+    "p12-c02",
+    "p12-c03",
+    "p12-c04",
+    "p12-c05",
+    "p12-c06",
+    "p12-c07",
+    "p12-c08",
+    "p13-c01",
+    "p13-c02",
+    "p13-c03",
+    "p13-c04",
+    "p13-c05",
+    "p13-c06",
+    "p13-c07",
+    "p13-c08",
+    "p13-c09",
+    "p13-c10",
+    "p13-c11",
+    "p13-c12",
+    "p13-c13",
+    "p13-c14",
+    "p13-running-title",
+    "p13-printed-page-number",
+    "p14-c01",
+    "p14-c02",
+    "p14-c03",
+    "p14-c04",
+    "p14-c05",
+    "p14-c06",
+    "p14-c07",
+    "p14-c08",
+    "p14-c09",
+    "p14-c10",
+    "p14-c11",
+    "p14-c12",
+    "p14-c13",
+    "p14-c14",
+    "p14-c15",
+    "p14-c16",
+    "p14-c17",
+    "p14-running-title",
+    "p14-printed-page-number",
+    "p15-c01",
+    "p15-c02",
+    "p15-c03",
+    "p15-c04",
+    "p15-c05",
+    "p15-c06",
+    "p15-c07",
+    "p15-c08",
+    "p15-c09",
+    "p15-c10",
+    "p15-c11",
+    "p15-c12",
+    "p15-c13",
+    "p15-c14",
+    "p15-c15",
+    "p15-c16",
+    "p15-running-title",
+    "p15-printed-page-number",
+    "p16-c01",
+    "p16-c02",
+    "p16-c03",
+    "p16-c04",
+    "p16-c05",
+    "p16-c06",
+    "p16-c07",
+    "p16-c08",
+    "p16-c09",
+    "p16-c10",
+    "p16-c11",
+    "p16-c12",
+    "p16-c13",
+    "p16-c14",
+    "p16-c15",
+    "p16-running-title",
+    "p16-printed-page-number",
+    "p17-c01",
+    "p17-c02",
+    "p17-c03",
+    "p17-c04",
+    "p17-c05",
+    "p17-c06",
+    "p17-c07",
+    "p17-c08",
+    "p17-c09",
+    "p17-c10",
+    "p17-c11",
+    "p17-c12",
+    "p17-c13",
+    "p17-c14",
+    "p17-c15",
+    "p17-c16",
+    "p17-c17",
+    "p17-running-title",
+    "p17-printed-page-number",
+    "p18-c01",
+    "p18-c02",
+    "p18-c03",
+    "p18-c04",
+    "p18-c05",
+    "p18-c06",
+    "p18-c07",
+    "p18-c08",
+    "p18-c09",
+    "p18-c10",
+    "p18-c11",
+    "p18-c12",
+    "p18-c13",
+    "p18-c14",
+    "p18-c15",
+    "p18-c16",
+    "p18-c17",
+    "p18-running-title",
+    "p18-printed-page-number",
+    "p19-c01",
+    "p19-c02",
+    "p19-c03",
+    "p19-c04",
+    "p19-c05",
+    "p19-c06",
+    "p19-c07",
+    "p19-c08",
+    "p19-c09",
+    "p19-c10",
+    "p19-c11",
+    "p19-c12",
+    "p19-c13",
+    "p19-c14",
+    "p19-c15",
+    "p19-c16",
+    "p19-c17",
+    "p19-running-title",
+    "p19-printed-page-number",
+    "p20-c01",
+    "p20-c02",
+    "p20-c03",
+    "p20-c04",
+    "p20-c05",
+    "p20-c06",
+    "p20-c07",
+    "p20-c08",
+    "p20-c09",
+    "p20-c10",
+    "p20-c11",
+    "p20-c12",
+    "p20-c13",
+    "p20-c14",
+    "p20-c15",
+    "p20-c16",
+    "p20-running-title",
+    "p20-printed-page-number",
+    "p21-c01",
+    "p21-c02",
+    "p21-c03",
+    "p21-c04",
+    "p21-c05",
+    "p21-c06",
+    "p21-c07",
+    "p21-c08",
+    "p21-c09",
+    "p21-c10",
+    "p21-c11",
+    "p21-c12",
+    "p21-c13",
+    "p21-c14",
+    "p21-c15",
+    "p21-c16",
+    "p21-running-title",
+    "p21-printed-page-number",
+    "p22-c01",
+    "p22-c02",
+    "p22-c03",
+    "p22-c04",
+    "p22-c05",
+    "p22-c06",
+    "p22-c07",
+    "p22-c08",
+    "p22-c09",
+    "p22-c10",
+    "p22-c11",
+    "p22-c12",
+    "p22-c13",
+    "p22-c14",
+    "p22-c15",
+    "p22-c16",
+    "p22-c17",
+    "p22-running-title",
+    "p22-printed-page-number",
+    "p23-c01",
+    "p23-c02",
+    "p23-c03",
+    "p23-c04",
+    "p23-c05",
+    "p23-c06",
+    "p23-c07",
+    "p23-c08",
+    "p23-c09",
+    "p23-c10",
+    "p23-add01",
+    "p23-c11",
+    "p23-c12",
+    "p23-c13",
+    "p23-c14",
+    "p23-c15",
+    "p23-running-title",
+    "p23-printed-page-number",
+    "p24-c01",
+    "p24-c02",
+    "p24-c03",
+    "p24-c04",
+    "p24-c05",
+    "p24-c06",
+    "p24-c07",
+    "p24-c08",
+    "p24-c09",
+    "p24-c10",
+    "p24-c11",
+    "p24-c12",
+    "p24-c13",
+    "p24-running-title",
+    "p24-printed-page-number",
+    "p25-c01",
+    "p25-c02",
+    "p25-c03",
+    "p25-c04",
+    "p25-c05",
+    "p25-c06",
+    "p26-c01",
+    "p26-c02",
+    "p26-c03",
+    "p26-c04",
+    "p26-c05",
+    "p26-c06",
+    "p27-c01",
+    "p27-c02",
+    "p27-c03",
+    "p27-c04",
+    "p27-c05",
+    "p27-c06",
+    "p27-c07",
+    "p27-c08",
+    "p27-c09",
+    "p27-c10",
+    "p27-c11",
+    "p27-c12",
+    "p27-c13",
+    "p27-running-title",
+    "p27-printed-page-number",
+    "p28-c01",
+    "p28-c02",
+    "p28-c03",
+    "p28-c04",
+    "p28-c05",
+    "p28-c06",
+    "p28-c07",
+    "p28-c08",
+    "p28-c09",
+    "p28-c10",
+    "p28-c11",
+    "p28-c12",
+    "p28-c13",
+    "p28-running-title",
+    "p29-c01",
+    "p29-c02",
+    "p29-c03",
+    "p29-c04",
+    "p29-c05",
+    "p29-c06",
+    "p29-c07",
+    "p29-c08",
+    "p29-c09",
+    "p29-c10",
+    "p29-c11",
+    "p29-c12",
+    "p29-c13",
+    "p29-running-title",
+    "p29-printed-page-number",
+    "p30-running-title",
+    "p30-printed-page-number",
+    "p31-c01",
+    "p31-c02",
+    "p31-c03",
+    "p31-c04",
+    "p31-c05",
+    "p31-c06",
+    "p31-c07",
+    "p31-c08",
+    "p31-running-title",
+    "p31-printed-page-number",
+    "p32-c01",
+    "p32-c02",
+    "p32-c03",
+    "p32-c04",
+    "p32-c05",
+    "p32-c06",
+    "p32-c07",
+    "p32-c08",
+    "p32-running-title"
+  ],
+  "uncertainties": [
+    {
+      "page_id": "f02",
+      "id": "unc-0001",
+      "unit_id": "p01-imprint",
+      "start": 2,
+      "end": 4,
+      "surface": "穀埠",
+      "reason": "刊印處前兩字刻形古拙且分欄，已另看原像素局部；穀字內部細筆仍需覆核。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "穀埠",
+        "殼埠"
+      ]
+    },
+    {
+      "page_id": "f03",
+      "id": "unc-0007",
+      "unit_id": "p03-c07",
+      "start": 11,
+      "end": 14,
+      "surface": "砂淋蟲",
+      "reason": "原字左部石／氵形仍未定；不按病名或上下文補字。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "砂淋蟲",
+        "砂碄蟲"
+      ]
+    },
+    {
+      "page_id": "f04",
+      "id": "unc-0008",
+      "unit_id": "p05-c08",
+      "start": 12,
+      "end": 13,
+      "surface": "痲",
+      "reason": "原字內細筆與兩字元的對應未定，保留痲暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "痲",
+        "痳"
+      ]
+    },
+    {
+      "page_id": "f05",
+      "id": "unc-0002",
+      "unit_id": "p06-c04",
+      "start": 15,
+      "end": 18,
+      "surface": "者歷有",
+      "reason": "歷字刻形左上為廠形且內部簡筆，先暫錄歷，未作異體正規化。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "者歷有",
+        "者厯有"
+      ]
+    },
+    {
+      "page_id": "f05",
+      "id": "unc-0006",
+      "unit_id": "p06-c01",
+      "start": 15,
+      "end": 18,
+      "surface": "勇鬪狠",
+      "reason": "已看原像素局部，鬥字異體外框及內部近豆寸，暫錄鬪，保留闘／鬭之辨；不自動正規化為鬥。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "勇鬪狠",
+        "勇闘狠",
+        "勇鬭狠"
+      ]
+    },
+    {
+      "page_id": "f05",
+      "id": "unc-0009",
+      "unit_id": "p07-c08",
+      "start": 6,
+      "end": 8,
+      "surface": "顛頓",
+      "reason": "細密字形的部件仍難穩定辨別，保留初錄為暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "顛頓",
+        "嚬顒",
+        "顒顒"
+      ]
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-0010",
+      "unit_id": "p09-c09",
+      "start": 16,
+      "end": 17,
+      "surface": "辨",
+      "reason": "中央細筆的字元對應仍未定，維持原讀辨。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "辨",
+        "辦"
+      ]
+    },
+    {
+      "page_id": "f07",
+      "id": "unc-0003",
+      "unit_id": "p10-c07",
+      "start": 16,
+      "end": 18,
+      "surface": "穀埠",
+      "reason": "地址穀字內部細筆古刻，已依實見暫錄，與題署各處分別保留覆核。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "穀埠",
+        "殼埠"
+      ]
+    },
+    {
+      "page_id": "f08",
+      "id": "unc-0004",
+      "unit_id": "p13-c03",
+      "start": 5,
+      "end": 7,
+      "surface": "膀胱",
+      "reason": "第二字右部光形古刻近兌，已看原像素局部，暫錄胱；未以醫學常識自動替字。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "膀胱",
+        "膀脱"
+      ]
+    },
+    {
+      "page_id": "f08",
+      "id": "unc-0011",
+      "unit_id": "p13-c05",
+      "start": 15,
+      "end": 16,
+      "surface": "即",
+      "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f08",
+      "id": "unc-0012",
+      "unit_id": "p13-c07",
+      "start": 24,
+      "end": 25,
+      "surface": "即",
+      "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f09",
+      "id": "unc-0005",
+      "unit_id": "p15-c03",
+      "start": 8,
+      "end": 11,
+      "surface": "如獸子",
+      "reason": "如後字細密，已看原像素局部，暫按可見獸形，仍需覆核。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "如獸子",
+        "如獃子"
+      ]
+    },
+    {
+      "page_id": "f09",
+      "id": "unc-0013",
+      "unit_id": "p15-c10",
+      "start": 26,
+      "end": 27,
+      "surface": "即",
+      "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f09",
+      "id": "unc-0014",
+      "unit_id": "p15-c14",
+      "start": 21,
+      "end": 22,
+      "surface": "即",
+      "reason": "左部古刻細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0015",
+      "unit_id": "p16-c12",
+      "start": 18,
+      "end": 19,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0016",
+      "unit_id": "p16-c15",
+      "start": 5,
+      "end": 6,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0017",
+      "unit_id": "p17-c04",
+      "start": 3,
+      "end": 4,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0018",
+      "unit_id": "p17-c07",
+      "start": 4,
+      "end": 5,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0019",
+      "unit_id": "p17-c10",
+      "start": 29,
+      "end": 30,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0020",
+      "unit_id": "p17-c11",
+      "start": 16,
+      "end": 17,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0021",
+      "unit_id": "p17-c17",
+      "start": 10,
+      "end": 11,
+      "surface": "即",
+      "reason": "本欄古刻左部細筆的即／卽字元對應未定，保留初錄暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即",
+        "卽"
+      ]
+    },
+    {
+      "page_id": "f11",
+      "id": "unc-0028",
+      "unit_id": "p18-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "奇症畧述",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
+      "candidates": [
+        "奇症畧述"
+      ]
+    },
+    {
+      "page_id": "f12",
+      "id": "unc-0022",
+      "unit_id": "p20-c16",
+      "start": 23,
+      "end": 25,
+      "surface": "迨於",
+      "reason": "本面末欄迨／迫字頂部與內橫連筆有歧義；原像素及3倍最近鄰回看仍未定。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "迨於",
+        "迫於"
+      ]
+    },
+    {
+      "page_id": "f12",
+      "id": "unc-0023",
+      "unit_id": "p21-c01",
+      "start": 26,
+      "end": 28,
+      "surface": "剰些",
+      "reason": "來源左部禾、乘／乗的短橫與點畫接近；暫保留初錄剰，不用現代慣字替換。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "剰些",
+        "剩些"
+      ]
+    },
+    {
+      "page_id": "f12",
+      "id": "unc-0029",
+      "unit_id": "p20-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "奇症畧述",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
+      "candidates": [
+        "奇症畧述"
+      ]
+    },
+    {
+      "page_id": "f12",
+      "id": "unc-0035",
+      "unit_id": "p20-printed-page-number",
+      "start": 0,
+      "end": 1,
+      "surface": "五",
+      "reason": "p20-number-new折邊剩橫畫與右部連接，不足排除五或三；保留原暫讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
+      "candidates": [
+        "五",
+        "三"
+      ]
+    },
+    {
+      "page_id": "f13",
+      "id": "unc-0030",
+      "unit_id": "p22-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "奇症畧述",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
+      "candidates": [
+        "奇症畧述"
+      ]
+    },
+    {
+      "page_id": "f14",
+      "id": "unc-0024",
+      "unit_id": "p24-c03",
+      "start": 0,
+      "end": 3,
+      "surface": "曾仕長",
+      "reason": "姓名首字頂部撇點、田與日的接合有曾／會之辨；本輪整數原像素3倍回看仍保留疑義。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "曾仕長",
+        "會仕長"
+      ]
+    },
+    {
+      "page_id": "f14",
+      "id": "unc-0031",
+      "unit_id": "p24-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "奇症畧述",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
+      "candidates": [
+        "奇症畧述"
+      ]
+    },
+    {
+      "page_id": "f16",
+      "id": "unc-0025",
+      "unit_id": "p28-c07",
+      "start": 6,
+      "end": 10,
+      "surface": "即日搏固",
+      "reason": "扌右部頂點與甫／專內筆接合在目前像素中仍不確定。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "即日搏固",
+        "即日摶固"
+      ]
+    },
+    {
+      "page_id": "f16",
+      "id": "unc-0026",
+      "unit_id": "p28-c09",
+      "start": 28,
+      "end": 30,
+      "surface": "迨於",
+      "reason": "左部已確認辶，排除初錄治；台／白右部上端的連筆仍待核。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "known",
+      "candidates": [
+        "迨於",
+        "迫於"
+      ]
+    },
+    {
+      "page_id": "f16",
+      "id": "unc-0032",
+      "unit_id": "p28-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "奇症畧述",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
+      "candidates": [
+        "奇症畧述"
+      ]
+    },
+    {
+      "page_id": "f17",
+      "id": "unc-0027",
+      "unit_id": "p30-printed-page-number",
+      "start": 0,
+      "end": 1,
+      "surface": "九",
+      "reason": "右折邊隱沒部分收筆，僅依本面可見曲斜筆暫讀九，無法視為完整字形確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
+      "candidates": [
+        "九"
+      ]
+    },
+    {
+      "page_id": "f17",
+      "id": "unc-0033",
+      "unit_id": "p30-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "奇症畧述",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
+      "candidates": [
+        "奇症畧述"
+      ]
+    },
+    {
+      "page_id": "f18",
+      "id": "unc-0034",
+      "unit_id": "p32-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "奇症畧述",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+      "extent": "located-unit",
+      "candidates": [
+        "奇症畧述"
+      ]
+    }
+  ],
+  "unresolved_source_regions": [
+    {
+      "id": "p03-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p03-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p03",
+        "frame_id": "f03",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2571268e-04f5-492c-ae8b-2449577fefb0.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2571268e-04f5-492c-ae8b-2449577fefb0/full/3000,/0/default.jpg",
+        "image_sha256": "5994f82096d084298cca5d9d429eb7ebeae979b58e6b415f865c5c5a3511b6cc",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          380,
+          510,
+          930
+        ]
+      }
+    },
+    {
+      "id": "p04-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p04-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p04",
+        "frame_id": "f04",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/05a234d5-ace0-4722-836f-156bf11190df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/05a234d5-ace0-4722-836f-156bf11190df/full/3000,/0/default.jpg",
+        "image_sha256": "429b507d5e515b117f3254a451a5334635ce65c287fd1ca5ffb1abb76890db89",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2445,
+          365,
+          2575,
+          960
+        ]
+      }
+    },
+    {
+      "id": "p05-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p05-running-title",
+        "p05-section"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p05",
+        "frame_id": "f04",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/05a234d5-ace0-4722-836f-156bf11190df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/05a234d5-ace0-4722-836f-156bf11190df/full/3000,/0/default.jpg",
+        "image_sha256": "429b507d5e515b117f3254a451a5334635ce65c287fd1ca5ffb1abb76890db89",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          380,
+          510,
+          930
+        ]
+      }
+    },
+    {
+      "id": "p05-folio-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p05-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面外緣頁碼殘筆已看；暫讀不等於完整數字，未以頁序或另一稿補入十。",
+      "source": {
+        "physical_page_id": "p05",
+        "frame_id": "f04",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/05a234d5-ace0-4722-836f-156bf11190df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/05a234d5-ace0-4722-836f-156bf11190df/full/3000,/0/default.jpg",
+        "image_sha256": "429b507d5e515b117f3254a451a5334635ce65c287fd1ca5ffb1abb76890db89",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          1520,
+          505,
+          1880
+        ]
+      }
+    },
+    {
+      "id": "p06-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p06-running-title",
+        "p06-section"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p06",
+        "frame_id": "f05",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d08cc152-11eb-42ac-ae8f-dee92f0c478d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d08cc152-11eb-42ac-ae8f-dee92f0c478d/full/3000,/0/default.jpg",
+        "image_sha256": "70a1ce6ccc67d8e8c2bee0f8f3b4361db91589a808200bc0f6b114657e1e21cf",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2445,
+          365,
+          2575,
+          960
+        ]
+      }
+    },
+    {
+      "id": "p07-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p07-running-title",
+        "p07-section"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p07",
+        "frame_id": "f05",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d08cc152-11eb-42ac-ae8f-dee92f0c478d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d08cc152-11eb-42ac-ae8f-dee92f0c478d/full/3000,/0/default.jpg",
+        "image_sha256": "70a1ce6ccc67d8e8c2bee0f8f3b4361db91589a808200bc0f6b114657e1e21cf",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          380,
+          510,
+          930
+        ]
+      }
+    },
+    {
+      "id": "p07-folio-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p07-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面外緣頁碼殘筆已看；暫讀不等於完整數字，未以頁序或另一稿補入十。",
+      "source": {
+        "physical_page_id": "p07",
+        "frame_id": "f05",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d08cc152-11eb-42ac-ae8f-dee92f0c478d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d08cc152-11eb-42ac-ae8f-dee92f0c478d/full/3000,/0/default.jpg",
+        "image_sha256": "70a1ce6ccc67d8e8c2bee0f8f3b4361db91589a808200bc0f6b114657e1e21cf",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          1520,
+          505,
+          1880
+        ]
+      }
+    },
+    {
+      "id": "p08-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p08-running-title",
+        "p08-section"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p08",
+        "frame_id": "f06",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5f03fb69-8f07-4acc-8070-90600727dbe3.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5f03fb69-8f07-4acc-8070-90600727dbe3/full/3000,/0/default.jpg",
+        "image_sha256": "681a927a6a02384d971e952c52e169a124ff246f7754b957fe5f5e333590468d",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2445,
+          365,
+          2575,
+          960
+        ]
+      }
+    },
+    {
+      "id": "p09-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p09-running-title",
+        "p09-section"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p09",
+        "frame_id": "f06",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5f03fb69-8f07-4acc-8070-90600727dbe3.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5f03fb69-8f07-4acc-8070-90600727dbe3/full/3000,/0/default.jpg",
+        "image_sha256": "681a927a6a02384d971e952c52e169a124ff246f7754b957fe5f5e333590468d",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          380,
+          510,
+          930
+        ]
+      }
+    },
+    {
+      "id": "p09-folio-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p09-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面外緣頁碼殘筆已看；暫讀不等於完整數字，未以頁序或另一稿補入十。",
+      "source": {
+        "physical_page_id": "p09",
+        "frame_id": "f06",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5f03fb69-8f07-4acc-8070-90600727dbe3.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5f03fb69-8f07-4acc-8070-90600727dbe3/full/3000,/0/default.jpg",
+        "image_sha256": "681a927a6a02384d971e952c52e169a124ff246f7754b957fe5f5e333590468d",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          1520,
+          505,
+          1880
+        ]
+      }
+    },
+    {
+      "id": "p10-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p10-running-title",
+        "p10-section"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p10",
+        "frame_id": "f07",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c25005a4-2d94-4486-a967-a885a8abfc76.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c25005a4-2d94-4486-a967-a885a8abfc76/full/3000,/0/default.jpg",
+        "image_sha256": "d3946a9d9271622aaec2f4b686663fa5ad1e5bb489a113f0892672c0383bb954",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2445,
+          365,
+          2575,
+          960
+        ]
+      }
+    },
+    {
+      "id": "p13-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p13-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p13",
+        "frame_id": "f08",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52/full/3000,/0/default.jpg",
+        "image_sha256": "11d1b2df241f4e9449761b2efd1a6b5cdc6bc216c6baaabbcb146b8706fd02d4",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          380,
+          510,
+          930
+        ]
+      }
+    },
+    {
+      "id": "p13-folio-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p13-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面外緣頁碼殘筆已看；暫讀不等於完整數字，未以頁序或另一稿補入十。",
+      "source": {
+        "physical_page_id": "p13",
+        "frame_id": "f08",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52/full/3000,/0/default.jpg",
+        "image_sha256": "11d1b2df241f4e9449761b2efd1a6b5cdc6bc216c6baaabbcb146b8706fd02d4",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          1520,
+          505,
+          1880
+        ]
+      }
+    },
+    {
+      "id": "p14-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p14-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p14",
+        "frame_id": "f09",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24/full/3000,/0/default.jpg",
+        "image_sha256": "c8ae1af9b0782205ea4009bccc4041b3ba1d7749dac027644bf4156d568f6e55",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2445,
+          365,
+          2575,
+          960
+        ]
+      }
+    },
+    {
+      "id": "p14-folio-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p14-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面外緣頁碼殘筆已看；暫讀不等於完整數字，未以頁序或另一稿補入十。",
+      "source": {
+        "physical_page_id": "p14",
+        "frame_id": "f09",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24/full/3000,/0/default.jpg",
+        "image_sha256": "c8ae1af9b0782205ea4009bccc4041b3ba1d7749dac027644bf4156d568f6e55",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2440,
+          1500,
+          2580,
+          1880
+        ]
+      }
+    },
+    {
+      "id": "p15-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p15-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p15",
+        "frame_id": "f09",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24/full/3000,/0/default.jpg",
+        "image_sha256": "c8ae1af9b0782205ea4009bccc4041b3ba1d7749dac027644bf4156d568f6e55",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          380,
+          510,
+          930
+        ]
+      }
+    },
+    {
+      "id": "p15-folio-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p15-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面外緣頁碼殘筆已看；暫讀不等於完整數字，未以頁序或另一稿補入十。",
+      "source": {
+        "physical_page_id": "p15",
+        "frame_id": "f09",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24/full/3000,/0/default.jpg",
+        "image_sha256": "c8ae1af9b0782205ea4009bccc4041b3ba1d7749dac027644bf4156d568f6e55",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          1520,
+          505,
+          1880
+        ]
+      }
+    },
+    {
+      "id": "p16-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p16-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p16",
+        "frame_id": "f10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "image_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2445,
+          365,
+          2575,
+          960
+        ]
+      }
+    },
+    {
+      "id": "p16-folio-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p16-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面外緣頁碼殘筆已看；暫讀不等於完整數字，未以頁序或另一稿補入十。",
+      "source": {
+        "physical_page_id": "p16",
+        "frame_id": "f10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "image_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2440,
+          1500,
+          2580,
+          1880
+        ]
+      }
+    },
+    {
+      "id": "p17-running-title-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p17-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面版心字在物理外緣受截限；保留初錄暫識，整體缺筆及範圍未知，不據鄰面補字。",
+      "source": {
+        "physical_page_id": "p17",
+        "frame_id": "f10",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "image_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          380,
+          510,
+          930
+        ]
+      }
+    },
+    {
+      "id": "p17-folio-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p17-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原面外緣頁碼殘筆已看；暫讀不等於完整數字，未以頁序或另一稿補入十。",
+      "source": {
+        "physical_page_id": "p17",
+        "frame_id": "f10",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "image_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          370,
+          1520,
+          505,
+          1880
+        ]
+      }
+    },
+    {
+      "id": "p12-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "原完整f08與狹窄、擴大視窗均已回看；原印／透印／鄰邊歸屬及字形範圍仍未知，不造字、不置占位符、不推缺字數。",
+      "source": {
+        "physical_page_id": "p12",
+        "frame_id": "f08",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4f220f61-ef4a-47fe-91eb-9d0cd6ffba52/full/3000,/0/default.jpg",
+        "image_sha256": "11d1b2df241f4e9449761b2efd1a6b5cdc6bc216c6baaabbcb146b8706fd02d4",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2450,
+          390,
+          2530,
+          900
+        ]
+      }
+    },
+    {
+      "id": "p16-date-point-region",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p16-c01"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "六月十一日旁實見三角狀墨點，原刻點或其他墨痕的歸屬未定，未加入文字。",
+      "source": {
+        "physical_page_id": "p16",
+        "frame_id": "f10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "image_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2425,
+          1325,
+          2450,
+          1390
+        ]
+      }
+    },
+    {
+      "id": "p18-title-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p18-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "source": {
+        "physical_page_id": "p18",
+        "frame_id": "f11",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4b7332e-164a-41fe-b35e-16973e5fe8df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4b7332e-164a-41fe-b35e-16973e5fe8df/full/3000,/0/default.jpg",
+        "image_sha256": "c9f1d292287e244aeff5473b3514b236c74f0fc0e32f883506baf23b952debdd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2455,
+          430,
+          2535,
+          810
+        ]
+      }
+    },
+    {
+      "id": "p20-title-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p20-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "source": {
+        "physical_page_id": "p20",
+        "frame_id": "f12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2470,
+          450,
+          2545,
+          830
+        ]
+      }
+    },
+    {
+      "id": "p22-title-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p22-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "source": {
+        "physical_page_id": "p22",
+        "frame_id": "f13",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "image_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2490,
+          470,
+          2555,
+          850
+        ]
+      }
+    },
+    {
+      "id": "p24-title-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p24-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "source": {
+        "physical_page_id": "p24",
+        "frame_id": "f14",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/aa4aeaf5-d0a8-4156-8dab-34a6f560cb09.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/aa4aeaf5-d0a8-4156-8dab-34a6f560cb09/full/3000,/0/default.jpg",
+        "image_sha256": "9cef16becd738b166a7de0e43bbcac2904dd19a23244876b3c19204ed80d2265",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2485,
+          460,
+          2560,
+          850
+        ]
+      }
+    },
+    {
+      "id": "p28-title-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p28-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "source": {
+        "physical_page_id": "p28",
+        "frame_id": "f16",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/edb5b8b8-d0f9-4a82-a517-642d652b9b3d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg",
+        "image_sha256": "dc2ee5acc564fba17543fe4649621583c17b01ebc327ae958c7fd0a3370b0786",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2500,
+          470,
+          2570,
+          850
+        ]
+      }
+    },
+    {
+      "id": "p30-title-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p30-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "source": {
+        "physical_page_id": "p30",
+        "frame_id": "f17",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b4f5b197-187b-4744-95c7-0205424ceb43.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4f5b197-187b-4744-95c7-0205424ceb43/full/3000,/0/default.jpg",
+        "image_sha256": "e7ef3b29bc9f18a8fb349d1806fd1102c26c2c45268b7eb66977505c933986ea",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2500,
+          470,
+          2570,
+          850
+        ]
+      }
+    },
+    {
+      "id": "p32-title-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p32-running-title"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "本面右側折邊遮失部分原印筆畫；可見田在各上採畧，暫保留奇症畧述，但不可把暫讀字串當完整來源確證。",
+      "source": {
+        "physical_page_id": "p32",
+        "frame_id": "f18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bd8a673a-5a95-4593-b294-f31915fa91df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bd8a673a-5a95-4593-b294-f31915fa91df/full/3000,/0/default.jpg",
+        "image_sha256": "4c778a66ce4e4bfecd435ab5589d69bcdfddcb64ddd766c788126307d0e8819c",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2455,
+          480,
+          2535,
+          850
+        ]
+      }
+    },
+    {
+      "id": "p20-number-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p20-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "p20-number-new折邊剩橫畫與右部連接，不足排除五或三；保留原暫讀。",
+      "source": {
+        "physical_page_id": "p20",
+        "frame_id": "f12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6b76f3-aef8-4d86-8a9a-5faeffeb960d/full/3000,/0/default.jpg",
+        "image_sha256": "9ecf50341a5f8da3d95a81b7338a82fccb1dfc1676e28a631174bf240391b7af",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2470,
+          1640,
+          2545,
+          1810
+        ]
+      }
+    },
+    {
+      "id": "p28-number-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p28-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "p28-edge-number2僅餘上方橫／下方斜筆及折邊，無完整八字形，撤回初錄八；原位另列source-region，字數未知。",
+      "source": {
+        "physical_page_id": "p28",
+        "frame_id": "f16",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/edb5b8b8-d0f9-4a82-a517-642d652b9b3d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg",
+        "image_sha256": "dc2ee5acc564fba17543fe4649621583c17b01ebc327ae958c7fd0a3370b0786",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2470,
+          1620,
+          2570,
+          1850
+        ]
+      }
+    },
+    {
+      "id": "p30-number-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p30-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "p30-number-new仍有九形斜曲筆，右端被折邊隱沒，僅暫讀九，未知筆畫另列source-region。",
+      "source": {
+        "physical_page_id": "p30",
+        "frame_id": "f17",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b4f5b197-187b-4744-95c7-0205424ceb43.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4f5b197-187b-4744-95c7-0205424ceb43/full/3000,/0/default.jpg",
+        "image_sha256": "e7ef3b29bc9f18a8fb349d1806fd1102c26c2c45268b7eb66977505c933986ea",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2470,
+          1620,
+          2570,
+          1850
+        ]
+      }
+    },
+    {
+      "id": "p32-number-edge-unknown",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p32-printed-page-number"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "p32-number-new保有折邊殘斜筆與上橫，無完整八字形，撤回初錄八另列來源未知區，不推頁序。",
+      "source": {
+        "physical_page_id": "p32",
+        "frame_id": "f18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bd8a673a-5a95-4593-b294-f31915fa91df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bd8a673a-5a95-4593-b294-f31915fa91df/full/3000,/0/default.jpg",
+        "image_sha256": "4c778a66ce4e4bfecd435ab5589d69bcdfddcb64ddd766c788126307d0e8819c",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2430,
+          1620,
+          2530,
+          1850
+        ]
+      }
+    },
+    {
+      "id": "p31-help-inkloss",
+      "unit_id": null,
+      "related_unit_ids": [
+        "p31-c03"
+      ],
+      "kind": "unresolved-source-region",
+      "extent": "unknown",
+      "text": null,
+      "missing_character_count": null,
+      "text_added": false,
+      "status": "reviewed-unresolved-source",
+      "reason": "現有殘筆可作帮助暨裝口暫讀；缺墨筆畫本身未獲完整恢復，不估缺字數。",
+      "source": {
+        "physical_page_id": "p31",
+        "frame_id": "f17",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b4f5b197-187b-4744-95c7-0205424ceb43.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4f5b197-187b-4744-95c7-0205424ceb43/full/3000,/0/default.jpg",
+        "image_sha256": "e7ef3b29bc9f18a8fb349d1806fd1102c26c2c45268b7eb66977505c933986ea",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1080,
+          700,
+          1190,
+          1110
+        ]
+      }
+    }
+  ],
+  "observed_source_region_dispositions": [
+    {
+      "id": "p06-folio-region",
+      "related_unit_ids": [
+        "p06-printed-page-number"
+      ],
+      "status": "reviewed",
+      "extent": "observed-visible",
+      "reason": "本面頁碼可見筆畫已核；只記實見值，不外推前後頁。",
+      "text": null,
+      "missing_character_count": null,
+      "source": {
+        "physical_page_id": "p06",
+        "frame_id": "f05",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d08cc152-11eb-42ac-ae8f-dee92f0c478d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d08cc152-11eb-42ac-ae8f-dee92f0c478d/full/3000,/0/default.jpg",
+        "image_sha256": "70a1ce6ccc67d8e8c2bee0f8f3b4361db91589a808200bc0f6b114657e1e21cf",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2440,
+          1500,
+          2580,
+          1880
+        ]
+      }
+    },
+    {
+      "id": "p08-folio-region",
+      "related_unit_ids": [
+        "p08-printed-page-number"
+      ],
+      "status": "reviewed",
+      "extent": "observed-visible",
+      "reason": "本面頁碼可見筆畫已核；只記實見值，不外推前後頁。",
+      "text": null,
+      "missing_character_count": null,
+      "source": {
+        "physical_page_id": "p08",
+        "frame_id": "f06",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5f03fb69-8f07-4acc-8070-90600727dbe3.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5f03fb69-8f07-4acc-8070-90600727dbe3/full/3000,/0/default.jpg",
+        "image_sha256": "681a927a6a02384d971e952c52e169a124ff246f7754b957fe5f5e333590468d",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2440,
+          1500,
+          2580,
+          1880
+        ]
+      }
+    },
+    {
+      "id": "p10-folio-region",
+      "related_unit_ids": [
+        "p10-printed-page-number"
+      ],
+      "status": "reviewed",
+      "extent": "observed-visible",
+      "reason": "本面頁碼可見筆畫已核；只記實見值，不外推前後頁。",
+      "text": null,
+      "missing_character_count": null,
+      "source": {
+        "physical_page_id": "p10",
+        "frame_id": "f07",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c25005a4-2d94-4486-a967-a885a8abfc76.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c25005a4-2d94-4486-a967-a885a8abfc76/full/3000,/0/default.jpg",
+        "image_sha256": "d3946a9d9271622aaec2f4b686663fa5ad1e5bb489a113f0892672c0383bb954",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          2440,
+          1500,
+          2580,
+          1880
+        ]
+      }
+    },
+    {
+      "id": "p17-note-ending-region",
+      "related_unit_ids": [
+        "p17-c12"
+      ],
+      "status": "reviewed-preserved",
+      "extent": "observed-stop",
+      "reason": "小註第一百零之下至底框留白；保存實見止處，不推漏印原因或缺字數。",
+      "text": null,
+      "missing_character_count": null,
+      "source": {
+        "physical_page_id": "p17",
+        "frame_id": "f10",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/733c1045-757a-47ed-9c70-510f1cefa470.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "image_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          810,
+          1780,
+          920,
+          2080
+        ]
+      }
+    }
+  ],
+  "excluded_non_original_trace_notes": [
+    {
+      "id": "f18-cover-trace-unknown",
+      "status": "excluded-trace-unknown",
+      "extent": "unknown",
+      "text": null,
+      "text_added": false,
+      "missing_character_count": null,
+      "reason": "全幅回看無可辨原印書文；淡痕年代與性質未定，不造文字單位。",
+      "source": {
+        "frame_id": "f18",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bd8a673a-5a95-4593-b294-f31915fa91df.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bd8a673a-5a95-4593-b294-f31915fa91df/full/3000,/0/default.jpg",
+        "image_sha256": "4c778a66ce4e4bfecd435ab5589d69bcdfddcb64ddd766c788126307d0e8819c",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          410,
+          240,
+          1470,
+          2220
+        ]
+      }
+    },
+    {
+      "id": "f19-cover-trace-unknown",
+      "status": "excluded-trace-unknown",
+      "extent": "unknown",
+      "text": null,
+      "text_added": false,
+      "missing_character_count": null,
+      "reason": "全幅回看無可辨原印書文；淡痕年代與性質未定，不造文字單位。",
+      "source": {
+        "frame_id": "f19",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3cac1fcb-945f-4054-a90b-86379ffd265e.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3cac1fcb-945f-4054-a90b-86379ffd265e/full/3000,/0/default.jpg",
+        "image_sha256": "430d73d04f300bc6007644475fd29dafeeb50f0aefaac590453a7015e77448cd",
+        "width": 3000,
+        "height": 2627,
+        "bbox": [
+          1330,
+          210,
+          2550,
+          2230
+        ]
+      }
+    }
+  ],
+  "source_region_disposition_summary": {
+    "target_unresolved": 35,
+    "observed_resolved_or_preserved": 4,
+    "excluded_non_original_trace_unknown": 2,
+    "all_reviewed_dispositions": 41
+  },
+  "metrics": {
+    "canvases": 19,
+    "target_physical_faces": 31,
+    "main_units": 342,
+    "metadata_units": 56,
+    "units": 398,
+    "codepoints": 6536,
+    "original_print_units": 398,
+    "original_print_codepoints": 6536,
+    "modern_description_units": 0,
+    "uncertainty_records": 35,
+    "unresolved_source_regions": 35,
+    "pending": 0,
+    "square_placeholders": 0,
+    "changed_unit_strings": 47,
+    "added_units": 1,
+    "removed_units": 2,
+    "split_added_units": 1,
+    "initial_uncertainties_with_disposition": 32,
+    "roles": {
+      "body": 168,
+      "caption": 4,
+      "colophon": 1,
+      "diagram-label": 23,
+      "paratext": 16,
+      "preface": 62,
+      "printed-page-number": 22,
+      "running-title": 26,
+      "small-note": 54,
+      "table": 8,
+      "title": 6,
+      "刊印處題署": 1,
+      "原印序署": 1,
+      "版心分節字": 6
+    }
+  },
+  "position_convention": "Unicode code points, zero-based half-open intervals; source bbox is a region of the full official image, not a character box.",
+  "note": "Changed/added/removed/split units are structural and textual changes, not error counts. Unknown source extent has no inferred text or missing-character count."
+}

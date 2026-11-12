@@ -1,9 +1,9 @@
 {
   "schema": "reader-editorial-notes/1",
   "dataset_id": "bodleian-sinica2021",
-  "base_version": "0.2.0",
-  "supplement_date": "2026-11-05",
-  "base_book_sha256": "d7a8fc0a3bd49c61d22bb49037f696f98c26a702be3d5225e373f751e13459fe",
+  "base_version": "0.2.1",
+  "supplement_date": "2026-11-12",
+  "base_book_sha256": "9544548f93ce529b4d1402c74dead9b6899978ab548623b2bb3267f917423380",
   "note_type": "reader reports and editorial questions; not replacements for original text",
   "original_uncertainty_list_count": 35,
   "reader_reports": [
@@ -41,13 +41,20 @@
       "coordinate_convention": "Unicode codepoints, zero-based half-open [start,end)",
       "status": "source-reading-retained",
       "decision": "retain-fixed-source-text; explanatory note only",
-      "reason": "原圖小字清楚作「內死四十四人」。本頁前一欄明列「咸豐六年至同治七年共割」128人，旁另列用鉗14人；45段病例敘事中明載死亡4例，期間及處置範圍不同，不能直接據4例把原刻累計欄改4。這些原刻數字的歷史準確性未另獲證實。",
+      "reason": "本欄原圖仍作「內死四十四人」；前欄本次依原圖訂為「壹百弍十人」，旁另列「用鉗拑愈十四人」。不同期間與敘事範圍不能替代原刻讀法；不以算式硬調數字。先前128人說明所依八字已由本輪人字裁定取代。",
       "source": {
         "official_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e.json",
         "official_image": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
         "source_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731"
       },
-      "review_scope": "targeted AI image re-reading and nonblind source review; not human double collation or expert approval"
+      "review_scope": "targeted AI image re-reading and nonblind source review; not human double collation or expert approval",
+      "reason_history": [
+        {
+          "date": "2026-11-05",
+          "reason": "原圖小字清楚作「內死四十四人」。本頁前一欄明列「咸豐六年至同治七年共割」128人，旁另列用鉗14人；45段病例敘事中明載死亡4例，期間及處置範圍不同，不能直接據4例把原刻累計欄改4。這些原刻數字的歷史準確性未另獲證實。",
+          "status": "superseded-cumulative-count-description"
+        }
+      ]
     },
     {
       "id": "reader-20261105-03",
@@ -136,5 +143,190 @@
   ],
   "source_reading_retained_count": 4,
   "unresolved_retained_count": 2,
-  "limits": "The35 frozen v0.2.0 uncertainty items are not an exhaustive error list. These6 reports include source wording/statistical scope questions as well as unresolved glyph questions; they are not6 proven OCR errors. No original word or fixed asset changed."
+  "limits": "The35 frozen v0.2.0 uncertainty items are not an exhaustive error list. These6 reports include source wording/statistical scope questions as well as unresolved glyph questions; they are not6 proven OCR errors. No original word or fixed asset changed.",
+  "prior_base_book_sha256": "d7a8fc0a3bd49c61d22bb49037f696f98c26a702be3d5225e373f751e13459fe",
+  "current_targeted_review": {
+    "version": "0.2.1",
+    "date": "2026-11-12",
+    "cases": [
+      {
+        "case_id": "reader-note-b3-17--p23-c09-18",
+        "unit_id": "p23-c09",
+        "page_id": "f13",
+        "range": [
+          18,
+          19
+        ],
+        "offset_basis": "unicode-codepoint-0-half-open",
+        "before": "八",
+        "after": "人",
+        "decision": "adopted",
+        "reason": "原字上端兩筆相接，左撇由右捺上端出，不是兩筆分開的八；原圖作壹百弍十人，不以120+14的算式決定。",
+        "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "source_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731"
+      },
+      {
+        "case_id": "reader-note-b3-17--p23-c10-0",
+        "unit_id": "p23-c10",
+        "page_id": "f13",
+        "range": [
+          0,
+          6
+        ],
+        "offset_basis": "unicode-codepoint-0-half-open",
+        "before": "內死四十四人",
+        "after": "內死四十四人",
+        "decision": "source-reading-retained",
+        "reason": "小字內死後可見四、十、四、人；不根據45則病例敘事或死亡比例改刻字。",
+        "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3fbf2735-8f0f-4310-abc7-dd16e7e4c32e/full/3000,/0/default.jpg",
+        "source_sha256": "cf767e8d88dc4453df4835c784578a0f1380ec3bd49431668e24d988c4c0a731"
+      },
+      {
+        "case_id": "reader-note-b3-18--p08-c04-6",
+        "unit_id": "p08-c04",
+        "page_id": "f06",
+        "range": [
+          6,
+          10
+        ],
+        "offset_basis": "unicode-codepoint-0-half-open",
+        "before": "內科新訣",
+        "after": "內科新訣",
+        "decision": "source-reading-retained",
+        "reason": "言旁右為夬，與同欄婦嬰新說的說(兌)不同；通行書名只提出書目質詢，不覆蓋原刻。",
+        "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5f03fb69-8f07-4acc-8070-90600727dbe3/full/3000,/0/default.jpg",
+        "source_sha256": "681a927a6a02384d971e952c52e169a124ff246f7754b957fe5f5e333590468d"
+      },
+      {
+        "case_id": "reader-note-b3-19--p28-c04-22",
+        "unit_id": "p28-c04",
+        "page_id": "f16",
+        "range": [
+          22,
+          25
+        ],
+        "offset_basis": "unicode-codepoint-0-half-open",
+        "before": "洗于淨",
+        "after": "洗于淨",
+        "decision": "unresolved-retained",
+        "reason": "固定圖及官方原像素細節可見上橫、下橫與豎收筆，但于/干的細筆對應仍留疑；本輪不因文意改乾或干。",
+        "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/edb5b8b8-d0f9-4a82-a517-642d652b9b3d/full/3000,/0/default.jpg",
+        "source_sha256": "dc2ee5acc564fba17543fe4649621583c17b01ebc327ae958c7fd0a3370b0786"
+      },
+      {
+        "case_id": "reader-note-b3-20--p03-c01-6",
+        "unit_id": "p03-c01",
+        "page_id": "f03",
+        "range": [
+          6,
+          7
+        ],
+        "offset_basis": "unicode-codepoint-0-half-open",
+        "before": "偏",
+        "after": "偏",
+        "decision": "source-reading-retained",
+        "reason": "首字明見亻旁，不見辵/辶；保留偏，與其他頁徧/遍之異文不統一。",
+        "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2571268e-04f5-492c-ae8b-2449577fefb0/full/3000,/0/default.jpg",
+        "source_sha256": "5994f82096d084298cca5d9d429eb7ebeae979b58e6b415f865c5c5a3511b6cc"
+      },
+      {
+        "case_id": "reader-note-b3-21--p03-c07-13",
+        "unit_id": "p03-c07",
+        "page_id": "f03",
+        "range": [
+          13,
+          14
+        ],
+        "offset_basis": "unicode-codepoint-0-half-open",
+        "before": "蟲",
+        "after": "蟲",
+        "decision": "source-reading-retained",
+        "reason": "上虫下兩虫，底部非皿形，支持原刻蟲；不以另一藏本蠱覆蓋。",
+        "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2571268e-04f5-492c-ae8b-2449577fefb0/full/3000,/0/default.jpg",
+        "source_sha256": "5994f82096d084298cca5d9d429eb7ebeae979b58e6b415f865c5c5a3511b6cc"
+      },
+      {
+        "case_id": "reader-note-b3-21--p07-c03-19",
+        "unit_id": "p07-c03",
+        "page_id": "f05",
+        "range": [
+          19,
+          20
+        ],
+        "offset_basis": "unicode-codepoint-0-half-open",
+        "before": "蟲",
+        "after": "蟲",
+        "decision": "source-reading-retained",
+        "reason": "全頁本欄末字下部可見並列兩虫，無皿底；下欄起脹。保持跨欄原讀，不由異本蠱脹改字。",
+        "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d08cc152-11eb-42ac-ae8f-dee92f0c478d/full/3000,/0/default.jpg",
+        "source_sha256": "70a1ce6ccc67d8e8c2bee0f8f3b4361db91589a808200bc0f6b114657e1e21cf"
+      },
+      {
+        "case_id": "reader-note-b3-22--p16-c15-27",
+        "unit_id": "p16-c15",
+        "page_id": "f10",
+        "range": [
+          27,
+          29
+        ],
+        "offset_basis": "unicode-codepoint-0-half-open",
+        "before": "至十",
+        "after": "至十",
+        "decision": "source-reading-retained",
+        "reason": "原欄尾在至下實印十；相鄰p17-c01又以十月起，屬原刻跨頁重字，忠實層兩處俱留。",
+        "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "source_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f"
+      },
+      {
+        "case_id": "reader-note-b3-23--p17-c12-0",
+        "unit_id": "p17-c12",
+        "page_id": "f10",
+        "range": [
+          0,
+          4
+        ],
+        "offset_basis": "unicode-codepoint-0-half-open",
+        "before": "第一百零",
+        "after": "第一百零",
+        "decision": "source-reading-retained",
+        "reason": "旁注止於零，零下空白且無八；前後號107/109僅供索引推定108，不補成原刻。",
+        "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/733c1045-757a-47ed-9c70-510f1cefa470/full/3000,/0/default.jpg",
+        "source_sha256": "607e815ffb0639218e66ff0095eac980c4f5615f7952dcf8a54c0c6a1e25ef0f"
+      },
+      {
+        "case_id": "reader-note-b3-24--p15-c03-9",
+        "unit_id": "p15-c03",
+        "page_id": "f09",
+        "range": [
+          9,
+          10
+        ],
+        "offset_basis": "unicode-codepoint-0-half-open",
+        "before": "獸",
+        "after": "獃",
+        "decision": "adopted",
+        "reason": "官方同母圖原像素細節顯左豈（上山、下豆）及右犬，不是獸的嘼旁；依筆畫改獃，不依文意。",
+        "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2cac96ca-6eb5-40d9-bdd0-a969a6e5ad24/full/3000,/0/default.jpg",
+        "source_sha256": "c8ae1af9b0782205ea4009bccc4041b3ba1d7749dac027644bf4156d568f6e55"
+      },
+      {
+        "case_id": "reader-note-b3-25--p08-c01-17",
+        "unit_id": "p08-c01",
+        "page_id": "f06",
+        "range": [
+          17,
+          20
+        ],
+        "offset_basis": "unicode-codepoint-0-half-open",
+        "before": "二十一",
+        "after": "二十一",
+        "decision": "source-reading-retained",
+        "reason": "本欄末二、十、一三字可見；一般醫館史年份不能授權改本頁。",
+        "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5f03fb69-8f07-4acc-8070-90600727dbe3/full/3000,/0/default.jpg",
+        "source_sha256": "681a927a6a02384d971e952c52e169a124ff246f7754b957fe5f5e333590468d"
+      }
+    ],
+    "active_old_uncertainties_retained": 34,
+    "new_localized_unresolved": "unc-0036"
+  }
 }

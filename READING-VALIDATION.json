@@ -1,62 +1,23 @@
 {
-  "scope": "2026-11-05 reader supplement based on fixed v0.2.0; structure, reading-order transformation and source mapping only",
+  "scope": "Existing reader supplement updated against v0.2.1 with two same-length source-supported character corrections; no new glyph judgment.",
   "status": "passed",
-  "base_version": "0.2.0",
+  "base_version": "0.2.1",
   "base_sha256": {
-    "book.json": "d7a8fc0a3bd49c61d22bb49037f696f98c26a702be3d5225e373f751e13459fe",
-    "book.txt": "4fb4f4a0e8f4d21f9694111ab5613a92603c52f2281829f05c20d706782e4160"
+    "book.json": "9544548f93ce529b4d1402c74dead9b6899978ab548623b2bb3267f917423380",
+    "book.txt": "d1a04a6b36a26eff7fa02effff317089469a4e32bc0e2e5f3dd068ac18817bcd"
   },
   "checks": {
     "unit_records": 398,
-    "omitted": 54,
-    "moved_small_units": 4,
-    "modified_reading_target_units": 4,
-    "reading_codepoints": 14758,
-    "all_reading_characters_single_source_or_modern_span": true
+    "all_reading_characters_single_source_or_modern_span": true,
+    "source_spans_readback": true,
+    "modern_spans_readback": true,
+    "old_reading_semantics_preserved_except_two_approved_characters": true,
+    "reading_codepoints": 14758
   },
-  "negative_checks": [
-    {
-      "case": "source span shifted by one codepoint",
-      "rejected": true
-    },
-    {
-      "case": "duplicate source unit mapping",
-      "rejected": true
-    }
-  ],
-  "root_independent_segment_and_whole_file_coverage": "passed",
   "case_count": 45,
-  "death_cases_as_stated": [
-    101,
-    102,
-    125,
-    128
-  ],
-  "all_frozen_core_files_unchanged": true,
   "historical_medical_results_verified": false,
-  "human_full_double_collation": false,
-  "expert_review": false,
+  "human_full_double_collation": "not-run",
+  "expert_review": "not-run",
   "accuracy_measured": false,
-  "outputs": [
-    {
-      "name": "reading.txt",
-      "bytes": 34316,
-      "sha256": "984cbdad06b364d59a2efaeef8d80136352d59cf4e95db9fabe1a479ba4235a7"
-    },
-    {
-      "name": "READING-MAP.json",
-      "bytes": 284359,
-      "sha256": "e6913e0b8b847986e6c73356fce7ef87e5f2699e14a878ba52aa6cdf32a888bc"
-    },
-    {
-      "name": "READING-LAYER-POLICY.md",
-      "bytes": 2636,
-      "sha256": "e402a53b35b568df5e25b666f7b74866a6421c2f5ad7f121c9142a3ffef25a9c"
-    },
-    {
-      "name": "CASE-REGISTER.json",
-      "bytes": 39835,
-      "sha256": "3d3d5f56bf2c530c0e234faaa1d0a3d0dc8f6aae15db5a53ffe9aee4a7c86e0c"
-    }
-  ]
+  "reading_sha256": "76f935dab47d83268ba231d74b3dbef1605ea17507fc5da1066ba03ebed003d2"
 }

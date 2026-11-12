@@ -1,5 +1,5 @@
-2026-11-05 reader-facing main-branch supplement based on fixed v0.2.0
-Fixed historical assets retain their own SHA256SUMS.
+2026-11-12 reader supplement projected from v0.2.1; preserves the 2026-11-05 reading-layer structure.
+Historical v0.2.0 assets remain fixed.
 
 README.md
 READING-GUIDE.md

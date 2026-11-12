@@ -1,6 +1,6 @@
 {
   "dataset_id": "bodleian-sinica2021",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
   "items": [
     {
@@ -168,21 +168,6 @@
       "candidates": [
         "即",
         "卽"
-      ]
-    },
-    {
-      "page_id": "f09",
-      "id": "unc-0005",
-      "unit_id": "p15-c03",
-      "start": 8,
-      "end": 11,
-      "surface": "如獸子",
-      "reason": "如後字細密，已看原像素局部，暫按可見獸形，仍需覆核。",
-      "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
-      "extent": "known",
-      "candidates": [
-        "如獸子",
-        "如獃子"
       ]
     },
     {
@@ -520,6 +505,21 @@
       "extent": "located-unit",
       "candidates": [
         "奇症畧述"
+      ]
+    },
+    {
+      "page_id": "f16",
+      "id": "unc-0036",
+      "unit_id": "p28-c04",
+      "start": 23,
+      "end": 24,
+      "surface": "于",
+      "reason": "固定圖及官方原像素細節可見上橫、下橫與豎收筆，但于/干的細筆對應仍留疑；本輪不因文意改乾或干。",
+      "cause": "unresolved-after-targeted-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "于",
+        "干"
       ]
     }
   ]

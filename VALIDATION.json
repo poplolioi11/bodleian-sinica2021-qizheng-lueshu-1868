@@ -1,68 +1,34 @@
 {
-  "status": "passed",
-  "scope": "format, fixed-data equivalence and source linkage only; not reading accuracy",
-  "checks": {
-    "book-json-schema": "passed",
-    "fixed-book-full-readback": "passed",
-    "source-full-readback": "passed",
-    "txt-exact-text-order": "passed",
-    "tei-exact-text-order": "passed",
-    "uncertainty-codepoint-positions": "passed",
-    "unique-ids": "passed",
-    "source-hash-dimensions-urls": "passed",
-    "xml-dtd-entity-prohibition": "passed",
-    "tei-p5-relaxng": "passed",
-    "cff-full-schema": "passed",
-    "public-whitelist-and-file-checksums": "passed"
-  },
+  "version": "0.2.1",
+  "status": "passed-structural-checks-only",
   "counts": {
-    "images": 19,
     "units": 398,
-    "unicode_code_points": 6536,
-    "uncertainties": 35
+    "codepoints": 6536,
+    "active_uncertainties": 35,
+    "resolved_uncertainty_history_records": 1,
+    "changed_codepoints": 2,
+    "changed_units": 2,
+    "targeted_occurrences": 11
   },
-  "schemas": {
-    "book": {
-      "file": "SCHEMA.json",
-      "sha256": "0cfe397a3df3c8013b54a3f005bdd812dac266c8823d980d725d858c7211a8ec",
-      "dialect": "https://json-schema.org/draft/2020-12/schema"
+  "checks": {
+    "all_unit_json_txt_tei": "passed",
+    "exact_approved_ranges_only": "passed",
+    "unit_order_unchanged": "passed",
+    "json_schema": "passed",
+    "CFF_1_2_schema": "passed",
+    "TEI_P5_RNG_4_12": "passed",
+    "source_index_and_gaps_unchanged": "passed",
+    "fixed_base_and_main_readback_unchanged": "passed",
+    "reader_projections": "passed",
+    "text_publication_policy": "allowed-as-recorded",
+    "targeted_annotations": "valid-but-incomplete"
+  },
+  "quality_limit": "No new source judgment, human/expert review, full-book second collation or measured accuracy. Traceability is incomplete where actual native model/history are unavailable.",
+  "traceability": {
+    "status": "incomplete",
+    "pending_counts": {
+      "unknown-model": 3
     },
-    "tei": {
-      "url": "https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/custom/schema/relaxng/tei_all.rng",
-      "version": "4.12.0",
-      "sha256": "b0f115095ead2ccc6933aa3365c6f4a82cba3b2ec7eee7f76bb616d7a63b7e48"
-    },
-    "cff": {
-      "url": "https://citation-file-format.github.io/1.2.0/schema.json",
-      "version": "1.2.0",
-      "sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b"
-    }
-  },
-  "input_sha256": {
-    "book": "d7a8fc0a3bd49c61d22bb49037f696f98c26a702be3d5225e373f751e13459fe",
-    "sources": "98f44805ffa297a2e376ab29115e5b414e232b54c8e158a30eaec1c7e98a1c73"
-  },
-  "quality": {
-    "status": "AI-independent-source-observations-and-nonblind-source-adjudication",
-    "independent_reading_applied": true,
-    "controller_blinded": false,
-    "native_actual_model": null,
-    "native_actual_effort": null,
-    "native_actual_tokens": null,
-    "human_double_collation": "not-performed",
-    "expert_review": "not-performed",
-    "peer_review": "not-performed",
-    "accuracy_measured": false,
-    "unresolved_source_regions": 35,
-    "pending_required_reading": 0
-  },
-  "human_double_proofreading": "not-performed",
-  "expert_certification": "not-performed",
-  "peer_review": "not-performed",
-  "doi_status_at_build": "reserved-unconfirmed-publication",
-  "runtime": {
-    "lxml": "6.1.3",
-    "PyYAML": "6.0.3",
-    "jsonschema": "4.26.0"
+    "note": "Native model identity was unavailable. Unrelated inherited uncertainty mapping is not fabricated."
   }
 }

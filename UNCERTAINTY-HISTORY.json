@@ -1,0 +1,32 @@
+{
+  "schema": "resolved-uncertainty-history/1",
+  "base_version": "0.2.0",
+  "result_version": "0.2.1",
+  "resolved_records": [
+    {
+      "id": "unc-0005",
+      "before_record": {
+        "page_id": "f09",
+        "id": "unc-0005",
+        "unit_id": "p15-c03",
+        "start": 8,
+        "end": 11,
+        "surface": "如獸子",
+        "reason": "如後字細密，已看原像素局部，暫按可見獸形，仍需覆核。",
+        "cause": "unresolved-after-independent-observations-and-nonblind-source-adjudication",
+        "extent": "known",
+        "candidates": [
+          "如獸子",
+          "如獃子"
+        ]
+      },
+      "resolved_reading": "如獃子",
+      "reason": "官方同母圖原像素細節顯左豈（上山、下豆）及右犬，不是獸的嘼旁；依筆畫改獃，不依文意。",
+      "version": "0.2.1",
+      "date": "2026-11-12"
+    }
+  ],
+  "unchanged_active_old_records": 34,
+  "new_unresolved_records": 1,
+  "note": "Only exact resolved IDs moved out of active list; original records preserved here. No human/expert collation claim."
+}
