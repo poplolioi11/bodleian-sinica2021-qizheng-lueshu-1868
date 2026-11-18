@@ -42,8 +42,8 @@ reading.txt把它們各移接一次，不再把四個獨立小字單位重複接
 
 ## 版本與檔案校驗
 
-固定 v0.2.0：[Zenodo DOI](https://doi.org/10.5281/zenodo.23880332)／[GitHub固定發行](https://github.com/poplolioi11/bodleian-sinica2021-qizheng-lueshu-1868/releases/tag/v0.2.0)。本次只在可變main增加閱讀輔助及說明，沒有重寫固定附件或建立新的語料DOI。
+建議使用固定 v0.2.1。[Zenodo 版本 DOI](https://doi.org/10.5281/zenodo.24156846) · [GitHub 固定發行](https://github.com/poplolioi11/bodleian-sinica2021-qizheng-lueshu-1868/releases/tag/v0.2.1)。它沿用 2026-11-05 的連讀輔助，並把 2026-11-12 的兩字訂正同步到閱讀層。較早的[固定 v0.2.0](https://doi.org/10.5281/zenodo.23880332)仍可引用。
 
-原SHA256SUMS對應固定發行包；本次新增及更新的閱讀文件另見READER-SUPPLEMENT-SHA256SUMS。閱讀輔助的生成與對應檢查見READING-VALIDATION.json，驗的是讀序轉換與來源對應，沒有量測辨識準確率。
+核對 v0.2.1 檔案時，請在該版封存包或固定標籤內使用 `SHA256SUMS` 與 `READER-SUPPLEMENT-SHA256SUMS`。主分支的讀者文件另有維護更新。該版的 `READING-VALIDATION.json` 檢查讀序轉換與來源對應。
 
 2026-11-12更新：舊35筆疑讀中，只將p15「如獸子」對應unc-0005移入已解歷史，其他34筆保留；p28于／干新增局部unc-0036，仍保留洗于淨。
