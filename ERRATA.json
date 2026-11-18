@@ -1,0 +1,30 @@
+{
+  "schema": "antique-corpus-errata-overlay/1",
+  "title": "奇症略述（Bodleian Sinica 2021）",
+  "version": "0.2.2",
+  "base": {
+    "version": "0.2.1",
+    "version_doi": "10.5281/zenodo.24156846",
+    "concept_doi": "10.5281/zenodo.23879265",
+    "github": "https://github.com/poplolioi11/bodleian-sinica2021-qizheng-lueshu-1868/releases/tag/v0.2.1",
+    "archive_sha256": "aae7900f494ec12546483bfa71fca16ddfdf433c3156117fce39ebb95c64f73e",
+    "filename": "book.json",
+    "sha256": "9544548f93ce529b4d1402c74dead9b6899978ab548623b2bb3267f917423380"
+  },
+  "offsets": "Zero-based Unicode code points in the fixed base unit.text, end exclusive.",
+  "changes": [
+    {
+      "review_item": 32,
+      "page_id": "f16",
+      "unit_id": "p29-c09",
+      "range": [
+        14,
+        20
+      ],
+      "before": "二千零八十八",
+      "after": "三千零八十",
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/edb5b8b8-d0f9-4a82-a517-642d652b9b3d.json",
+      "reason": "Sinica 2021 f16 左半原刻可見三橫，末段在十後直接接人。"
+    }
+  ]
+}
